@@ -1,0 +1,2634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2020.2.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="SceneEditingParams" UseDefaults="False" HandleSize="1000" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2016-06-21T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="MAIN">
+			<ControlBoardOrder type="list" itemType="String" />
+			<Bookmarks type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="60" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-06-07T17:14:51.0862160+02:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-06-07T17:18:02.1560828+02:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-06-13T16:02:40.4972058+02:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-06-29T08:00:24.9614393+02:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-07-07T19:39:22.8697229+02:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2019-11-24T10:30:11.0770652+01:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2020-01-20T15:11:43.2186966+01:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2020-01-29T18:12:00.7608203+01:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2020-02-13T18:22:20.4412567+01:00" />
+				<item type="ArrHistoryItem" UserName="zmotyan / Aximmetry Technologies Ltd. (Aximmetry)" ModifiedTime="2020-03-05T18:16:49.4631211+01:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="" Tags="">
+			<Thumbnail Data="/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACWAMgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDGyfb8qMn2/Km5FLkUALk+35UZPt+VJRQAuT7flRk+35UlFAC5Pt+VGT7flSUUALk+35UZPt+VJRQAuT7flRk+35UlFAC5Pt+VGT7flSUUALk+35UZPt+VJRQAuT7flRk+35UlFAC5Pt+VGT7flSUUALk+35UZPt+VJVa6uFhibL7WPTHJoAnknSIfOyj2xzUJv4u2T/wEVim4LMTz+Jo80+4q+Qz5zaF9GexH/ARRWMJTRS5R8xMuqEY+Q++Gq1FqML8Ftp9GrmQrY459qnjVyOc/jT0DU6gSZGc04MKw7ZZUb5GPuO1X0Dk/OxH0NKwy9vFLvFVeR70FgKLBctBwaXeKph2HQU/zhjnFKwXLPmCl3iqylX6CnEYosO5Nu96XcKqlgP8A9dHm+xosK5a3ijdVQzUecfSnYLlvdRuqr559KXzgaVguWd1G6q/nUeb60WHcsbqazkds1F5inpSbuaLBcZNcNtwAR9KzZfMlOArGtlVGOlGEU5AFNOwnG5jRafM/JXA96vQacq/6w59quGQVGZ1Bxmk5NjUEiNrKIMSOPainmXiilcdkYIUn0H4VOgC9xTQijuTUqgdhV6EXZIrnsKmDt3qDdj0pPMHqTQBZ8w+1NMpHpVcynsKaW7mgLkxkz1JpA+DUJbjjNAZjQIuRzMB7VJ5oPWqfzou5wQPU8VWF/Ar43k++KQzV+Q0bR2NUftkJTIcgepFV21SFWwCxP04ouBrFMDrmkAJ71jHVn8z5QpX071atr77RkAYYdietFwL+D60hyO9QjzWOAKlEMh6kUBYTfjvRvPbJqYW645o2IlFx2GBWPtUq4XknP1qncXZUER4z6mqL3hA+ZtzGkCNd7yNTjdzUP25C20NWLJOGHJ5pImAO4A7qQ7m0bgY+9Vd7tQ2Mg5rJmlI6tyarGc5yKB3OhFwPWiufF03r+tFArnRLAe4qQR4qUsKYZBTuFhNoPVc00qB0WnZYxs4GVUgH2zTrWVQ7yOMrGpOPXsKBEOAewppX3qe8mVxC+wKSmSB9eKptMq96YDxGe5wKzb2/8qTyoSQBwx9avXroLHzYnfcTjkdawvJaX7o6dcmlcGge7kmyGdmHoTUtvFvSRwV+UZIP9KiSANJ8xAHc1Yhfyxt4C59M5pNgkEVpcXMZaAAqDjlsc+1VJ4J7eUxTJtfGeuavmUCLYkbAK+/PvjH8qiaQzyBnwGx1x1pXHylUbu3PtU8LEBQ+QfWpVgB5DJnrjNKtrKWPAP40rhym5bSjy15zx1NWRJWTBE4HJx7VbD7Byadxl3fx1qGRuDzUBnX+9UTXkIPzP+lFwK9xv52kVnNGzN15q3NOHJKnrVXf3p3ExRGAcnNK0mw9aheYdKr+YXfA5oETuN5JzVdweoBNWdrYGKZJ8o7UAVcnHTFFMeT5j+lFMR1zS1GZfeuhutO0iW3uJxMtjbWcvkPIGMklywABKIcDrk8HjPNXdOu/DN/5Fgks0KhCpa4Qckdzjjmgdzlba4VZtrn93INj/Q9/wNSpJFaQyLdIzFnK4B/u1dvNCto9RvLcfbIkjDFJCFMfA45z0/WqWpS2QiiDvuuI0wVXoTgYP0/woFchuUnlkDBVy4+VFOSo7Cq9xB9kIM53k9EX+p7VXe+uHH38e68VE91L1MhzTFcnuT5rDD/Njhe2PaqJaZSSTgAVMt00yAFVZ19V5Iqa7ZCATCuRjdtYjmlYfMZ5uWHBAI+lPFyzLtApJ3SQgiMIR196h4Bz3pcqFzsezOevA9qAjsRtyBQrn0FSKSTTsLmZNDGQRn+dXoYM4J4qtAhHNaCHC1NhpslVdnemyKGHvSFvSo2cjrQaXInjIBwazZhhycnNaLOaqTyoPvAH+dAtGV/M2CoJJeeuKWcqeUbNVWOcg0xEwcHqcU0sucr261WZiPU05XO0A0xE/n9smmSS7hw1V3JzwKZvyD2oAfk47GiowwzjJxRQB3S6xt0uK3CyJcQlvLlQjBDHJ3Ajr7iqh1bUCP8Aj8lH0OP5VSLe9RljQA8yOd2ZG+bluTzTCygc80hYAVWmbPSmSyRplwcVCXPqahJoBzQS2XLaQrKrehzUk8m8iTqp6e1VoujH0FOWTYcEZU9RQIkZlIHXmoiqluDU77GRVQdD+VTQ24HJoGVlhb0q9BbEdamVAKmBAFK40gWLFPwR0ppfim+bSKH5IPNNcimM/FML5pCuRSyY+lU5Tv6CrcgDVVk4OKY0ysqhwQx2ntUDoV65qy4zTDuQcg49xQUUskcHpRwD3/GrJgST5o2w392oCNvrketFxMi4yec+9Nx3qT5N3Tp3pCrA9crTAj79KKeeByuRRQBsFzjNTw2U9zbPcRlNqZyCeeK1U8OgLAt7qlpZXFwoaKCUMWwfuliBhc+9XvDWjXcuqajpThY7i3QuyMeCQQCM/jnNAjj/ADM06CzmvpWSLaCoySx4q5rWn2+mag1vDfQ3YGSWhBAU56HNTaQy21jcXUn3S2M+w/8ArmmSzDuIpLa4eGTG5TzikjUu6qOpOBWrr9vi7jmHR1wfqKh0aDztUhUjhTuP4UE9SW702awRFkZCZDkbTnGKpuCGrb1dt96w7RgL/jVa20a8vPnRAIz0ZzjNBViOxiDOCeQK1hjGCBUsehXdtBu2q/c7TzVW3O+RwT9KTGkQPlWI9KTca07jTpRFFOEBWU4UA5JNMn0me3gMz7No6gNyKQWM9mwOaiaXAJFTR201y+yFN2Op7CludFvo4jIIxIAOQhyaBMfewRwWME6O5Z8ZB6cjNZ3m+hrS1XI0i0Huv/oNZKxPjIU0yWyQSHPNI2DzUZJU4ZSKQvQK43eokXPQGpZpUMTZIORxzVVxk1GY3HLIQPeg0jK5HuZDkZqQTqeHXP1ppH40nlM4+VSfpSsWmDwqx3RHH+yahbeGOQafh1PHWrMYkYYMeR70h2TKXVcY4NFW5LXAyuR3waKLiseiaxJf6hdRX2laNYajazRIVmMId1IABVuRggiqeiajdSeItfn1Dy0uRYusojI2gjaOME1wLyOCdrEZ64OM1EGI6HFXYzubniBfLvVl7SJ+o4qS9zb6FbWw4aXBP8z/AEqS6j/tPTrKUcsXUN+PBqHV5BLerEOkSj9f8igRauE+26DDN1ePBP4cGrPh62WNbi6YcKuAf1NN0PE1ncWjfUfQjFWgDZ+Hwh4klOD+J/wFIaRUs4/tuoKsnIdizfTrWhql1J9pFrExRFAB28ZqjpLBNSiJ/iyv5ird9EyalI5HDAFTSKLFpeyW8qKXJjYhSCc9e9V9UiW31AOowHG4geveq6bpr6CJefmDH2FS65OGvFQHlE5/GkBuPP8AZ9DjlChmCDbn1rl5b64kVw8zsG6gng1tSy7vDcBzzhQa5iclZGWmDZuSynT9CQx8SyY59z/9as6yvrmACQTM3PIY5Bq3qBM+hQSLyFCk/lisuDLRBVBLE4AHemQza1pkGmwzHjcwb8xXOm6GfunH1rX14ONOt0bqrAEfhXO0EyL/AMsqeqmqT5SQqe1T2rcMPQ1Hcj99+FIhkan94PrVq45hbA5xVRB84+tXJx+5b6UiosoCrdqAYz9arY561YtziM4x1ouaJknkRozSseT+lNaZM8qR71C8rvKynG0dAadtHTHHpUNtPU0iyxG3mJsxlT7UVNY42sCM4PeijmNEjniCeaSpynBqLYS+K2OY1NM1eOytTDLG7YYlSuKqtcGe7knII3tnHtSJajqTmrKxr6UAXNLuxaXPmkFlKkMBV7UL8XhjVFZUTJ+buay1GKmAwM1I0P3lSCDgg5BFb8Gqwy2ypewbz13AVzyKXkAqa4cpGxH0FAzaN/ZwhjaWxDt/E1Y8q+Y7O5YsxySTVBZG/vH86Gc+p/OgVzbe+j/stLRUcMuMknjism6xgN+Bqp5jK4OTwfWrL/PGV9RxTFcnsNX+yRtDLH5kJ7dx/wDWrQh1Kyhi32dpiQ9CwxiuY3etXLZv3I+tArlzUdSW6tUhKt5qtlmOMGsk06Vv3rfWo91Ilss2g+99RSXI/e/hRaHJb60lyf3v4UEkS/fH1q3cf6pjVIffH1q7N/qWpXBMphuKnt8GFsAk5qvVq0/1bf71TcpMqTRkXG4kAfXFTR/KoXOcUsw/fMDz9ab0HHFRJ3LUtS/aHhsetFNsz8rUVJupaFHy/pSJbbnzmiiukwLYtyB96nLHiiigY4jFBJoopATWqlizenFNus7lX8aKKBFUqaYQcdaKKYED5qzbMWiGe3FFFBJXmTbMwHfmrdrGfJGD3oooArSqfNb61GUoopEssWin5vrTboHzvwoopEkKj5x9auzgiBulFFJgilzirVouY2+tFFSWiOfIuGHWgDIooqGUty3ZKcN9aKKKRqj/2Q==" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm*|*_norm*|*_met*|*_rgh*|*_rog*|*_spec*|*_gls*|*_disp*" HDR32="False" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="False" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="False" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="False" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="ViewCenter" type="PointF" value="-91.5, -86" />
+			<item key="ZoomFactor" type="Single" value="0.99999994" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.54732157428606132&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;602.7249266043026&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="Notes" type="String" value="" />
+			<item key="EditedSeqModule" type="String" value="Root\Word Array\InOut_Sequencer" />
+			<item key="EditedSeqPin" type="String" value="Sequence" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="VideoPlayer">
+			<Properties Name="default_video" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-427, -511" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="VideoFile" Type="PinStringValue" Value="[Common]:Videos\Misc\default_video.mp4" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="VideoStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+				<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+				<Pin Name="Resolution" Type="PinIntValue" Value="vdrFull" />
+				<Pin Name="Force8Bit" Type="PinBoolValue" Value="False" />
+				<Pin Name="InColorSpace" Type="PinIntValue" Value="rgbAuto" />
+				<Pin Name="InGammaCurve" Type="PinIntValue" Value="gamAuto" />
+				<Pin Name="OutColorSpace" Type="PinIntValue" Value="rgbAuto" />
+				<Pin Name="OutGammaCurve" Type="PinIntValue" Value="gamAuto" />
+				<Pin Name="Exposure" Type="PinScalarValue" Value="0" />
+				<Pin Name="HDROut" Type="PinBoolValue" Value="False" />
+				<Pin Name="ChromaOffset" Type="PinScalarValue" Value="0" />
+				<Pin Name="DefaultFrameRate" Type="PinDoubleValue" Value="30" />
+				<Pin Name="SelectField" Type="PinIntValue" Value="vfldNone" />
+				<Pin Name="FrameBlending" Type="PinBoolValue" Value="False" />
+				<Pin Name="FrameBlendWidth" Type="PinScalarValue" Value="1" />
+				<Pin Name="Premul" Type="PinBoolValue" Value="True" />
+				<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Offset" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psStopped" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+				<Pin Name="TimecodeMaster" Type="PinBoolValue" Value="False" />
+				<Pin Name="Opacity" Type="PinScalarValue" Value="1" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LThird_Root" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-577, -303" />
+					<item key="ViewCenter" type="PointF" value="-231.5, -425" />
+					<item key="ZoomFactor" type="Single" value="1" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+					<item key="ImportSourceHash" type="String" value="787281299817819FAC4B4785063A713E" />
+					<item key="ImportSourcePath" type="String" value="[Common_Studio]:Compounds\LowerThird\LThird_Root.xcomp" />
+					<item key="ImporterVersion" type="Int32" value="3" />
+					<item key="Importer" type="String" value="LinkedCompound" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="Camera">
+					<Properties Name="Camera" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-177, -635" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [960, -540, -100], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+						<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Main" Type="PinBoolValue" Value="True" />
+						<Pin Name="Orthographic" Type="PinBoolValue" Value="True" />
+						<Pin Name="OrthoSize" Type="PinVectorValue" Value="1920, 1080" />
+						<Pin Name="NearPlane" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="FarPlane" Type="PinScalarValue" Value="10000" />
+						<Pin Name="ZoomFactor" Type="PinScalarValue" Value="1.732" />
+						<Pin Name="Aspect" Type="PinScalarValue" Value="0" />
+						<Pin Name="ClipPlane" Type="PinVectorValue" Value="" />
+						<Pin Name="Mirror" Type="PinBoolValue" Value="False" />
+						<Pin Name="BgColor" Type="PinColorValue" Value="" />
+						<Pin Name="MaskBgColor" Type="PinColorValue" Value="0, White" />
+						<Pin Name="HighlBgColor" Type="PinColorValue" Value="" />
+						<Pin Name="VisibilityGroup" Type="PinIntValue" Value="1" />
+						<Pin Name="ShaderIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="CondShaderIndex" Type="PinIntValue" Value="0" />
+						<Pin Name="Refraction" Type="PinBoolValue" Value="False" />
+						<Pin Name="SubtreeOnly" Type="PinBoolValue" Value="False" />
+						<Pin Name="OutSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="OutAspect" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="GuardBand" Type="PinScalarValue" Value="0" />
+						<Pin Name="HDROut" Type="PinBoolValue" Value="False" />
+						<Pin Name="Antialias" Type="PinIntValue" Value="aa4x" />
+						<Pin Name="TranspJitter" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="SceneNode">
+					<Properties Name="Scene Node" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-566, -485" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+						<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Commands" Type="PinVectorValue" Value="" />
+						<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+				<Module Type="SceneNode">
+					<Properties Name="Scene Node 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-140, -346" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, -1, 1]" />
+						<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+						<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Commands" Type="PinVectorValue" Value="" />
+						<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Active" Type="PinBoolValue" IsLocked="True" SourceModule="Camera" SourcePin="Active" />
+				<Pin Name="Bg Color" Type="PinColorValue" IsLocked="True" SourceModule="Camera" SourcePin="BgColor" />
+				<Pin Name="Out Size" Type="PinVectorValue" IsLocked="True" SourceModule="Camera" SourcePin="OutSize" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinVideoValue" IsLocked="True" SourceModule="Camera" SourcePin="Out" />
+				<Pin Name="Children" Type="PinSceneObjectChildReferenceValue" IsLocked="True" SourceModule="Scene Node 2" SourcePin="Children" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Scene Node" FromPin="Children" ToModule="Camera" ToPin="Parent" />
+				<Connection FromModule="Scene Node" FromPin="Children" ToModule="Scene Node 2" ToPin="Parent" />
+			</Connections>
+		</Module>
+		<Module Type="Blender">
+			<Properties Name="Blender" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-12, -486" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="BlendingMode" Type="PinIntValue" Value="bmNormal" />
+				<Pin Name="Background" Type="PinVideoValue" Value="" />
+				<Pin Name="BgOpacity" Type="PinScalarValue" Value="0.4" />
+				<Pin Name="Foreground" Type="PinVideoValue" Value="" />
+				<Pin Name="FgOpacity" Type="PinScalarValue" Value="1" />
+				<Pin Name="OpacGamma" Type="PinScalarValue" Value="1" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="30" ArrayIndexOnly="0" IsContentLocked="False" Name="Character Array" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="128, -150" />
+					<item key="ViewCenter" type="PointF" value="-113.6536, -98.71283" />
+					<item key="ZoomFactor" type="Single" value="0.7866278" />
+					<item key="Notes" type="String" value="" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LThird_Text" IsLocked="False">
+						<ExtraData>
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[Common_Studio]:Compounds\LowerThird\LThird_Text.xcomp" />
+							<item key="ImportSourceHash" type="String" value="2443CE861E859E50FDE32C88F4F27069" />
+							<item key="ViewCenter" type="PointF" value="145.1565, -125.4399" />
+							<item key="ZoomFactor" type="Single" value="0.618783355" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+							<item key="Notes" type="String" value="" />
+							<item key="Location" type="PointF" value="468, -212" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="TextImage">
+							<Properties Name="Text Image Auto" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="283, -1052" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoImageSize" Type="PinBoolValue" Value="True" />
+								<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedHeight" Type="PinBoolValue" Value="True" />
+								<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+								<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="AdjustPosition" Type="PinVectorValue" Value="20, 0" />
+								<Pin Name="BgColor" Type="PinColorValue" Value="" />
+								<Pin Name="Color" Type="PinColorValue" Value="1, #060606" />
+								<Pin Name="Text" Type="PinStringValue" Value="TRUMP AND ALLIES" />
+								<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Rectangle">
+							<Properties Name="Rectangle" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="979, -93" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="Index" Type="PinIntValue" Value="0" />
+								<Pin Name="ForceVisible" Type="PinBoolValue" Value="False" />
+								<Pin Name="ForceDistance" Type="PinScalarValue" Value="10" />
+								<Pin Name="BuildFactor" Type="PinScalarValue" Value="1" />
+								<Pin Name="VertexColor" Type="PinColorValue" Value="1, White" />
+								<Pin Name="ShaderIndex" Type="PinIntValue" Value="0" />
+								<Pin Name="TwoSided" Type="PinBoolValue" Value="False" />
+								<Pin Name="Flip" Type="PinBoolValue" Value="False" />
+								<Pin Name="Plane" Type="PinIntValue" Value="planeXY" />
+								<Pin Name="XSegments" Type="PinIntValue" Value="1" />
+								<Pin Name="YSegments" Type="PinIntValue" Value="1" />
+								<Pin Name="XStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="XEnd" Type="PinScalarValue" Value="1000" />
+								<Pin Name="YStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="YEnd" Type="PinScalarValue" Value="200" />
+								<Pin Name="VertPosition" Type="PinScalarValue" Value="0" />
+								<Pin Name="TUStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="TUEnd" Type="PinScalarValue" Value="1" />
+								<Pin Name="TVStart" Type="PinScalarValue" Value="1" />
+								<Pin Name="TVEnd" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LThird_Basic" IsLocked="False">
+								<ExtraData>
+									<item key="Importer" type="String" value="ModularShader" />
+									<item key="ImporterVersion" type="Int32" value="110" />
+									<item key="ImportSourcePath" type="String" value="[Common_Studio]:Shaders\LThird_Basic.xshad" />
+									<item key="ImportSourceHash" type="String" value="553D91C1615B13B1BE5223F96FAAC811" />
+									<item key="Location" type="PointF" value="967, -328" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="ModularShader">
+									<Properties Name="Shader" IsLocked="True">
+										<ExtraData>
+											<item key="Location" type="PointF" value="200, 0" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="ShaderData" Type="PinImportedBinDataValue" Value="Shader\ShaderData" DefValue="Shader\ShaderData" />
+										<Pin Name="Wireframe" Type="PinBoolValue" Value="False" />
+										<Pin Name="SwapUVs" Type="PinBoolValue" Value="False" />
+										<Pin Name="CastShadows" Type="PinBoolValue" Value="False" />
+										<Pin Name="ReceiveShadows" Type="PinBoolValue" Value="False" />
+										<Pin Name="Transparency" Type="PinIntValue" Value="smbmNormal" />
+										<Pin Name="RefractionBlur" Type="PinScalarValue" Value="0" />
+										<Pin Name="DepthWrite" Type="PinBoolValue" Value="False" />
+										<Pin Name="InstCycleMode" Type="PinBoolValue" Value="True" />
+										<Pin Name="Texture1" Type="PinVideoValue" Value="SYSR:textures\white.dds" DefValue="SYSR:textures\white.dds" />
+										<Pin Name="Texture2" Type="PinVideoValue" Value="SYSR:textures\white.dds" DefValue="SYSR:textures\white.dds" />
+										<Pin Name="Texture3" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture4" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture5" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture6" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture7" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture8" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture9" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture10" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture11" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture12" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture13" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture14" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture15" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture16" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture1" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture2" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture3" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture4" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="Logical1" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical2" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical3" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical4" Type="PinBoolValue" Value="False" />
+										<Pin Name="Int1" Type="PinIntValue" Value="0" />
+										<Pin Name="Int2" Type="PinIntValue" Value="0" />
+										<Pin Name="Scalar1" Type="PinScalarValue" Value="1" DefValue="1" />
+										<Pin Name="Scalar2" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar3" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar4" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar5" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar6" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar7" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar8" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar9" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar10" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar11" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar12" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar13" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar14" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar15" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar16" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar17" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar18" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar19" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar20" Type="PinScalarValue" Value="0" />
+										<Pin Name="Vector1" Type="PinVectorValue" Value="1, 1, 1, 1" DefValue="1, 1, 1, 1" />
+										<Pin Name="Vector2" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector3" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector4" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector5" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector6" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector7" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector8" Type="PinVectorValue" Value="" />
+										<Pin Name="Color1" Type="PinColorValue" Value="1, White" DefValue="1, White" />
+										<Pin Name="Color2" Type="PinColorValue" Value="0, White" DefValue="0, White" />
+										<Pin Name="Color3" Type="PinColorValue" Value="" />
+										<Pin Name="Color4" Type="PinColorValue" Value="" />
+										<Pin Name="Color5" Type="PinColorValue" Value="" />
+										<Pin Name="Color6" Type="PinColorValue" Value="" />
+										<Pin Name="Color7" Type="PinColorValue" Value="" />
+										<Pin Name="Color8" Type="PinColorValue" Value="" />
+										<Pin Name="Color9" Type="PinColorValue" Value="" />
+										<Pin Name="Color10" Type="PinColorValue" Value="" />
+										<Pin Name="Color11" Type="PinColorValue" Value="" />
+										<Pin Name="Color12" Type="PinColorValue" Value="" />
+										<Pin Name="Color13" Type="PinColorValue" Value="" />
+										<Pin Name="Color14" Type="PinColorValue" Value="" />
+										<Pin Name="Color15" Type="PinColorValue" Value="" />
+										<Pin Name="Color16" Type="PinColorValue" Value="" />
+										<Pin Name="Transformation1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" DefValue="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation3" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation4" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation5" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Rotation1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Rotation2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Wireframe" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="Wireframe" />
+								<Pin Name="Cast Shadows" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="CastShadows" />
+								<Pin Name="Receive Shadows" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="ReceiveShadows" />
+								<Pin Name="Transparency" Type="PinIntValue" IsLocked="True" SourceModule="Shader" SourcePin="Transparency" />
+								<Pin Name="Depth Write" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="DepthWrite" />
+								<Pin Name="UV Scale" Type="PinVectorValue" IsLocked="True" SourceModule="Shader" SourcePin="Vector1" />
+								<Pin Name="Color" Type="PinColorValue" IsLocked="True" SourceModule="Shader" SourcePin="Color1" />
+								<Pin Name="Opacity" Type="PinScalarValue" IsLocked="True" SourceModule="Shader" SourcePin="Scalar1" />
+								<Pin Name="Color Map" Type="PinVideoValue" IsLocked="True" SourceModule="Shader" SourcePin="Texture1" />
+								<Pin Name="Mask" Type="PinVideoValue" IsLocked="True" SourceModule="Shader" SourcePin="Texture2" />
+							</ExposerInputPins>
+							<ExposerOutputPins>
+								<Pin Name="Out" Type="PinShaderValue" IsLocked="True" SourceModule="Shader" SourcePin="Out" />
+							</ExposerOutputPins>
+							<Connections />
+						</Module>
+						<Module Type="SequenceNode">
+							<Properties Name="Sequence Node" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="328, -4" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+								<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+								<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+								<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+								<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+								<Pin Name="Index" Type="PinIntValue" Value="0" />
+								<Pin Name="Commands" Type="PinVectorValue" Value="" />
+								<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+								<Pin Name="Sequenced" Type="PinBoolValue" Value="True" />
+								<Pin Name="SeqPositionData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+									<Parts>
+										<Part StartTime="0.4" EndTime="1.8666666666666667" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="-1556">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+														<Key ShapeLinked="False" Time="0.5" InControlPoint="-0.165, 0" OutControlPoint="0.1, 0" Continuity="C1" Value="15">
+															<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.9">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+														<Key ShapeLinked="False" Time="0.73333333333333339" InControlPoint="-0.1, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="-1556">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="60">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="0">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+								<Pin Name="SeqRotationData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+									<Parts>
+										<Part StartTime="0" EndTime="1" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+								<Pin Name="SeqScaleData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+									<Parts>
+										<Part StartTime="0" EndTime="1" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+							</PinValues>
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Size" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -1068" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="1024, 128" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinVectorValue" Value="1024, 128" />
+							</PinValues>
+						</Module>
+						<Module Type="VectorSplit">
+							<Properties Name="Vector Split" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="706, -104" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Active" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-254, -1198" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyColor">
+							<Properties Name="Back Color" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-236, -695" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinColorValue" Value="0, Transparent" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinColorValue" Value="0, #74FFFFFF" />
+							</PinValues>
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Text Offset" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-243, -854" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinVectorValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="Multiply">
+							<Properties Name="Multiply" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="104, -850" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="2" />
+							</PinValues>
+						</Module>
+						<Module Type="Measurer">
+							<Properties Name="Measurer" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="610, -738" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Video" Type="PinVideoValue" Value="" />
+								<Pin Name="AreaLeft" Type="PinScalarValue" Value="0" />
+								<Pin Name="AreaTop" Type="PinScalarValue" Value="0" />
+								<Pin Name="AreaRight" Type="PinScalarValue" Value="1" />
+								<Pin Name="AreaBottom" Type="PinScalarValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Auto Width" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -990" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Or">
+							<Properties Name="Or" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="907, -1120" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinBoolValue" Value="False" />
+								<Pin Name="B" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTextFormat">
+							<Properties Name="Text Format" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-248, -923" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyColor">
+							<Properties Name="Text Color" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-236, -617" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinColorValue" Value="1, White" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinColorValue" Value="0, White" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -1138" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="Text" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="TextImage">
+							<Properties Name="Text Image Fixed" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="283, -807" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+								<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+								<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="AdjustPosition" Type="PinVectorValue" Value="20, 0" />
+								<Pin Name="BgColor" Type="PinColorValue" Value="" />
+								<Pin Name="Color" Type="PinColorValue" Value="1, #060606" />
+								<Pin Name="Text" Type="PinStringValue" Value="TRUMP AND ALLIES" />
+								<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="IfVideo">
+							<Properties Name="If Video" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1110, -1010" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVideoValue" Value="" />
+								<Pin Name="Else" Type="PinVideoValue" Value="" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Auto Condense" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-242, -772" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="If">
+							<Properties Name="If" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="323, -290" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVectorValue" Value="1" />
+								<Pin Name="Else" Type="PinVectorValue" Value="0" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="If">
+							<Properties Name="If 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="933, -801" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVectorValue" Value="1" />
+								<Pin Name="Else" Type="PinVectorValue" Value="0" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Greater">
+							<Properties Name="Greater" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="884, -681" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinScalarValue" Value="0" />
+								<Pin Name="B" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Absolute">
+							<Properties Name="Absolute" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-51, -843" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="688, -334" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="10" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinScalarValue" Value="10" />
+							</PinValues>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LT_Alignment" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-76, 30" />
+									<item key="ViewCenter" type="PointF" value="250.4936, 197.0288" />
+									<item key="ZoomFactor" type="Single" value="0.7866278" />
+									<item key="Importer" type="String" value="LinkedCompound" />
+									<item key="ImporterVersion" type="Int32" value="3" />
+									<item key="ImportSourcePath" type="String" value="[Common_Studio]:Compounds\LowerThird\Elements\LT_Alignment.xcomp" />
+									<item key="ImportSourceHash" type="String" value="6F406A6A8E3DEC081D9CF8AB04BE45DD" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="Multiply">
+									<Properties Name="Multiply 2" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="293, 16" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="A" Type="PinVectorValue" Value="1" />
+										<Pin Name="B" Type="PinVectorValue" Value="1" />
+									</PinValues>
+								</Module>
+								<Module Type="Translation">
+									<Properties Name="Translation" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="492, -4" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Delta" Type="PinVectorValue" Value="0, 0, 0" />
+									</PinValues>
+								</Module>
+								<Module Type="Switch">
+									<Properties Name="Switch" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="-211, 102" />
+											<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Selected" Type="PinIntValue" Value="1" />
+										<Pin Name="Value1" Type="PinVectorValue" Value="0" />
+										<Pin Name="Value2" Type="PinVectorValue" Value="-0.5" />
+										<Pin Name="Value3" Type="PinVectorValue" Value="-1" />
+										<Pin Name="Value4" Type="PinVectorValue" Value="" />
+										<Pin Name="Value5" Type="PinVectorValue" Value="" />
+										<Pin Name="Value6" Type="PinVectorValue" Value="" />
+										<Pin Name="Value7" Type="PinVectorValue" Value="" />
+										<Pin Name="Value8" Type="PinVectorValue" Value="" />
+										<Pin Name="Value9" Type="PinVectorValue" Value="" />
+										<Pin Name="Value10" Type="PinVectorValue" Value="" />
+										<Pin Name="Value11" Type="PinVectorValue" Value="" />
+										<Pin Name="Value12" Type="PinVectorValue" Value="" />
+										<Pin Name="Value13" Type="PinVectorValue" Value="" />
+										<Pin Name="Value14" Type="PinVectorValue" Value="" />
+										<Pin Name="Value15" Type="PinVectorValue" Value="" />
+										<Pin Name="Value16" Type="PinVectorValue" Value="" />
+										<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+									</PinValues>
+								</Module>
+								<Module Type="VectorMerge">
+									<Properties Name="Vector Merge" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="34, 130" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="X" Type="PinScalarValue" Value="0" />
+										<Pin Name="Y" Type="PinScalarValue" Value="0" />
+										<Pin Name="Z" Type="PinScalarValue" Value="0" />
+									</PinValues>
+								</Module>
+								<Module Type="Switch">
+									<Properties Name="Switch 2" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="-205, 193" />
+											<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Selected" Type="PinIntValue" Value="1" />
+										<Pin Name="Value1" Type="PinVectorValue" Value="0" />
+										<Pin Name="Value2" Type="PinVectorValue" Value="-0.5" />
+										<Pin Name="Value3" Type="PinVectorValue" Value="-1" />
+										<Pin Name="Value4" Type="PinVectorValue" Value="" />
+										<Pin Name="Value5" Type="PinVectorValue" Value="" />
+										<Pin Name="Value6" Type="PinVectorValue" Value="" />
+										<Pin Name="Value7" Type="PinVectorValue" Value="" />
+										<Pin Name="Value8" Type="PinVectorValue" Value="" />
+										<Pin Name="Value9" Type="PinVectorValue" Value="" />
+										<Pin Name="Value10" Type="PinVectorValue" Value="" />
+										<Pin Name="Value11" Type="PinVectorValue" Value="" />
+										<Pin Name="Value12" Type="PinVectorValue" Value="" />
+										<Pin Name="Value13" Type="PinVectorValue" Value="" />
+										<Pin Name="Value14" Type="PinVectorValue" Value="" />
+										<Pin Name="Value15" Type="PinVectorValue" Value="" />
+										<Pin Name="Value16" Type="PinVectorValue" Value="" />
+										<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Size" Type="PinVectorValue" IsLocked="True" SourceModule="Multiply 2" SourcePin="A" />
+								<Pin Name="$Enum,Horiz Align,Left,Center,Right" Type="PinIntValue" IsLocked="True" SourceModule="Switch" SourcePin="Selected" />
+								<Pin Name="$Enum,Vert Align,Top,Center,Bottom" Type="PinIntValue" IsLocked="True" SourceModule="Switch 2" SourcePin="Selected" />
+							</ExposerInputPins>
+							<ExposerOutputPins>
+								<Pin Name="Out" Type="PinTransformationValue" IsLocked="True" SourceModule="Translation" SourcePin="Out" />
+							</ExposerOutputPins>
+							<Connections>
+								<Connection FromModule="Vector Merge" FromPin="Vector" ToModule="Multiply 2" ToPin="B" />
+								<Connection FromModule="Multiply 2" FromPin="Out" ToModule="Translation" ToPin="Delta" />
+								<Connection FromModule="Switch" FromPin="Out" ToModule="Vector Merge" ToPin="X" />
+								<Connection FromModule="Switch 2" FromPin="Out" ToModule="Vector Merge" ToPin="Y" />
+							</Connections>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Active" Type="PinBoolValue" IsLocked="True" SourceModule="Active" SourcePin="In" />
+						<Pin Name="Transformation" Type="PinTransformationValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="Transformation" />
+						<Pin Name="Layer" Type="PinScalarValue" IsLocked="True" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="Text" Type="PinStringValue" IsLocked="True" SourceModule="Text" SourcePin="In" />
+						<Pin Name="Size" Type="PinVectorValue" IsLocked="True" SourceModule="Size" SourcePin="In" />
+						<Pin Name="Auto Width" Type="PinBoolValue" IsLocked="True" SourceModule="Auto Width" SourcePin="In" />
+						<Pin Name="Horiz Align" Type="PinIntValue" IsLocked="True" SourceModule="LT_Alignment" SourcePin="Horiz Align" />
+						<Pin Name="Vert Align" Type="PinIntValue" IsLocked="True" SourceModule="LT_Alignment" SourcePin="Vert Align" />
+						<Pin Name="Text Format" Type="PinTextFormatValue" IsLocked="True" SourceModule="Text Format" SourcePin="In" />
+						<Pin Name="Text Offset" Type="PinVectorValue" IsLocked="True" SourceModule="Text Offset" SourcePin="In" />
+						<Pin Name="Auto Condense" Type="PinBoolValue" IsLocked="True" SourceModule="Auto Condense" SourcePin="In" />
+						<Pin Name="Back Color" Type="PinColorValue" IsLocked="True" SourceModule="Back Color" SourcePin="In" />
+						<Pin Name="Text Color" Type="PinColorValue" IsLocked="True" SourceModule="Text Color" SourcePin="In" />
+						<Pin Name="Opacity" Type="PinScalarValue" IsLocked="True" SourceModule="LThird_Basic" SourcePin="Opacity" />
+						<Pin Name="Mask" Type="PinVideoValue" IsLocked="True" SourceModule="LThird_Basic" SourcePin="Mask" />
+						<Pin Name="Parent" Type="PinSceneObjectChildReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="Parent" />
+						<Pin Name="Seq Position" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqPosition" />
+						<Pin Name="Seq Rotation" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqRotation" />
+						<Pin Name="Seq Scale" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqScale" />
+					</ExposerInputPins>
+					<ExposerOutputPins />
+					<Connections>
+						<Connection FromModule="Active" FromPin="Out" ToModule="Text Image Auto" ToPin="Active" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Text Image Auto" ToPin="ImageSize" />
+						<Connection FromModule="Multiply" FromPin="Out" ToModule="Text Image Auto" ToPin="AdjustAutoSize" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Text Image Auto" ToPin="AdjustPosition" />
+						<Connection FromModule="Text Format" FromPin="Out" ToModule="Text Image Auto" ToPin="TextFormat" />
+						<Connection FromModule="Back Color" FromPin="Out" ToModule="Text Image Auto" ToPin="BgColor" />
+						<Connection FromModule="Text Color" FromPin="Out" ToModule="Text Image Auto" ToPin="Color" />
+						<Connection FromModule="Text" FromPin="Out" ToModule="Text Image Auto" ToPin="Text" />
+						<Connection FromModule="Sequence Node" FromPin="Children" ToModule="Rectangle" ToPin="Parent" />
+						<Connection FromModule="LThird_Basic" FromPin="Out" ToModule="Rectangle" ToPin="Shader" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Rectangle" ToPin="ForceDistance" />
+						<Connection FromModule="Vector Split" FromPin="X" ToModule="Rectangle" ToPin="XEnd" />
+						<Connection FromModule="Vector Split" FromPin="Y" ToModule="Rectangle" ToPin="YEnd" />
+						<Connection FromModule="If Video" FromPin="Out" ToModule="LThird_Basic" ToPin="Color Map" />
+						<Connection FromModule="Active" FromPin="Out" ToModule="Sequence Node" ToPin="Active" />
+						<Connection FromModule="LT_Alignment" FromPin="Out" ToModule="Sequence Node" ToPin="AddTransform" />
+						<Connection FromModule="If" FromPin="Out" ToModule="Vector Split" ToPin="Vector" />
+						<Connection FromModule="Absolute" FromPin="Out" ToModule="Multiply" ToPin="A" />
+						<Connection FromModule="Text Image Auto" FromPin="Out" ToModule="Measurer" ToPin="Video" />
+						<Connection FromModule="Auto Width" FromPin="Out" ToModule="Or" ToPin="A" />
+						<Connection FromModule="If 2" FromPin="Out" ToModule="Or" ToPin="B" />
+						<Connection FromModule="Active" FromPin="Out" ToModule="Text Image Fixed" ToPin="Active" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Text Image Fixed" ToPin="ImageSize" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Text Image Fixed" ToPin="AdjustPosition" />
+						<Connection FromModule="Text Format" FromPin="Out" ToModule="Text Image Fixed" ToPin="TextFormat" />
+						<Connection FromModule="Back Color" FromPin="Out" ToModule="Text Image Fixed" ToPin="BgColor" />
+						<Connection FromModule="Text Color" FromPin="Out" ToModule="Text Image Fixed" ToPin="Color" />
+						<Connection FromModule="Text" FromPin="Out" ToModule="Text Image Fixed" ToPin="Text" />
+						<Connection FromModule="Or" FromPin="Out" ToModule="If Video" ToPin="If" />
+						<Connection FromModule="Text Image Auto" FromPin="Out" ToModule="If Video" ToPin="Then" />
+						<Connection FromModule="Text Image Fixed" FromPin="Out" ToModule="If Video" ToPin="Else" />
+						<Connection FromModule="Auto Width" FromPin="Out" ToModule="If" ToPin="If" />
+						<Connection FromModule="Measurer" FromPin="Size" ToModule="If" ToPin="Then" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="If" ToPin="Else" />
+						<Connection FromModule="Auto Condense" FromPin="Out" ToModule="If 2" ToPin="If" />
+						<Connection FromModule="Greater" FromPin="Out" ToModule="If 2" ToPin="Then" />
+						<Connection FromModule="Measurer" FromPin="Size" ToModule="Greater" ToPin="A" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Greater" ToPin="B" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Absolute" ToPin="In" />
+						<Connection FromModule="If" FromPin="Out" ToModule="LT_Alignment" ToPin="Size" />
+					</Connections>
+				</Module>
+				<Module Type="ArrayIndex">
+					<Properties Name="Array Index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-274, -580" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-442, -337" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="Per-Character Animation" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-302, -242" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-325, -116" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Subtract">
+					<Properties Name="Subtract" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-487, -112" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTextFormat">
+					<Properties Name="Copy Text Format" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-535, -445" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="TextImage">
+					<Properties Name="Text Image" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-306, -12" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="AutoImageSize" Type="PinBoolValue" Value="True" />
+						<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+						<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+						<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="BgColor" Type="PinColorValue" Value="" />
+						<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+						<Pin Name="Text" Type="PinStringValue" Value="Text" />
+						<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorSplit">
+					<Properties Name="Vector Split" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-68, 10" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+					</PinValues>
+				</Module>
+				<Module Type="TranslationX">
+					<Properties Name="Translation X" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="222, -13" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Delta" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="InOut_Sequencer" IsLocked="False">
+						<ExtraData>
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[Common]:Compounds\Utilities\InOut_Sequencer.xcomp" />
+							<item key="ImportSourceHash" type="String" value="1FF28CA80A237DE16C02D877D0E58BFB" />
+							<item key="ViewCenter" type="PointF" value="-2075.113, 93.52799" />
+							<item key="ZoomFactor" type="Single" value="0.99999994" />
+							<item key="EditedSequence" type="String" value="Root\Sequencer 1" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+							<item key="SeqLayout:Sequence" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-1.5724848153770778&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;157.82091137673152&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Letter Array\Scale&quot; sourcePin=&quot;Sequencer&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-0.10000000149011612&quot; end=&quot;1.1000000014901161&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Flat&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;69&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;100&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&#x9;&lt;EditableComponents&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;X&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;Y&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;Z&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&lt;/EditableComponents&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Letter Array\Rotation&quot; sourcePin=&quot;Sequencer&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-0.10000000149011612&quot; end=&quot;1.1000000014901161&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Flat&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;37&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;100&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Letter Array\Opacity&quot; sourcePin=&quot;Sequencer&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-0.10000000149011612&quot; end=&quot;1.1000000014901161&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Normal&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;153&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;152&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+							<item key="Location" type="PointF" value="-114, 269" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Sequencer">
+							<Properties Name="Sequencer 1" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2102, -89" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+									<item key="SeqLayout" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.21070832248630741&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;365.57114735855617&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+									<item key="SeqLayout:Sequence" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;21.308735857182121&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;125.39401726651398&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Sequence" Type="PinSequenceValue">
+									<TimeFormat type="@@@null@@@" />
+									<Markers>
+										<Marker Time="1" Comment="Out" BackColor="" TextColor="" Loop="False" />
+									</Markers>
+								</Pin>
+								<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+								<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+								<Pin Name="Backwards" Type="PinBoolValue" Value="False" />
+								<Pin Name="Bounce" Type="PinBoolValue" Value="False" />
+								<Pin Name="Looping" Type="PinBoolValue" Value="False" />
+								<Pin Name="StayInLoopReg" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoLoopReg" Type="PinBoolValue" Value="False" />
+								<Pin Name="LoopStart" Type="PinDoubleValue" Value="0" />
+								<Pin Name="LoopEnd" Type="PinDoubleValue" Value="2" />
+								<Pin Name="HaltAtMarker" Type="PinIntValue" Value="0" />
+								<Pin Name="JumpToMarker" Type="PinIntValue" Value="1" />
+								<Pin Name="OnStopGoTo" Type="PinIntValue" Value="sgLoopStart" />
+								<Pin Name="SkipOnInit" Type="PinBoolValue" Value="True" />
+								<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="False" />
+								<Pin Name="EditorCursor" Type="PinDoubleValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Copy Logical 1" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2584, -10" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2287, 216" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Sequence" Type="PinSequenceValue" IsHidden="True" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Sequence" />
+						<Pin Name="Active" Type="PinBoolValue" IsLocked="True" SourceModule="Copy Logical 1" SourcePin="In" />
+						<Pin Name="Speed" Type="PinScalarValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Speed" />
+						<Pin Name="Loop Start" Type="PinDoubleValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="LoopStart" />
+						<Pin Name="Loop End" Type="PinDoubleValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="LoopEnd" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Tracks" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Tracks" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Sequencer 1" ToPin="Restart" />
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Sequencer 1" ToPin="HaltAtMarker" />
+						<Connection FromModule="Not" FromPin="Out" ToModule="Sequencer 1" ToPin="Jump" />
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Not" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="SequenceVector">
+					<Properties Name="Scale" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="190, 258" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="ManualTime" Type="PinDoubleValue" Value="0" />
+						<Pin Name="SequenceTrack" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+							<Parts>
+								<Part StartTime="0" EndTime="2" ContentOffset="0">
+									<Curves>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="2">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="1">
+													<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="0">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+											</Keys>
+										</Curve>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="10">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="1">
+													<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="0">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+											</Keys>
+										</Curve>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys />
+										</Curve>
+									</Curves>
+								</Part>
+							</Parts>
+						</Pin>
+					</PinValues>
+				</Module>
+				<Module Type="Scale">
+					<Properties Name="Scale 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="605, 224" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="SequenceScalar">
+					<Properties Name="Opacity" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="199, 476" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="ManualTime" Type="PinDoubleValue" Value="0" />
+						<Pin Name="SequenceTrack" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+							<Parts>
+								<Part StartTime="0" EndTime="2" ContentOffset="0">
+									<Curves>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.366666666666667, 0" Continuity="C1" Value="0">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.333333333333333, -0.986670066083265" OutControlPoint="0.3, -0.997846183258194" Continuity="C0" Value="1">
+													<Shape type="MCurveSplineShape" />
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.8, 0.00728744941081122" OutControlPoint="0.285992356621844, -0.00260519353845046" Continuity="C1" Value="0">
+													<Shape type="MCurveSplineShape" />
+												</Key>
+											</Keys>
+										</Curve>
+									</Curves>
+								</Part>
+							</Parts>
+						</Pin>
+					</PinValues>
+				</Module>
+				<Module Type="RotationZ">
+					<Properties Name="Rotation Z" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="760, 224" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Angle" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="SequenceScalar">
+					<Properties Name="Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="202, 370" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="ManualTime" Type="PinDoubleValue" Value="0" />
+						<Pin Name="SequenceTrack" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+							<Parts>
+								<Part StartTime="0" EndTime="2" ContentOffset="0">
+									<Curves>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.366666666666667, 0" Continuity="C1" Value="-705">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.0197470002438085, -0.947196381774705" OutControlPoint="0.008, 0.383732767541416" Continuity="C1" Value="0">
+													<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.297, 0" OutControlPoint="0.297, 0" Continuity="C1" Value="705">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+											</Keys>
+										</Curve>
+									</Curves>
+								</Part>
+							</Parts>
+						</Pin>
+					</PinValues>
+				</Module>
+				<Module Type="TranslationY">
+					<Properties Name="Translation Y" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="405, 177" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Delta" Type="PinScalarValue" Value="-54" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogical">
+					<Properties Name="Copy Logical" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-624, 270" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="True" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Delay">
+					<Properties Name="Delay" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-336, 290" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinVectorValue" Value="" />
+						<Pin Name="Delay" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Multiply">
+					<Properties Name="Multiply 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-523, 354" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="1" />
+						<Pin Name="B" Type="PinVectorValue" Value="0.05" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Active" Type="PinBoolValue" SourceModule="Copy Logical" SourcePin="In" />
+				<Pin Name="Text" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+				<Pin Name="Text Format" Type="PinTextFormatValue" SourceModule="Copy Text Format" SourcePin="In" />
+				<Pin Name="Parent" Type="PinSceneObjectChildReferenceValue" SourceModule="LThird_Text" SourcePin="Parent" />
+			</ExposerInputPins>
+			<ExposerOutputPins />
+			<Connections>
+				<Connection FromModule="Translation X" FromPin="Out" ToModule="LThird_Text" ToPin="Transformation" />
+				<Connection FromModule="Text Slice" FromPin="Out" ToModule="LThird_Text" ToPin="Text" />
+				<Connection FromModule="Copy Text Format" FromPin="Out" ToModule="LThird_Text" ToPin="Text Format" />
+				<Connection FromModule="Opacity" FromPin="Out" ToModule="LThird_Text" ToPin="Opacity" />
+				<Connection FromModule="Copy Text" FromPin="Out" ToModule="Text Slice" ToPin="Text" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Text Slice" ToPin="StartIndex" />
+				<Connection FromModule="Copy Text" FromPin="Out" ToModule="Text Slice 2" ToPin="Text" />
+				<Connection FromModule="Subtract" FromPin="Out" ToModule="Text Slice 2" ToPin="Count" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Subtract" ToPin="A" />
+				<Connection FromModule="Copy Text Format" FromPin="Out" ToModule="Text Image" ToPin="TextFormat" />
+				<Connection FromModule="Text Slice 2" FromPin="Out" ToModule="Text Image" ToPin="Text" />
+				<Connection FromModule="Text Image" FromPin="TextSize" ToModule="Vector Split" ToPin="Vector" />
+				<Connection FromModule="Rotation Z" FromPin="Out" ToModule="Translation X" ToPin="After" />
+				<Connection FromModule="Vector Split" FromPin="X" ToModule="Translation X" ToPin="Delta" />
+				<Connection FromModule="Delay" FromPin="Out" ToModule="InOut_Sequencer" ToPin="Active" />
+				<Connection FromModule="InOut_Sequencer" FromPin="Tracks" ToModule="Scale" ToPin="Sequencer" />
+				<Connection FromModule="Translation Y" FromPin="Out" ToModule="Scale 2" ToPin="After" />
+				<Connection FromModule="Scale" FromPin="Out" ToModule="Scale 2" ToPin="Scale" />
+				<Connection FromModule="InOut_Sequencer" FromPin="Tracks" ToModule="Opacity" ToPin="Sequencer" />
+				<Connection FromModule="Scale 2" FromPin="Out" ToModule="Rotation Z" ToPin="After" />
+				<Connection FromModule="Rotation" FromPin="Out" ToModule="Rotation Z" ToPin="Angle" />
+				<Connection FromModule="InOut_Sequencer" FromPin="Tracks" ToModule="Rotation" ToPin="Sequencer" />
+				<Connection FromModule="Copy Logical" FromPin="Out" ToModule="Delay" ToPin="In" />
+				<Connection FromModule="Multiply 2" FromPin="Out" ToModule="Delay" ToPin="Delay" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Multiply 2" ToPin="A" />
+			</Connections>
+		</Module>
+		<Module Type="TextFormat">
+			<Properties Name="Text Format" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="109, -244" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="FontFamily" Type="PinStringValue" Value="Calibri" />
+				<Pin Name="FontSize" Type="PinScalarValue" Value="94" />
+				<Pin Name="FontWeight" Type="PinIntValue" Value="fwNormal" />
+				<Pin Name="FontStyle" Type="PinIntValue" Value="fsNormal" />
+				<Pin Name="FontStretch" Type="PinIntValue" Value="feNormal" />
+				<Pin Name="FontLocale" Type="PinStringValue" Value="en-US" />
+				<Pin Name="TextAlignment" Type="PinIntValue" Value="taLeading" />
+				<Pin Name="ParagraphAlignment" Type="PinIntValue" Value="paNear" />
+				<Pin Name="CharLeadingSpacing" Type="PinScalarValue" Value="0" />
+				<Pin Name="CharTrailingSpacing" Type="PinScalarValue" Value="0" />
+				<Pin Name="CharMinAvanceWidth" Type="PinScalarValue" Value="0" />
+				<Pin Name="UseLineSpacing" Type="PinBoolValue" Value="False" />
+				<Pin Name="BaseLine" Type="PinScalarValue" Value="10" />
+				<Pin Name="LineSpacing" Type="PinScalarValue" Value="20" />
+				<Pin Name="ReadingDirection" Type="PinIntValue" Value="rdLeftToRight" />
+				<Pin Name="WordWrapping" Type="PinIntValue" Value="wwNoWrap" />
+				<Pin Name="Trimming" Type="PinIntValue" Value="trimNone" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Scene Node" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-242, -178" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [142, 534, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="10" ArrayIndexOnly="0" IsContentLocked="False" Name="Word Array" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="136, 85" />
+					<item key="ViewCenter" type="PointF" value="-163.5664, -44.08583" />
+					<item key="ZoomFactor" type="Single" value="0.7866278" />
+					<item key="Notes" type="String" value="" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LThird_Text" IsLocked="False">
+						<ExtraData>
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[Common_Studio]:Compounds\LowerThird\LThird_Text.xcomp" />
+							<item key="ImportSourceHash" type="String" value="2443CE861E859E50FDE32C88F4F27069" />
+							<item key="ViewCenter" type="PointF" value="145.1565, -125.4399" />
+							<item key="ZoomFactor" type="Single" value="0.618783355" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+							<item key="Notes" type="String" value="" />
+							<item key="Location" type="PointF" value="468, -212" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="TextImage">
+							<Properties Name="Text Image Auto" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="283, -1052" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoImageSize" Type="PinBoolValue" Value="True" />
+								<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedHeight" Type="PinBoolValue" Value="True" />
+								<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+								<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="AdjustPosition" Type="PinVectorValue" Value="20, 0" />
+								<Pin Name="BgColor" Type="PinColorValue" Value="" />
+								<Pin Name="Color" Type="PinColorValue" Value="1, #060606" />
+								<Pin Name="Text" Type="PinStringValue" Value="TRUMP AND ALLIES" />
+								<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Rectangle">
+							<Properties Name="Rectangle" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="979, -93" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="Index" Type="PinIntValue" Value="0" />
+								<Pin Name="ForceVisible" Type="PinBoolValue" Value="False" />
+								<Pin Name="ForceDistance" Type="PinScalarValue" Value="10" />
+								<Pin Name="BuildFactor" Type="PinScalarValue" Value="1" />
+								<Pin Name="VertexColor" Type="PinColorValue" Value="1, White" />
+								<Pin Name="ShaderIndex" Type="PinIntValue" Value="0" />
+								<Pin Name="TwoSided" Type="PinBoolValue" Value="False" />
+								<Pin Name="Flip" Type="PinBoolValue" Value="False" />
+								<Pin Name="Plane" Type="PinIntValue" Value="planeXY" />
+								<Pin Name="XSegments" Type="PinIntValue" Value="1" />
+								<Pin Name="YSegments" Type="PinIntValue" Value="1" />
+								<Pin Name="XStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="XEnd" Type="PinScalarValue" Value="1000" />
+								<Pin Name="YStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="YEnd" Type="PinScalarValue" Value="200" />
+								<Pin Name="VertPosition" Type="PinScalarValue" Value="0" />
+								<Pin Name="TUStart" Type="PinScalarValue" Value="0" />
+								<Pin Name="TUEnd" Type="PinScalarValue" Value="1" />
+								<Pin Name="TVStart" Type="PinScalarValue" Value="1" />
+								<Pin Name="TVEnd" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LThird_Basic" IsLocked="False">
+								<ExtraData>
+									<item key="Importer" type="String" value="ModularShader" />
+									<item key="ImporterVersion" type="Int32" value="110" />
+									<item key="ImportSourcePath" type="String" value="[Common_Studio]:Shaders\LThird_Basic.xshad" />
+									<item key="ImportSourceHash" type="String" value="553D91C1615B13B1BE5223F96FAAC811" />
+									<item key="Location" type="PointF" value="967, -328" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="ModularShader">
+									<Properties Name="Shader" IsLocked="True">
+										<ExtraData>
+											<item key="Location" type="PointF" value="200, 0" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="ShaderData" Type="PinImportedBinDataValue" Value="Shader\ShaderData" DefValue="Shader\ShaderData" />
+										<Pin Name="Wireframe" Type="PinBoolValue" Value="False" />
+										<Pin Name="SwapUVs" Type="PinBoolValue" Value="False" />
+										<Pin Name="CastShadows" Type="PinBoolValue" Value="False" />
+										<Pin Name="ReceiveShadows" Type="PinBoolValue" Value="False" />
+										<Pin Name="Transparency" Type="PinIntValue" Value="smbmNormal" />
+										<Pin Name="RefractionBlur" Type="PinScalarValue" Value="0" />
+										<Pin Name="DepthWrite" Type="PinBoolValue" Value="False" />
+										<Pin Name="InstCycleMode" Type="PinBoolValue" Value="True" />
+										<Pin Name="Texture1" Type="PinVideoValue" Value="SYSR:textures\white.dds" DefValue="SYSR:textures\white.dds" />
+										<Pin Name="Texture2" Type="PinVideoValue" Value="SYSR:textures\white.dds" DefValue="SYSR:textures\white.dds" />
+										<Pin Name="Texture3" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture4" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture5" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture6" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture7" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture8" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture9" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture10" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture11" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture12" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture13" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture14" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture15" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="Texture16" Type="PinVideoValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture1" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture2" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture3" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="ConstTexture4" Type="PinStringValue" Value="" DefValue="" />
+										<Pin Name="Logical1" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical2" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical3" Type="PinBoolValue" Value="False" />
+										<Pin Name="Logical4" Type="PinBoolValue" Value="False" />
+										<Pin Name="Int1" Type="PinIntValue" Value="0" />
+										<Pin Name="Int2" Type="PinIntValue" Value="0" />
+										<Pin Name="Scalar1" Type="PinScalarValue" Value="1" DefValue="1" />
+										<Pin Name="Scalar2" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar3" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar4" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar5" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar6" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar7" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar8" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar9" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar10" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar11" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar12" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar13" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar14" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar15" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar16" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar17" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar18" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar19" Type="PinScalarValue" Value="0" />
+										<Pin Name="Scalar20" Type="PinScalarValue" Value="0" />
+										<Pin Name="Vector1" Type="PinVectorValue" Value="1, 1, 1, 1" DefValue="1, 1, 1, 1" />
+										<Pin Name="Vector2" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector3" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector4" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector5" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector6" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector7" Type="PinVectorValue" Value="" />
+										<Pin Name="Vector8" Type="PinVectorValue" Value="" />
+										<Pin Name="Color1" Type="PinColorValue" Value="1, White" DefValue="1, White" />
+										<Pin Name="Color2" Type="PinColorValue" Value="0, White" DefValue="0, White" />
+										<Pin Name="Color3" Type="PinColorValue" Value="" />
+										<Pin Name="Color4" Type="PinColorValue" Value="" />
+										<Pin Name="Color5" Type="PinColorValue" Value="" />
+										<Pin Name="Color6" Type="PinColorValue" Value="" />
+										<Pin Name="Color7" Type="PinColorValue" Value="" />
+										<Pin Name="Color8" Type="PinColorValue" Value="" />
+										<Pin Name="Color9" Type="PinColorValue" Value="" />
+										<Pin Name="Color10" Type="PinColorValue" Value="" />
+										<Pin Name="Color11" Type="PinColorValue" Value="" />
+										<Pin Name="Color12" Type="PinColorValue" Value="" />
+										<Pin Name="Color13" Type="PinColorValue" Value="" />
+										<Pin Name="Color14" Type="PinColorValue" Value="" />
+										<Pin Name="Color15" Type="PinColorValue" Value="" />
+										<Pin Name="Color16" Type="PinColorValue" Value="" />
+										<Pin Name="Transformation1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" DefValue="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation3" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation4" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Transformation5" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Rotation1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+										<Pin Name="Rotation2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Wireframe" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="Wireframe" />
+								<Pin Name="Cast Shadows" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="CastShadows" />
+								<Pin Name="Receive Shadows" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="ReceiveShadows" />
+								<Pin Name="Transparency" Type="PinIntValue" IsLocked="True" SourceModule="Shader" SourcePin="Transparency" />
+								<Pin Name="Depth Write" Type="PinBoolValue" IsLocked="True" SourceModule="Shader" SourcePin="DepthWrite" />
+								<Pin Name="UV Scale" Type="PinVectorValue" IsLocked="True" SourceModule="Shader" SourcePin="Vector1" />
+								<Pin Name="Color" Type="PinColorValue" IsLocked="True" SourceModule="Shader" SourcePin="Color1" />
+								<Pin Name="Opacity" Type="PinScalarValue" IsLocked="True" SourceModule="Shader" SourcePin="Scalar1" />
+								<Pin Name="Color Map" Type="PinVideoValue" IsLocked="True" SourceModule="Shader" SourcePin="Texture1" />
+								<Pin Name="Mask" Type="PinVideoValue" IsLocked="True" SourceModule="Shader" SourcePin="Texture2" />
+							</ExposerInputPins>
+							<ExposerOutputPins>
+								<Pin Name="Out" Type="PinShaderValue" IsLocked="True" SourceModule="Shader" SourcePin="Out" />
+							</ExposerOutputPins>
+							<Connections />
+						</Module>
+						<Module Type="SequenceNode">
+							<Properties Name="Sequence Node" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="328, -4" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+								<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+								<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+								<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+								<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+								<Pin Name="Index" Type="PinIntValue" Value="0" />
+								<Pin Name="Commands" Type="PinVectorValue" Value="" />
+								<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+								<Pin Name="Sequenced" Type="PinBoolValue" Value="True" />
+								<Pin Name="SeqPositionData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+									<Parts>
+										<Part StartTime="0.4" EndTime="1.8666666666666667" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="-1556">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+														<Key ShapeLinked="False" Time="0.5" InControlPoint="-0.165, 0" OutControlPoint="0.1, 0" Continuity="C1" Value="15">
+															<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.9">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+														<Key ShapeLinked="False" Time="0.73333333333333339" InControlPoint="-0.1, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="-1556">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="60">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys>
+														<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="0">
+															<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+																<PrevKeyOut Ease="0" Slope="0.33" />
+															</Shape>
+														</Key>
+													</Keys>
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+								<Pin Name="SeqRotationData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+									<Parts>
+										<Part StartTime="0" EndTime="1" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+								<Pin Name="SeqScaleData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+									<Parts>
+										<Part StartTime="0" EndTime="1" ContentOffset="0">
+											<Curves>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+												<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+													<Keys />
+												</Curve>
+											</Curves>
+										</Part>
+									</Parts>
+								</Pin>
+							</PinValues>
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Size" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -1068" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="1024, 200" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinVectorValue" Value="1024, 128" />
+							</PinValues>
+						</Module>
+						<Module Type="VectorSplit">
+							<Properties Name="Vector Split" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="706, -104" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Active" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-254, -1198" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyColor">
+							<Properties Name="Back Color" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-236, -695" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinColorValue" Value="0, Transparent" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinColorValue" Value="0, #74FFFFFF" />
+							</PinValues>
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Text Offset" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-243, -854" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinVectorValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="Multiply">
+							<Properties Name="Multiply" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="104, -850" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="2" />
+							</PinValues>
+						</Module>
+						<Module Type="Measurer">
+							<Properties Name="Measurer" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="610, -738" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Video" Type="PinVideoValue" Value="" />
+								<Pin Name="AreaLeft" Type="PinScalarValue" Value="0" />
+								<Pin Name="AreaTop" Type="PinScalarValue" Value="0" />
+								<Pin Name="AreaRight" Type="PinScalarValue" Value="1" />
+								<Pin Name="AreaBottom" Type="PinScalarValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Auto Width" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -990" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Or">
+							<Properties Name="Or" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="907, -1120" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinBoolValue" Value="False" />
+								<Pin Name="B" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTextFormat">
+							<Properties Name="Text Format" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-248, -923" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyColor">
+							<Properties Name="Text Color" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-236, -617" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinColorValue" Value="1, White" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinColorValue" Value="0, White" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-252, -1138" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="Text" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="TextImage">
+							<Properties Name="Text Image Fixed" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="283, -807" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+								<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+								<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+								<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="AdjustPosition" Type="PinVectorValue" Value="20, 0" />
+								<Pin Name="BgColor" Type="PinColorValue" Value="" />
+								<Pin Name="Color" Type="PinColorValue" Value="1, #060606" />
+								<Pin Name="Text" Type="PinStringValue" Value="TRUMP AND ALLIES" />
+								<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="IfVideo">
+							<Properties Name="If Video" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1110, -1010" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVideoValue" Value="" />
+								<Pin Name="Else" Type="PinVideoValue" Value="" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Auto Condense" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-242, -772" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="If">
+							<Properties Name="If" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="323, -290" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVectorValue" Value="1" />
+								<Pin Name="Else" Type="PinVectorValue" Value="0" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="If">
+							<Properties Name="If 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="933, -801" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVectorValue" Value="1" />
+								<Pin Name="Else" Type="PinVectorValue" Value="0" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Greater">
+							<Properties Name="Greater" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="884, -681" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinScalarValue" Value="0" />
+								<Pin Name="B" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Absolute">
+							<Properties Name="Absolute" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-51, -843" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="688, -334" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="10" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+								<Pin Name="Default" Type="PinScalarValue" Value="10" />
+							</PinValues>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LT_Alignment" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-76, 30" />
+									<item key="ViewCenter" type="PointF" value="250.4936, 197.0288" />
+									<item key="ZoomFactor" type="Single" value="0.7866278" />
+									<item key="Importer" type="String" value="LinkedCompound" />
+									<item key="ImporterVersion" type="Int32" value="3" />
+									<item key="ImportSourcePath" type="String" value="[Common_Studio]:Compounds\LowerThird\Elements\LT_Alignment.xcomp" />
+									<item key="ImportSourceHash" type="String" value="6F406A6A8E3DEC081D9CF8AB04BE45DD" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="Multiply">
+									<Properties Name="Multiply 2" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="293, 16" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="A" Type="PinVectorValue" Value="1" />
+										<Pin Name="B" Type="PinVectorValue" Value="1" />
+									</PinValues>
+								</Module>
+								<Module Type="Translation">
+									<Properties Name="Translation" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="492, -4" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Delta" Type="PinVectorValue" Value="0, 0, 0" />
+									</PinValues>
+								</Module>
+								<Module Type="Switch">
+									<Properties Name="Switch" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="-211, 102" />
+											<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Selected" Type="PinIntValue" Value="1" />
+										<Pin Name="Value1" Type="PinVectorValue" Value="0" />
+										<Pin Name="Value2" Type="PinVectorValue" Value="-0.5" />
+										<Pin Name="Value3" Type="PinVectorValue" Value="-1" />
+										<Pin Name="Value4" Type="PinVectorValue" Value="" />
+										<Pin Name="Value5" Type="PinVectorValue" Value="" />
+										<Pin Name="Value6" Type="PinVectorValue" Value="" />
+										<Pin Name="Value7" Type="PinVectorValue" Value="" />
+										<Pin Name="Value8" Type="PinVectorValue" Value="" />
+										<Pin Name="Value9" Type="PinVectorValue" Value="" />
+										<Pin Name="Value10" Type="PinVectorValue" Value="" />
+										<Pin Name="Value11" Type="PinVectorValue" Value="" />
+										<Pin Name="Value12" Type="PinVectorValue" Value="" />
+										<Pin Name="Value13" Type="PinVectorValue" Value="" />
+										<Pin Name="Value14" Type="PinVectorValue" Value="" />
+										<Pin Name="Value15" Type="PinVectorValue" Value="" />
+										<Pin Name="Value16" Type="PinVectorValue" Value="" />
+										<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+									</PinValues>
+								</Module>
+								<Module Type="VectorMerge">
+									<Properties Name="Vector Merge" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="34, 130" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="X" Type="PinScalarValue" Value="0" />
+										<Pin Name="Y" Type="PinScalarValue" Value="0" />
+										<Pin Name="Z" Type="PinScalarValue" Value="0" />
+									</PinValues>
+								</Module>
+								<Module Type="Switch">
+									<Properties Name="Switch 2" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="-205, 193" />
+											<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Selected" Type="PinIntValue" Value="1" />
+										<Pin Name="Value1" Type="PinVectorValue" Value="0" />
+										<Pin Name="Value2" Type="PinVectorValue" Value="-0.5" />
+										<Pin Name="Value3" Type="PinVectorValue" Value="-1" />
+										<Pin Name="Value4" Type="PinVectorValue" Value="" />
+										<Pin Name="Value5" Type="PinVectorValue" Value="" />
+										<Pin Name="Value6" Type="PinVectorValue" Value="" />
+										<Pin Name="Value7" Type="PinVectorValue" Value="" />
+										<Pin Name="Value8" Type="PinVectorValue" Value="" />
+										<Pin Name="Value9" Type="PinVectorValue" Value="" />
+										<Pin Name="Value10" Type="PinVectorValue" Value="" />
+										<Pin Name="Value11" Type="PinVectorValue" Value="" />
+										<Pin Name="Value12" Type="PinVectorValue" Value="" />
+										<Pin Name="Value13" Type="PinVectorValue" Value="" />
+										<Pin Name="Value14" Type="PinVectorValue" Value="" />
+										<Pin Name="Value15" Type="PinVectorValue" Value="" />
+										<Pin Name="Value16" Type="PinVectorValue" Value="" />
+										<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Size" Type="PinVectorValue" IsLocked="True" SourceModule="Multiply 2" SourcePin="A" />
+								<Pin Name="$Enum,Horiz Align,Left,Center,Right" Type="PinIntValue" IsLocked="True" SourceModule="Switch" SourcePin="Selected" />
+								<Pin Name="$Enum,Vert Align,Top,Center,Bottom" Type="PinIntValue" IsLocked="True" SourceModule="Switch 2" SourcePin="Selected" />
+							</ExposerInputPins>
+							<ExposerOutputPins>
+								<Pin Name="Out" Type="PinTransformationValue" IsLocked="True" SourceModule="Translation" SourcePin="Out" />
+							</ExposerOutputPins>
+							<Connections>
+								<Connection FromModule="Vector Merge" FromPin="Vector" ToModule="Multiply 2" ToPin="B" />
+								<Connection FromModule="Multiply 2" FromPin="Out" ToModule="Translation" ToPin="Delta" />
+								<Connection FromModule="Switch" FromPin="Out" ToModule="Vector Merge" ToPin="X" />
+								<Connection FromModule="Switch 2" FromPin="Out" ToModule="Vector Merge" ToPin="Y" />
+							</Connections>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Active" Type="PinBoolValue" IsLocked="True" SourceModule="Active" SourcePin="In" />
+						<Pin Name="Transformation" Type="PinTransformationValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="Transformation" />
+						<Pin Name="Layer" Type="PinScalarValue" IsLocked="True" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="Text" Type="PinStringValue" IsLocked="True" SourceModule="Text" SourcePin="In" />
+						<Pin Name="Size" Type="PinVectorValue" IsLocked="True" SourceModule="Size" SourcePin="In" />
+						<Pin Name="Auto Width" Type="PinBoolValue" IsLocked="True" SourceModule="Auto Width" SourcePin="In" />
+						<Pin Name="Horiz Align" Type="PinIntValue" IsLocked="True" SourceModule="LT_Alignment" SourcePin="Horiz Align" />
+						<Pin Name="Vert Align" Type="PinIntValue" IsLocked="True" SourceModule="LT_Alignment" SourcePin="Vert Align" />
+						<Pin Name="Text Format" Type="PinTextFormatValue" IsLocked="True" SourceModule="Text Format" SourcePin="In" />
+						<Pin Name="Text Offset" Type="PinVectorValue" IsLocked="True" SourceModule="Text Offset" SourcePin="In" />
+						<Pin Name="Auto Condense" Type="PinBoolValue" IsLocked="True" SourceModule="Auto Condense" SourcePin="In" />
+						<Pin Name="Back Color" Type="PinColorValue" IsLocked="True" SourceModule="Back Color" SourcePin="In" />
+						<Pin Name="Text Color" Type="PinColorValue" IsLocked="True" SourceModule="Text Color" SourcePin="In" />
+						<Pin Name="Opacity" Type="PinScalarValue" IsLocked="True" SourceModule="LThird_Basic" SourcePin="Opacity" />
+						<Pin Name="Mask" Type="PinVideoValue" IsLocked="True" SourceModule="LThird_Basic" SourcePin="Mask" />
+						<Pin Name="Parent" Type="PinSceneObjectChildReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="Parent" />
+						<Pin Name="Seq Position" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqPosition" />
+						<Pin Name="Seq Rotation" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqRotation" />
+						<Pin Name="Seq Scale" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequence Node" SourcePin="SeqScale" />
+					</ExposerInputPins>
+					<ExposerOutputPins />
+					<Connections>
+						<Connection FromModule="Active" FromPin="Out" ToModule="Text Image Auto" ToPin="Active" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Text Image Auto" ToPin="ImageSize" />
+						<Connection FromModule="Multiply" FromPin="Out" ToModule="Text Image Auto" ToPin="AdjustAutoSize" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Text Image Auto" ToPin="AdjustPosition" />
+						<Connection FromModule="Text Format" FromPin="Out" ToModule="Text Image Auto" ToPin="TextFormat" />
+						<Connection FromModule="Back Color" FromPin="Out" ToModule="Text Image Auto" ToPin="BgColor" />
+						<Connection FromModule="Text Color" FromPin="Out" ToModule="Text Image Auto" ToPin="Color" />
+						<Connection FromModule="Text" FromPin="Out" ToModule="Text Image Auto" ToPin="Text" />
+						<Connection FromModule="Sequence Node" FromPin="Children" ToModule="Rectangle" ToPin="Parent" />
+						<Connection FromModule="LThird_Basic" FromPin="Out" ToModule="Rectangle" ToPin="Shader" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Rectangle" ToPin="ForceDistance" />
+						<Connection FromModule="Vector Split" FromPin="X" ToModule="Rectangle" ToPin="XEnd" />
+						<Connection FromModule="Vector Split" FromPin="Y" ToModule="Rectangle" ToPin="YEnd" />
+						<Connection FromModule="If Video" FromPin="Out" ToModule="LThird_Basic" ToPin="Color Map" />
+						<Connection FromModule="Active" FromPin="Out" ToModule="Sequence Node" ToPin="Active" />
+						<Connection FromModule="LT_Alignment" FromPin="Out" ToModule="Sequence Node" ToPin="AddTransform" />
+						<Connection FromModule="If" FromPin="Out" ToModule="Vector Split" ToPin="Vector" />
+						<Connection FromModule="Absolute" FromPin="Out" ToModule="Multiply" ToPin="A" />
+						<Connection FromModule="Text Image Auto" FromPin="Out" ToModule="Measurer" ToPin="Video" />
+						<Connection FromModule="Auto Width" FromPin="Out" ToModule="Or" ToPin="A" />
+						<Connection FromModule="If 2" FromPin="Out" ToModule="Or" ToPin="B" />
+						<Connection FromModule="Active" FromPin="Out" ToModule="Text Image Fixed" ToPin="Active" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Text Image Fixed" ToPin="ImageSize" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Text Image Fixed" ToPin="AdjustPosition" />
+						<Connection FromModule="Text Format" FromPin="Out" ToModule="Text Image Fixed" ToPin="TextFormat" />
+						<Connection FromModule="Back Color" FromPin="Out" ToModule="Text Image Fixed" ToPin="BgColor" />
+						<Connection FromModule="Text Color" FromPin="Out" ToModule="Text Image Fixed" ToPin="Color" />
+						<Connection FromModule="Text" FromPin="Out" ToModule="Text Image Fixed" ToPin="Text" />
+						<Connection FromModule="Or" FromPin="Out" ToModule="If Video" ToPin="If" />
+						<Connection FromModule="Text Image Auto" FromPin="Out" ToModule="If Video" ToPin="Then" />
+						<Connection FromModule="Text Image Fixed" FromPin="Out" ToModule="If Video" ToPin="Else" />
+						<Connection FromModule="Auto Width" FromPin="Out" ToModule="If" ToPin="If" />
+						<Connection FromModule="Measurer" FromPin="Size" ToModule="If" ToPin="Then" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="If" ToPin="Else" />
+						<Connection FromModule="Auto Condense" FromPin="Out" ToModule="If 2" ToPin="If" />
+						<Connection FromModule="Greater" FromPin="Out" ToModule="If 2" ToPin="Then" />
+						<Connection FromModule="Measurer" FromPin="Size" ToModule="Greater" ToPin="A" />
+						<Connection FromModule="Size" FromPin="Out" ToModule="Greater" ToPin="B" />
+						<Connection FromModule="Text Offset" FromPin="Out" ToModule="Absolute" ToPin="In" />
+						<Connection FromModule="If" FromPin="Out" ToModule="LT_Alignment" ToPin="Size" />
+					</Connections>
+				</Module>
+				<Module Type="ArrayIndex">
+					<Properties Name="Array Index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-282, -560" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-442, -337" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="Per Word Animation Example" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-302, -242" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=" " />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-325, -116" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=" " />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Subtract">
+					<Properties Name="Subtract" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-487, -112" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTextFormat">
+					<Properties Name="Copy Text Format" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-535, -445" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="TextImage">
+					<Properties Name="Text Image" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-306, -12" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="AutoImageSize" Type="PinBoolValue" Value="True" />
+						<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+						<Pin Name="ImageSize" Type="PinVectorValue" Value="1024, 128" />
+						<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="BgColor" Type="PinColorValue" Value="" />
+						<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+						<Pin Name="Text" Type="PinStringValue" Value="Text" />
+						<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorSplit">
+					<Properties Name="Vector Split" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-68, 10" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+					</PinValues>
+				</Module>
+				<Module Type="TranslationX">
+					<Properties Name="Translation X" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="222, -13" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Delta" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="InOut_Sequencer" IsLocked="False">
+						<ExtraData>
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[Common]:Compounds\Utilities\InOut_Sequencer.xcomp" />
+							<item key="ImportSourceHash" type="String" value="1FF28CA80A237DE16C02D877D0E58BFB" />
+							<item key="ViewCenter" type="PointF" value="-2075.113, 93.52799" />
+							<item key="ZoomFactor" type="Single" value="0.99999994" />
+							<item key="EditedSequence" type="String" value="Root\Sequencer 1" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+							<item key="SeqLayout:Sequence" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;0.7656083864747768&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;157.82091137673152&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Word Array\Scale&quot; sourcePin=&quot;Sequencer&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-0.10000000149011612&quot; end=&quot;1.1000000014901161&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Flat&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;100&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;100&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&#x9;&lt;EditableComponents&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;X&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;Y&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;Z&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&lt;/EditableComponents&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Word Array\Opacity&quot; sourcePin=&quot;Sequencer&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-0.10000000149011612&quot; end=&quot;1.1000000014901161&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Flat&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;100&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;100&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+							<item key="Location" type="PointF" value="-114, 269" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Sequencer">
+							<Properties Name="Sequencer 1" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2102, -89" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+									<item key="SeqLayout" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.21070832248630741&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;365.57114735855617&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+									<item key="SeqLayout:Sequence" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;21.308735857182121&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;125.39401726651398&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Sequence" Type="PinSequenceValue">
+									<TimeFormat type="@@@null@@@" />
+									<Markers>
+										<Marker Time="1" Comment="Out" BackColor="" TextColor="" Loop="False" />
+									</Markers>
+								</Pin>
+								<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+								<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+								<Pin Name="Backwards" Type="PinBoolValue" Value="False" />
+								<Pin Name="Bounce" Type="PinBoolValue" Value="False" />
+								<Pin Name="Looping" Type="PinBoolValue" Value="False" />
+								<Pin Name="StayInLoopReg" Type="PinBoolValue" Value="True" />
+								<Pin Name="AutoLoopReg" Type="PinBoolValue" Value="False" />
+								<Pin Name="LoopStart" Type="PinDoubleValue" Value="0" />
+								<Pin Name="LoopEnd" Type="PinDoubleValue" Value="2" />
+								<Pin Name="HaltAtMarker" Type="PinIntValue" Value="0" />
+								<Pin Name="JumpToMarker" Type="PinIntValue" Value="1" />
+								<Pin Name="OnStopGoTo" Type="PinIntValue" Value="sgLoopStart" />
+								<Pin Name="SkipOnInit" Type="PinBoolValue" Value="True" />
+								<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="False" />
+								<Pin Name="EditorCursor" Type="PinDoubleValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="Copy Logical 1" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2584, -10" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-2287, 216" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Sequence" Type="PinSequenceValue" IsHidden="True" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Sequence" />
+						<Pin Name="Active" Type="PinBoolValue" IsLocked="True" SourceModule="Copy Logical 1" SourcePin="In" />
+						<Pin Name="Speed" Type="PinScalarValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Speed" />
+						<Pin Name="Loop Start" Type="PinDoubleValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="LoopStart" />
+						<Pin Name="Loop End" Type="PinDoubleValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="LoopEnd" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Tracks" Type="PinSequenceTrackReferenceValue" IsLocked="True" SourceModule="Sequencer 1" SourcePin="Tracks" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Sequencer 1" ToPin="Restart" />
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Sequencer 1" ToPin="HaltAtMarker" />
+						<Connection FromModule="Not" FromPin="Out" ToModule="Sequencer 1" ToPin="Jump" />
+						<Connection FromModule="Copy Logical 1" FromPin="Out" ToModule="Not" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="SequenceVector">
+					<Properties Name="Scale" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="190, 258" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="ManualTime" Type="PinDoubleValue" Value="0" />
+						<Pin Name="SequenceTrack" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+							<Parts>
+								<Part StartTime="0" EndTime="2" ContentOffset="0">
+									<Curves>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="10">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="1">
+													<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="10">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+											</Keys>
+										</Curve>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="10">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="1">
+													<Shape type="MCurveAutoBezierShape" Ease="1" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="10">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+											</Keys>
+										</Curve>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys />
+										</Curve>
+									</Curves>
+								</Part>
+							</Parts>
+						</Pin>
+					</PinValues>
+				</Module>
+				<Module Type="Scale">
+					<Properties Name="Scale 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="605, 224" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="SequenceScalar">
+					<Properties Name="Opacity" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="199, 420" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="ManualTime" Type="PinDoubleValue" Value="0" />
+						<Pin Name="SequenceTrack" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+							<Parts>
+								<Part StartTime="0" EndTime="2" ContentOffset="0">
+									<Curves>
+										<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+											<Keys>
+												<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.366666666666667, 0" Continuity="C1" Value="0">
+													<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+														<PrevKeyOut Ease="0" Slope="0.33" />
+													</Shape>
+												</Key>
+												<Key ShapeLinked="False" Time="1" InControlPoint="-0.333333333333333, -0.986670066083265" OutControlPoint="0.3, -0.997846183258194" Continuity="C0" Value="1">
+													<Shape type="MCurveSplineShape" />
+												</Key>
+												<Key ShapeLinked="False" Time="2" InControlPoint="-0.8, 0.00728744941081122" OutControlPoint="0.285992356621844, -0.00260519353845046" Continuity="C1" Value="0">
+													<Shape type="MCurveSplineShape" />
+												</Key>
+											</Keys>
+										</Curve>
+									</Curves>
+								</Part>
+							</Parts>
+						</Pin>
+					</PinValues>
+				</Module>
+				<Module Type="TranslationY">
+					<Properties Name="Translation Y" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="405, 177" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Delta" Type="PinScalarValue" Value="-54" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogical">
+					<Properties Name="Copy Logical" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-624, 270" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="True" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Delay">
+					<Properties Name="Delay" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-336, 290" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinVectorValue" Value="" />
+						<Pin Name="Delay" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Multiply">
+					<Properties Name="Multiply 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-523, 354" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="1" />
+						<Pin Name="B" Type="PinVectorValue" Value="0.2" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Active" Type="PinBoolValue" SourceModule="Copy Logical" SourcePin="In" />
+				<Pin Name="Text" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+				<Pin Name="Text Format" Type="PinTextFormatValue" SourceModule="Copy Text Format" SourcePin="In" />
+				<Pin Name="Parent" Type="PinSceneObjectChildReferenceValue" SourceModule="LThird_Text" SourcePin="Parent" />
+			</ExposerInputPins>
+			<ExposerOutputPins />
+			<Connections>
+				<Connection FromModule="Translation X" FromPin="Out" ToModule="LThird_Text" ToPin="Transformation" />
+				<Connection FromModule="Text Slice" FromPin="Out" ToModule="LThird_Text" ToPin="Text" />
+				<Connection FromModule="Copy Text Format" FromPin="Out" ToModule="LThird_Text" ToPin="Text Format" />
+				<Connection FromModule="Opacity" FromPin="Out" ToModule="LThird_Text" ToPin="Opacity" />
+				<Connection FromModule="Copy Text" FromPin="Out" ToModule="Text Slice" ToPin="Text" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Text Slice" ToPin="StartIndex" />
+				<Connection FromModule="Copy Text" FromPin="Out" ToModule="Text Slice 2" ToPin="Text" />
+				<Connection FromModule="Subtract" FromPin="Out" ToModule="Text Slice 2" ToPin="Count" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Subtract" ToPin="A" />
+				<Connection FromModule="Copy Text Format" FromPin="Out" ToModule="Text Image" ToPin="TextFormat" />
+				<Connection FromModule="Text Slice 2" FromPin="Out" ToModule="Text Image" ToPin="Text" />
+				<Connection FromModule="Text Image" FromPin="TextSize" ToModule="Vector Split" ToPin="Vector" />
+				<Connection FromModule="Scale 2" FromPin="Out" ToModule="Translation X" ToPin="After" />
+				<Connection FromModule="Vector Split" FromPin="X" ToModule="Translation X" ToPin="Delta" />
+				<Connection FromModule="Delay" FromPin="Out" ToModule="InOut_Sequencer" ToPin="Active" />
+				<Connection FromModule="InOut_Sequencer" FromPin="Tracks" ToModule="Scale" ToPin="Sequencer" />
+				<Connection FromModule="Translation Y" FromPin="Out" ToModule="Scale 2" ToPin="After" />
+				<Connection FromModule="Scale" FromPin="Out" ToModule="Scale 2" ToPin="Scale" />
+				<Connection FromModule="InOut_Sequencer" FromPin="Tracks" ToModule="Opacity" ToPin="Sequencer" />
+				<Connection FromModule="Copy Logical" FromPin="Out" ToModule="Delay" ToPin="In" />
+				<Connection FromModule="Multiply 2" FromPin="Out" ToModule="Delay" ToPin="Delay" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Multiply 2" ToPin="A" />
+			</Connections>
+		</Module>
+		<Module Type="TextFormat">
+			<Properties Name="Text Format 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="117, -9" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="FontFamily" Type="PinStringValue" Value="Calibri" />
+				<Pin Name="FontSize" Type="PinScalarValue" Value="120" />
+				<Pin Name="FontWeight" Type="PinIntValue" Value="fwNormal" />
+				<Pin Name="FontStyle" Type="PinIntValue" Value="fsNormal" />
+				<Pin Name="FontStretch" Type="PinIntValue" Value="feNormal" />
+				<Pin Name="FontLocale" Type="PinStringValue" Value="en-US" />
+				<Pin Name="TextAlignment" Type="PinIntValue" Value="taLeading" />
+				<Pin Name="ParagraphAlignment" Type="PinIntValue" Value="paNear" />
+				<Pin Name="CharLeadingSpacing" Type="PinScalarValue" Value="0" />
+				<Pin Name="CharTrailingSpacing" Type="PinScalarValue" Value="0" />
+				<Pin Name="CharMinAvanceWidth" Type="PinScalarValue" Value="0" />
+				<Pin Name="UseLineSpacing" Type="PinBoolValue" Value="False" />
+				<Pin Name="BaseLine" Type="PinScalarValue" Value="10" />
+				<Pin Name="LineSpacing" Type="PinScalarValue" Value="20" />
+				<Pin Name="ReadingDirection" Type="PinIntValue" Value="rdLeftToRight" />
+				<Pin Name="WordWrapping" Type="PinIntValue" Value="wwNoWrap" />
+				<Pin Name="Trimming" Type="PinIntValue" Value="trimNone" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Scene Node 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-242, 63" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [142, 773, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyVideo">
+			<Properties Name="Copy Video" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="195.0001, -415" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Video" Type="PinVideoValue" Value="" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinVideoValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Detwitterer">
+			<Properties Name="Detwitterer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="413.0001, -420" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Video" Type="PinVideoValue" Value="" />
+				<Pin Name="WhenInterlaced" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Per-Character" Type="PinBoolValue" SourceModule="Character Array" SourcePin="Active" />
+		<Pin Name="Per-Word" Type="PinBoolValue" SourceModule="Word Array" SourcePin="Active" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinVideoValue" SourceModule="Blender" SourcePin="Out" />
+		<Pin Name="Out 2" Type="PinVideoValue" SourceModule="Detwitterer" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="default_video" FromPin="Out" ToModule="Blender" ToPin="Background" />
+		<Connection FromModule="LThird_Root" FromPin="Out" ToModule="Blender" ToPin="Foreground" />
+		<Connection FromModule="Text Format" FromPin="Out" ToModule="Character Array" ToPin="Text Format" />
+		<Connection FromModule="Scene Node" FromPin="Children" ToModule="Character Array" ToPin="Parent" />
+		<Connection FromModule="LThird_Root" FromPin="Children" ToModule="Scene Node" ToPin="Parent" />
+		<Connection FromModule="Text Format 2" FromPin="Out" ToModule="Word Array" ToPin="Text Format" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Word Array" ToPin="Parent" />
+		<Connection FromModule="LThird_Root" FromPin="Children" ToModule="Scene Node 2" ToPin="Parent" />
+		<Connection FromModule="Blender" FromPin="Out" ToModule="Copy Video" ToPin="Video" />
+		<Connection FromModule="Copy Video" FromPin="Out" ToModule="Detwitterer" ToPin="Video" />
+	</Connections>
+</AximmetryCompound>

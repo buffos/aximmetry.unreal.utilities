@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.5.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="OVERLAYS">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="4096, 2160" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-01-17T02:18:11.8539378+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="MixMinus" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="1387, -84" />
+			<item key="Notes" type="String" value="" />
+			<item key="ViewCenter" type="PointF" value="859.2778, -42.20549" />
+			<item key="ZoomFactor" type="Single" value="0.6153128" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="554, -857" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Master Audio" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="74, -762" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="77, -702" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="78, -638" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="80, -576" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="80, -512" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="81, -449" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="83, -385" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="85, -323" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="86, -258" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="88, -194" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="94, -131" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="100, -68" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="93, -5" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="98, 55" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="100, 117" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="102, 180" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyAudio">
+			<Properties Name="Audio 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="105, 248" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyLogical">
+			<Properties Name="Active" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="127, -932" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinBoolValue" Value="True" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="766, -858" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1002, -853" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1253, -852" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1484, -851" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1722, -861" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1960, -854" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="423, 353" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="654, 352" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="896, 353" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1133, 356" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1361, 359" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1616, 360" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1854, 361" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2098, 360" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioMerger">
+			<Properties Name="MixMinus 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2314, 363" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Active" Type="PinBoolValue" SourceModule="Active" SourcePin="In" />
+		<Pin Name="Master Audio" Type="PinAudioValue" SourceModule="Master Audio" SourcePin="In" />
+		<Pin Name="Audio 1" Type="PinAudioValue" SourceModule="Audio 1" SourcePin="In" />
+		<Pin Name="Audio 2" Type="PinAudioValue" SourceModule="Audio 2" SourcePin="In" />
+		<Pin Name="Audio 3" Type="PinAudioValue" SourceModule="Audio 3" SourcePin="In" />
+		<Pin Name="Audio 4" Type="PinAudioValue" SourceModule="Audio 4" SourcePin="In" />
+		<Pin Name="Audio 5" Type="PinAudioValue" SourceModule="Audio 5" SourcePin="In" />
+		<Pin Name="Audio 6" Type="PinAudioValue" SourceModule="Audio 6" SourcePin="In" />
+		<Pin Name="Audio 7" Type="PinAudioValue" SourceModule="Audio 7" SourcePin="In" />
+		<Pin Name="Audio 8" Type="PinAudioValue" SourceModule="Audio 8" SourcePin="In" />
+		<Pin Name="Audio 9" Type="PinAudioValue" SourceModule="Audio 9" SourcePin="In" />
+		<Pin Name="Audio 10" Type="PinAudioValue" SourceModule="Audio 10" SourcePin="In" />
+		<Pin Name="Audio 11" Type="PinAudioValue" SourceModule="Audio 11" SourcePin="In" />
+		<Pin Name="Audio 12" Type="PinAudioValue" SourceModule="Audio 12" SourcePin="In" />
+		<Pin Name="Audio 13" Type="PinAudioValue" SourceModule="Audio 13" SourcePin="In" />
+		<Pin Name="Audio 14" Type="PinAudioValue" SourceModule="Audio 14" SourcePin="In" />
+		<Pin Name="Audio 15" Type="PinAudioValue" SourceModule="Audio 15" SourcePin="In" />
+		<Pin Name="Audio 16" Type="PinAudioValue" SourceModule="Audio 16" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="MixMinus1" Type="PinAudioValue" SourceModule="MixMinus 1" SourcePin="Out" />
+		<Pin Name="MixMinus2" Type="PinAudioValue" SourceModule="MixMinus 2" SourcePin="Out" />
+		<Pin Name="MixMinus3" Type="PinAudioValue" SourceModule="MixMinus 3" SourcePin="Out" />
+		<Pin Name="MixMinus4" Type="PinAudioValue" SourceModule="MixMinus 4" SourcePin="Out" />
+		<Pin Name="MixMinus5" Type="PinAudioValue" SourceModule="MixMinus 5" SourcePin="Out" />
+		<Pin Name="MixMinus6" Type="PinAudioValue" SourceModule="MixMinus 6" SourcePin="Out" />
+		<Pin Name="MixMinus7" Type="PinAudioValue" SourceModule="MixMinus 7" SourcePin="Out" />
+		<Pin Name="MixMinus8" Type="PinAudioValue" SourceModule="MixMinus 8" SourcePin="Out" />
+		<Pin Name="MixMinus9" Type="PinAudioValue" SourceModule="MixMinus 9" SourcePin="Out" />
+		<Pin Name="MixMinus10" Type="PinAudioValue" SourceModule="MixMinus 10" SourcePin="Out" />
+		<Pin Name="MixMinus11" Type="PinAudioValue" SourceModule="MixMinus 11" SourcePin="Out" />
+		<Pin Name="MixMinus12" Type="PinAudioValue" SourceModule="MixMinus 12" SourcePin="Out" />
+		<Pin Name="MixMinus13" Type="PinAudioValue" SourceModule="MixMinus 13" SourcePin="Out" />
+		<Pin Name="MixMinus14" Type="PinAudioValue" SourceModule="MixMinus 14" SourcePin="Out" />
+		<Pin Name="MixMinus15" Type="PinAudioValue" SourceModule="MixMinus 15" SourcePin="Out" />
+		<Pin Name="MixMinus16" Type="PinAudioValue" SourceModule="MixMinus 16" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 1" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel1" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel2" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel3" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel4" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel5" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel9" />
+		<Connection FromModule="Audio 10" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 1" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 2" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel2" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel3" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel4" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel5" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel9" />
+		<Connection FromModule="Audio 10" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 2" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 3" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel3" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel4" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel5" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 3" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 4" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel4" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel5" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 4" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 5" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel5" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 5" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 6" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel6" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 6" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 7" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel7" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 7" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 8" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel8" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 8" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 9" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 9" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 10" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 10" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 11" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel10" />
+		<Connection FromModule="Audio 10" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel11" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 11" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 12" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel11" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel12" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 12" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 13" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel11" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel12" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel13" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 13" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 14" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel11" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel12" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel13" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel14" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 14" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 15" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel11" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel12" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel13" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel14" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel15" />
+		<Connection FromModule="Audio 16" FromPin="Out" ToModule="MixMinus 15" ToPin="Channel16" />
+		<Connection FromModule="Active" FromPin="Out" ToModule="MixMinus 16" ToPin="Active" />
+		<Connection FromModule="Master Audio" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel1" />
+		<Connection FromModule="Audio 1" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel2" />
+		<Connection FromModule="Audio 2" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel3" />
+		<Connection FromModule="Audio 3" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel4" />
+		<Connection FromModule="Audio 4" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel5" />
+		<Connection FromModule="Audio 5" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel6" />
+		<Connection FromModule="Audio 6" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel7" />
+		<Connection FromModule="Audio 7" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel8" />
+		<Connection FromModule="Audio 8" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel9" />
+		<Connection FromModule="Audio 9" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel10" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel11" />
+		<Connection FromModule="Audio 11" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel12" />
+		<Connection FromModule="Audio 12" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel13" />
+		<Connection FromModule="Audio 13" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel14" />
+		<Connection FromModule="Audio 14" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel15" />
+		<Connection FromModule="Audio 15" FromPin="Out" ToModule="MixMinus 16" ToPin="Channel16" />
+	</Connections>
+</AximmetryCompound>

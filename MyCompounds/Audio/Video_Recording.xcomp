@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Control Board">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-25T14:30:20.3080728+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-04T19:29:19.4896486+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-06T17:23:48.9961462+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Video Recording" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="1863, -455" />
+			<item key="ViewCenter" type="PointF" value="2908.137, 302.7108" />
+			<item key="ZoomFactor" type="Single" value="0.7866278" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="CopyTrigger">
+			<Properties Name="Rec Started" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="3708, 162" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Rec Stopped" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="3706, 232" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="Not">
+			<Properties Name="Not 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="3580, 232" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Recording Panel" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2595, 176" />
+					<item key="ViewCenter" type="PointF" value="1787.562, 1666.218" />
+					<item key="ZoomFactor" type="Single" value="0.7866278" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="VideoRecorder">
+					<Properties Name="Video Recorder" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2243, 1276" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Video" Type="PinVideoValue" Value="" />
+						<Pin Name="Engine" Type="PinIntValue" Value="engAll" />
+						<Pin Name="OutputFolder" Type="PinStringValue" Value="[Studio]:News Room" />
+						<Pin Name="OutputFile" Type="PinStringValue" Value="News Room - 3-Camera VR Rec" />
+						<Pin Name="AutoNumbering" Type="PinBoolValue" Value="True" />
+						<Pin Name="ExactPath" Type="PinStringValue" Value="" />
+						<Pin Name="OutputSuffix" Type="PinStringValue" Value="" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="RecordVideoOut" Type="PinBoolValue" Value="False" />
+						<Pin Name="VideoOutIndex" Type="PinIntValue" Value="0" />
+						<Pin Name="FrameSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="KeepInSize" Type="PinBoolValue" Value="True" />
+						<Pin Name="FitMode" Type="PinIntValue" Value="sfmFit" />
+						<Pin Name="FrameRate" Type="PinIntValue" Value="vrfrRealtime" />
+						<Pin Name="VideoFormat" Type="PinIntValue" Value="vefJPEGSequence" />
+						<Pin Name="VideoMbps" Type="PinScalarValue" Value="10" />
+						<Pin Name="KeyframeDist" Type="PinIntValue" Value="12" />
+						<Pin Name="UseBFrames" Type="PinBoolValue" Value="True" />
+						<Pin Name="InColorSpace" Type="PinIntValue" Value="rgbAuto" />
+						<Pin Name="InGammaCurve" Type="PinIntValue" Value="gamAuto" />
+						<Pin Name="OutColorSpace" Type="PinIntValue" Value="rgbAuto" />
+						<Pin Name="OutGammaCurve" Type="PinIntValue" Value="gamAuto" />
+						<Pin Name="Alpha" Type="PinBoolValue" Value="True" />
+						<Pin Name="CineFormQuality" Type="PinIntValue" Value="cfqFilmScan1" />
+						<Pin Name="EXRCompression" Type="PinIntValue" Value="exrcZIP" />
+						<Pin Name="DDSFormat" Type="PinIntValue" Value="frmBC1NA" />
+						<Pin Name="DDSCube" Type="PinBoolValue" Value="False" />
+						<Pin Name="DDSCubeLayout" Type="PinIntValue" Value="cubHorizontalStrip" />
+						<Pin Name="DDSMipmaps" Type="PinBoolValue" Value="False" />
+						<Pin Name="DDSMipmapFilter" Type="PinIntValue" Value="mmBicubic" />
+						<Pin Name="AudioTracks" Type="PinIntValue" Value="1" />
+						<Pin Name="AudioFormat" Type="PinIntValue" Value="aefAAC" />
+						<Pin Name="AudioChannels" Type="PinIntValue" Value="aclStereo" />
+						<Pin Name="AudioKbps" Type="PinIntValue" Value="vrabr256" />
+						<Pin Name="UseMasterTC" Type="PinBoolValue" Value="False" />
+						<Pin Name="SnapshotDelay" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="#E68A8C" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="RECORDER" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1382, 1471" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3437.823, 150.6841" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="Documents:Recordings" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3437.823, 150.6841" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="F1Clash" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="5" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="50" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="12" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="2" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 4" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="256" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 5" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="3458.138, 141.539" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTrigger">
+							<Properties Name="Copy Trigger" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2111.427, 1720.941" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyTrigger">
+							<Properties Name="Copy Trigger 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2111.427, 1720.941" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Copy" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1303.311, 1616.942" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="1920, 1080" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinVectorValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2303, 1388" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1707.211, 1724.686" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 6" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1707.211, 1724.686" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 7" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2104, 1584" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="-1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1528, 1402" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CAM2" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 4" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1738, 1368" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 5" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1757, 1439" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CAM3" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 6" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="1735, 1478" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CAM4" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="0, 0" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="#Stop" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="In">
+							<Controllers>
+								<item type="OscController" ControllerID="0" ExtControllerID="/recstop" BacklightIndex="1" DeviceName="OSC">
+									<Target type="CtrBoardButtonPressCtrTarget" Button="Stop" />
+								</item>
+							</Controllers>
+						</Pin>
+						<Pin Name="#Record" Type="PinTriggerValue" SourceModule="Copy Trigger 2" SourcePin="In">
+							<Controllers>
+								<item type="OscController" ControllerID="0" ExtControllerID="/recstart" BacklightIndex="1" DeviceName="OSC">
+									<Target type="CtrBoardButtonPressCtrTarget" Button="Record" />
+								</item>
+							</Controllers>
+						</Pin>
+						<Pin Name="Engine" Type="PinIntValue" SourceModule="Copy Integer AC 7" SourcePin="In" />
+						<Pin Name="Output Folder" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+						<Pin Name="Output File" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="In" />
+						<Pin Name="Record Video Out" Type="PinBoolValue" SourceModule="Copy Logical AC 2" SourcePin="In" />
+						<Pin Name="Video Out Index" Type="PinIntValue" SourceModule="Copy Integer AC 6" SourcePin="In" />
+						<Pin Name="Downscale" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+						<Pin Name="Downscale Size" Type="PinVectorValue" SourceModule="Copy" SourcePin="In" />
+						<Pin Name="Video Format" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="In" />
+						<Pin Name="Video Mbps" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="Keyframe Dist" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="In" />
+						<Pin Name="Audio Format" Type="PinIntValue" SourceModule="Copy Integer AC 3" SourcePin="In" />
+						<Pin Name="Audio Channels" Type="PinIntValue" SourceModule="Copy Integer AC 5" SourcePin="In" />
+						<Pin Name="Audio Kbps" Type="PinIntValue" SourceModule="Copy Integer AC 4" SourcePin="In" />
+						<Pin Name="Local Tag" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="In" />
+						<Pin Name="Remote 1 Tag" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+						<Pin Name="Remote 2 Tag" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="In" />
+						<Pin Name="Remote 3 Tag" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="In" />
+						<Pin Name="Use Master TC" Type="PinBoolValue" SourceModule="Copy Logical AC 3" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="#Stop" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="Out" />
+						<Pin Name="#Record" Type="PinTriggerValue" SourceModule="Copy Trigger 2" SourcePin="Out" />
+						<Pin Name="Engine" Type="PinIntValue" SourceModule="Copy Integer AC 7" SourcePin="Out" />
+						<Pin Name="Output Folder" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+						<Pin Name="Output File" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="Out" />
+						<Pin Name="Record Video Out" Type="PinBoolValue" SourceModule="Copy Logical AC 2" SourcePin="Out" />
+						<Pin Name="Video Out Index" Type="PinIntValue" SourceModule="Copy Integer AC 6" SourcePin="Out" />
+						<Pin Name="Downscale" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+						<Pin Name="Downscale Size" Type="PinVectorValue" SourceModule="Copy" SourcePin="Out" />
+						<Pin Name="Video Format" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="Out" />
+						<Pin Name="Video Mbps" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="Out" />
+						<Pin Name="Keyframe Dist" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="Out" />
+						<Pin Name="Audio Format" Type="PinIntValue" SourceModule="Copy Integer AC 3" SourcePin="Out" />
+						<Pin Name="Audio Channels" Type="PinIntValue" SourceModule="Copy Integer AC 5" SourcePin="Out" />
+						<Pin Name="Audio Kbps" Type="PinIntValue" SourceModule="Copy Integer AC 4" SourcePin="Out" />
+						<Pin Name="Local Tag" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="Out" />
+						<Pin Name="Remote 1 Tag" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+						<Pin Name="Remote 2 Tag" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="Out" />
+						<Pin Name="Remote 3 Tag" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="Out" />
+						<Pin Name="Use Master TC" Type="PinBoolValue" SourceModule="Copy Logical AC 3" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections />
+					<Enhancer type="PinCollector" />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1953, 1370" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="Documents:Recordings" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+						<Pin Name="Default" Type="PinStringValue" Value="Documents:Recordings" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1961, 1456" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="Rec" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="True" />
+						<Pin Name="Default" Type="PinStringValue" Value="Rec" />
+					</PinValues>
+				</Module>
+				<Module Type="Not">
+					<Properties Name="Not 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2073, 1534" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="SystemParams">
+					<Properties Name="System Params" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1290, 1907" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="SwitchText">
+					<Properties Name="Switch Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1708, 1841" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Selected" Type="PinIntValue" Value="1" />
+						<Pin Name="Value1" Type="PinStringValue" Value="" />
+						<Pin Name="Value2" Type="PinStringValue" Value="" />
+						<Pin Name="Value3" Type="PinStringValue" Value="" />
+						<Pin Name="Value4" Type="PinStringValue" Value="" />
+						<Pin Name="Value5" Type="PinStringValue" Value="" />
+						<Pin Name="Value6" Type="PinStringValue" Value="" />
+						<Pin Name="Value7" Type="PinStringValue" Value="" />
+						<Pin Name="Value8" Type="PinStringValue" Value="" />
+						<Pin Name="Value9" Type="PinStringValue" Value="" />
+						<Pin Name="Value10" Type="PinStringValue" Value="" />
+						<Pin Name="Value11" Type="PinStringValue" Value="" />
+						<Pin Name="Value12" Type="PinStringValue" Value="" />
+						<Pin Name="Value13" Type="PinStringValue" Value="" />
+						<Pin Name="Value14" Type="PinStringValue" Value="" />
+						<Pin Name="Value15" Type="PinStringValue" Value="" />
+						<Pin Name="Value16" Type="PinStringValue" Value="" />
+						<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Add">
+					<Properties Name="Add" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1524, 1895" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Video" Type="PinVideoValue" SourceModule="Video Recorder" SourcePin="Video" />
+				<Pin Name="Audio 1" Type="PinAudioValue" SourceModule="Video Recorder" SourcePin="Audio1" />
+				<Pin Name="Audio 2" Type="PinAudioValue" SourceModule="Video Recorder" SourcePin="Audio2" />
+				<Pin Name="Audio 3" Type="PinAudioValue" SourceModule="Video Recorder" SourcePin="Audio3" />
+				<Pin Name="Audio Tracks" Type="PinIntValue" SourceModule="Video Recorder" SourcePin="AudioTracks" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Recording" Type="PinBoolValue" SourceModule="Video Recorder" SourcePin="Recording" />
+				<Pin Name="Output Path" Type="PinStringValue" SourceModule="Video Recorder" SourcePin="OutputPath" />
+				<Pin Name="Rec Time" Type="PinDoubleValue" SourceModule="Video Recorder" SourcePin="RecTime" />
+				<Pin Name="Timecode" Type="PinIntValue" SourceModule="Video Recorder" SourcePin="Timecode" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="RECORDER" FromPin="Engine" ToModule="Video Recorder" ToPin="Engine" />
+				<Connection FromModule="Copy Text" FromPin="Out" ToModule="Video Recorder" ToPin="OutputFolder" />
+				<Connection FromModule="Copy Text 2" FromPin="Out" ToModule="Video Recorder" ToPin="OutputFile" />
+				<Connection FromModule="Switch Text" FromPin="Out" ToModule="Video Recorder" ToPin="OutputSuffix" />
+				<Connection FromModule="RECORDER" FromPin="Record Video Out" ToModule="Video Recorder" ToPin="RecordVideoOut" />
+				<Connection FromModule="RECORDER" FromPin="Video Out Index" ToModule="Video Recorder" ToPin="VideoOutIndex" />
+				<Connection FromModule="RECORDER" FromPin="Downscale Size" ToModule="Video Recorder" ToPin="FrameSize" />
+				<Connection FromModule="Not 4" FromPin="Out" ToModule="Video Recorder" ToPin="KeepInSize" />
+				<Connection FromModule="RECORDER" FromPin="Video Format" ToModule="Video Recorder" ToPin="VideoFormat" />
+				<Connection FromModule="RECORDER" FromPin="Video Mbps" ToModule="Video Recorder" ToPin="VideoMbps" />
+				<Connection FromModule="RECORDER" FromPin="Keyframe Dist" ToModule="Video Recorder" ToPin="KeyframeDist" />
+				<Connection FromModule="RECORDER" FromPin="Audio Format" ToModule="Video Recorder" ToPin="AudioFormat" />
+				<Connection FromModule="RECORDER" FromPin="Audio Channels" ToModule="Video Recorder" ToPin="AudioChannels" />
+				<Connection FromModule="RECORDER" FromPin="Audio Kbps" ToModule="Video Recorder" ToPin="AudioKbps" />
+				<Connection FromModule="RECORDER" FromPin="Use Master TC" ToModule="Video Recorder" ToPin="UseMasterTC" />
+				<Connection FromModule="RECORDER" FromPin="#Record" ToModule="Video Recorder" ToPin="Record" />
+				<Connection FromModule="RECORDER" FromPin="#Stop" ToModule="Video Recorder" ToPin="Stop" />
+				<Connection FromModule="RECORDER" FromPin="Output Folder" ToModule="Copy Text" ToPin="In" />
+				<Connection FromModule="RECORDER" FromPin="Output File" ToModule="Copy Text 2" ToPin="In" />
+				<Connection FromModule="RECORDER" FromPin="Downscale" ToModule="Not 4" ToPin="In" />
+				<Connection FromModule="Add" FromPin="Out" ToModule="Switch Text" ToPin="Selected" />
+				<Connection FromModule="RECORDER" FromPin="Local Tag" ToModule="Switch Text" ToPin="Value1" />
+				<Connection FromModule="RECORDER" FromPin="Remote 1 Tag" ToModule="Switch Text" ToPin="Value2" />
+				<Connection FromModule="RECORDER" FromPin="Remote 2 Tag" ToModule="Switch Text" ToPin="Value3" />
+				<Connection FromModule="RECORDER" FromPin="Remote 3 Tag" ToModule="Switch Text" ToPin="Value4" />
+				<Connection FromModule="System Params" FromPin="Engine" ToModule="Add" ToPin="A" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Data Recording" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="3163, 47" />
+					<item key="ViewCenter" type="PointF" value="2275, 2723" />
+					<item key="ZoomFactor" type="Single" value="0.771028042" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TrackingRecorder">
+					<Properties Name="Tracking Recorder" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2517, 2424" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
+						<Pin Name="OutputFolder" Type="PinStringValue" Value="" />
+						<Pin Name="OutputFile" Type="PinStringValue" Value="" />
+						<Pin Name="AutoNumbering" Type="PinBoolValue" Value="True" />
+						<Pin Name="ExactPath" Type="PinStringValue" Value="" />
+						<Pin Name="OutputSuffix" Type="PinStringValue" Value="" />
+						<Pin Name="ASCII" Type="PinBoolValue" Value="True" />
+						<Pin Name="CamTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="ZoomFactor" Type="PinScalarValue" Value="1.732" />
+						<Pin Name="Aspect" Type="PinVectorValue" Value="" />
+						<Pin Name="SensorWidth" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="#E6B971" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="TRACKING" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1992, 2685" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2280, 2343" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="2179.047, 2405.766" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="#On" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+						<Pin Name="ASCII" Type="PinBoolValue" SourceModule="Copy Logical AC 2" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="#On" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+						<Pin Name="ASCII" Type="PinBoolValue" SourceModule="Copy Logical AC 2" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections />
+					<Enhancer type="PinCollector" />
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2161, 2628" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Measurer">
+					<Properties Name="Measurer" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1988, 2871" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Video" Type="PinVideoValue" Value="" />
+						<Pin Name="AreaLeft" Type="PinScalarValue" Value="0" />
+						<Pin Name="AreaTop" Type="PinScalarValue" Value="0" />
+						<Pin Name="AreaRight" Type="PinScalarValue" Value="1" />
+						<Pin Name="AreaBottom" Type="PinScalarValue" Value="1" />
+						<Pin Name="SmoothMinMax" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionTransformation">
+					<Properties Name="Collection Cam Transformation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2088, 2409" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="Cam Transform" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionScalar">
+					<Properties Name="Collection Zoom Factor" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2088, 2471" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="Zoom Factor" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinScalarValue" Value="3" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyCollection">
+					<Properties Name="Copy Collection" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1840, 2466" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CollectionScalar">
+					<Properties Name="Collection Sensor Width" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2088, 2543" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="Sensor Width" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinScalarValue" Value="3" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Recording?" Type="PinBoolValue" SourceModule="And 5" SourcePin="A" />
+				<Pin Name="Output Path" Type="PinStringValue" SourceModule="Tracking Recorder" SourcePin="ExactPath" />
+				<Pin Name="Timecode" Type="PinIntValue" SourceModule="Tracking Recorder" SourcePin="Timecode" />
+				<Pin Name="Record Data" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+				<Pin Name="Program Video" Type="PinVideoValue" SourceModule="Measurer" SourcePin="Video" />
+			</ExposerInputPins>
+			<ExposerOutputPins />
+			<Connections>
+				<Connection FromModule="TRACKING" FromPin="ASCII" ToModule="Tracking Recorder" ToPin="ASCII" />
+				<Connection FromModule="Collection Cam Transformation" FromPin="Out" ToModule="Tracking Recorder" ToPin="CamTransform" />
+				<Connection FromModule="Collection Zoom Factor" FromPin="Out" ToModule="Tracking Recorder" ToPin="ZoomFactor" />
+				<Connection FromModule="Measurer" FromPin="Aspect" ToModule="Tracking Recorder" ToPin="Aspect" />
+				<Connection FromModule="Collection Sensor Width" FromPin="Out" ToModule="Tracking Recorder" ToPin="SensorWidth" />
+				<Connection FromModule="And 5" FromPin="Out" ToModule="Tracking Recorder" ToPin="Recording" />
+				<Connection FromModule="TRACKING" FromPin="#On" ToModule="And 5" ToPin="B" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Collection Cam Transformation" ToPin="Collection" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Collection Zoom Factor" ToPin="Collection" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Collection Sensor Width" ToPin="Collection" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Recording OSD" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="3128, 355" />
+					<item key="ViewCenter" type="PointF" value="1917.771, 2635.013" />
+					<item key="ZoomFactor" type="Single" value="1.00010049" />
+					<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Turn On and OFF every half second&quot; Text=&quot;This accomplishes the REC to flash&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;1325, 2735, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Less than 0.5?&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Modulo Double&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextFormat">
+					<Properties Name="Text Format 1" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1789, 2577" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="FontFamily" Type="PinStringValue" Value="Tahoma" />
+						<Pin Name="FontSize" Type="PinScalarValue" Value="51" />
+						<Pin Name="FontWeight" Type="PinIntValue" Value="fwNormal" />
+						<Pin Name="FontStyle" Type="PinIntValue" Value="fsNormal" />
+						<Pin Name="FontStretch" Type="PinIntValue" Value="feNormal" />
+						<Pin Name="FontLocale" Type="PinStringValue" Value="en-US" />
+						<Pin Name="TextAlignment" Type="PinIntValue" Value="taCenter" />
+						<Pin Name="ParagraphAlignment" Type="PinIntValue" Value="paCenter" />
+						<Pin Name="CharLeadingSpacing" Type="PinScalarValue" Value="0" />
+						<Pin Name="CharTrailingSpacing" Type="PinScalarValue" Value="0" />
+						<Pin Name="CharMinAvanceWidth" Type="PinScalarValue" Value="0" />
+						<Pin Name="UseLineSpacing" Type="PinBoolValue" Value="False" />
+						<Pin Name="BaseLine" Type="PinScalarValue" Value="10" />
+						<Pin Name="LineSpacing" Type="PinScalarValue" Value="20" />
+						<Pin Name="ReadingDirection" Type="PinIntValue" Value="rdLeftToRight" />
+						<Pin Name="WordWrapping" Type="PinIntValue" Value="wwNoWrap" />
+						<Pin Name="Trimming" Type="PinIntValue" Value="trimNone" />
+					</PinValues>
+				</Module>
+				<Module Type="TextImage">
+					<Properties Name="Text Image (REC)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2032, 2510" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+						<Pin Name="ImageSize" Type="PinVectorValue" Value="120, 58" />
+						<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, -2" />
+						<Pin Name="BgColor" Type="PinColorValue" Value="1, #FF0010" />
+						<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+						<Pin Name="Text" Type="PinStringValue" Value="REC" />
+						<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="PlacerPrecise">
+					<Properties Name="Placer Precise 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2495, 2674" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Video" Type="PinVideoValue" Value="" />
+						<Pin Name="Background" Type="PinVideoValue" Value="" />
+						<Pin Name="OutSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="OutPixelAsp" Type="PinScalarValue" Value="0" />
+						<Pin Name="KeepInSize" Type="PinBoolValue" Value="True" />
+						<Pin Name="HorizAlign" Type="PinIntValue" Value="phaEdgeToRight" />
+						<Pin Name="VertAlign" Type="PinIntValue" Value="pvaEdgeToTop" />
+						<Pin Name="LeftPixel" Type="PinScalarValue" Value="0" />
+						<Pin Name="TopPixel" Type="PinScalarValue" Value="54" />
+						<Pin Name="RightPixel" Type="PinScalarValue" Value="96" />
+						<Pin Name="BottomPixel" Type="PinScalarValue" Value="0" />
+						<Pin Name="LeftNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="TopNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="RightNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="BottomNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="RelScale" Type="PinBoolValue" Value="False" />
+						<Pin Name="HScale" Type="PinScalarValue" Value="1" />
+						<Pin Name="VScale" Type="PinScalarValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="PlacerPrecise">
+					<Properties Name="Placer Precise 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2784, 2670" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Video" Type="PinVideoValue" Value="" />
+						<Pin Name="Background" Type="PinVideoValue" Value="" />
+						<Pin Name="OutSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="OutPixelAsp" Type="PinScalarValue" Value="0" />
+						<Pin Name="KeepInSize" Type="PinBoolValue" Value="True" />
+						<Pin Name="HorizAlign" Type="PinIntValue" Value="phaEdgeToRight" />
+						<Pin Name="VertAlign" Type="PinIntValue" Value="pvaEdgeToTop" />
+						<Pin Name="LeftPixel" Type="PinScalarValue" Value="0" />
+						<Pin Name="TopPixel" Type="PinScalarValue" Value="54" />
+						<Pin Name="RightPixel" Type="PinScalarValue" Value="221" />
+						<Pin Name="BottomPixel" Type="PinScalarValue" Value="0" />
+						<Pin Name="LeftNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="TopNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="RightNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="BottomNorm" Type="PinScalarValue" Value="0" />
+						<Pin Name="RelScale" Type="PinBoolValue" Value="False" />
+						<Pin Name="HScale" Type="PinScalarValue" Value="1" />
+						<Pin Name="VScale" Type="PinScalarValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextImage">
+					<Properties Name="Text Image Recording time" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2047, 2679" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+						<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+						<Pin Name="ImageSize" Type="PinVectorValue" Value="214, 58" />
+						<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, -2" />
+						<Pin Name="BgColor" Type="PinColorValue" Value="1, #FF0010" />
+						<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+						<Pin Name="Text" Type="PinStringValue" Value="REC" />
+						<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="TimeToText">
+					<Properties Name="Time To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1794, 2695" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Time" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinIntValue" Value="mtfTime" />
+						<Pin Name="FramesPerSecond" Type="PinIntValue" Value="30" />
+						<Pin Name="BeatsPerMinute" Type="PinIntValue" Value="120" />
+						<Pin Name="BeatsPerMeasure" Type="PinIntValue" Value="4" />
+						<Pin Name="TicksPerBeat" Type="PinIntValue" Value="64" />
+						<Pin Name="DateTimeFormat" Type="PinStringValue" Value="%Y-%m-%d %H:%M" />
+					</PinValues>
+				</Module>
+				<Module Type="ModuloDouble">
+					<Properties Name="Modulo Double" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1324, 2559" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinDoubleValue" Value="1" />
+						<Pin Name="B" Type="PinDoubleValue" Value="1" />
+						<Pin Name="Base" Type="PinDoubleValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Less">
+					<Properties Name="Less than 0.5?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1550, 2559" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0.5" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1809, 2486" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogical">
+					<Properties Name="Recording?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1167, 2310" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyDouble">
+					<Properties Name="Recording Time" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1136, 2397" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinDoubleValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinDoubleValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Audio Levels Video" Type="PinVideoValue" SourceModule="Placer Precise 4" SourcePin="Background" />
+				<Pin Name="Recording?" Type="PinBoolValue" SourceModule="Recording?" SourcePin="In" />
+				<Pin Name="Rec Time" Type="PinDoubleValue" SourceModule="Recording Time" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Preview" Type="PinVideoValue" SourceModule="Placer Precise 5" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Format 1" FromPin="Out" ToModule="Text Image (REC)" ToPin="TextFormat" />
+				<Connection FromModule="And 4" FromPin="Out" ToModule="Placer Precise 4" ToPin="Active" />
+				<Connection FromModule="Text Image (REC)" FromPin="Out" ToModule="Placer Precise 4" ToPin="Video" />
+				<Connection FromModule="Recording?" FromPin="Out" ToModule="Placer Precise 5" ToPin="Active" />
+				<Connection FromModule="Text Image Recording time" FromPin="Out" ToModule="Placer Precise 5" ToPin="Video" />
+				<Connection FromModule="Placer Precise 4" FromPin="Out" ToModule="Placer Precise 5" ToPin="Background" />
+				<Connection FromModule="Text Format 1" FromPin="Out" ToModule="Text Image Recording time" ToPin="TextFormat" />
+				<Connection FromModule="Time To Text" FromPin="Out" ToModule="Text Image Recording time" ToPin="Text" />
+				<Connection FromModule="Recording Time" FromPin="Out" ToModule="Time To Text" ToPin="Time" />
+				<Connection FromModule="Recording Time" FromPin="Out" ToModule="Modulo Double" ToPin="A" />
+				<Connection FromModule="Modulo Double" FromPin="Out" ToModule="Less than 0.5?" ToPin="A" />
+				<Connection FromModule="Recording?" FromPin="Out" ToModule="And 4" ToPin="A" />
+				<Connection FromModule="Less than 0.5?" FromPin="Out" ToModule="And 4" ToPin="B" />
+			</Connections>
+			<Descriptions>
+				<Description Target="mod:Less than 0.5?" Index="0" Title="Turn On and OFF every half second" Text="This accomplishes the REC to flash" />
+				<Description Target="mod:Modulo Double" Index="0" Title="Turn On and OFF every half second" Text="This accomplishes the REC to flash" />
+			</Descriptions>
+		</Module>
+		<Module Type="CopyVideo">
+			<Properties Name="Program Video" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2385, -9" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Video" Type="PinVideoValue" Value="" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinVideoValue" Value="" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Record Data" Type="PinCollectionValue" SourceModule="Data Recording" SourcePin="Record Data" />
+		<Pin Name="Program" Type="PinVideoValue" SourceModule="Program Video" SourcePin="Video" />
+		<Pin Name="Preview" Type="PinVideoValue" SourceModule="Recording OSD" SourcePin="Audio Levels Video" />
+		<Pin Name="Audio 1" Type="PinAudioValue" SourceModule="Recording Panel" SourcePin="Audio 1" />
+		<Pin Name="Audio 2" Type="PinAudioValue" SourceModule="Recording Panel" SourcePin="Audio 2" />
+		<Pin Name="Audio 3" Type="PinAudioValue" SourceModule="Recording Panel" SourcePin="Audio 3" />
+		<Pin Name="Audio Tracks" Type="PinIntValue" SourceModule="Recording Panel" SourcePin="Audio Tracks" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Rec Started" Type="PinTriggerValue" SourceModule="Rec Started" SourcePin="Out" />
+		<Pin Name="Rec Ended" Type="PinTriggerValue" SourceModule="Rec Stopped" SourcePin="Out" />
+		<Pin Name="Program" Type="PinVideoValue" SourceModule="Program Video" SourcePin="Out" />
+		<Pin Name="Preview" Type="PinVideoValue" SourceModule="Recording OSD" SourcePin="Preview" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Recording Panel" FromPin="Recording" ToModule="Rec Started" ToPin="In" />
+		<Connection FromModule="Not 5" FromPin="Out" ToModule="Rec Stopped" ToPin="In" />
+		<Connection FromModule="Recording Panel" FromPin="Recording" ToModule="Not 5" ToPin="In" />
+		<Connection FromModule="Program Video" FromPin="Out" ToModule="Recording Panel" ToPin="Video" />
+		<Connection FromModule="Recording Panel" FromPin="Recording" ToModule="Data Recording" ToPin="Recording?" />
+		<Connection FromModule="Recording Panel" FromPin="Output Path" ToModule="Data Recording" ToPin="Output Path" />
+		<Connection FromModule="Recording Panel" FromPin="Timecode" ToModule="Data Recording" ToPin="Timecode" />
+		<Connection FromModule="Program Video" FromPin="Out" ToModule="Data Recording" ToPin="Program Video" />
+		<Connection FromModule="Recording Panel" FromPin="Recording" ToModule="Recording OSD" ToPin="Recording?" />
+		<Connection FromModule="Recording Panel" FromPin="Rec Time" ToModule="Recording OSD" ToPin="Rec Time" />
+	</Connections>
+</AximmetryCompound>

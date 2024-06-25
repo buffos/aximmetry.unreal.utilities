@@ -1,0 +1,10 @@
+﻿Advanced 3D graphics: HDR, Depth of Field, shadows, reflections, refraction
+Highly flexible node-based graphics programming interface
+High level of interactivity and real-time controllability
+Construction of interactive scenes / effects using a node-based logic
+Scalable: multiple video cards or hardware can be operated under one system, each assigned a different task
+Receiving depth information for realistic mixing of real and virtual elements
+All-in-one solution: No need to buy separate modules and extensions for 2D graphics, 3D virtual studio, video wall display, projection - the software includes all of them
+Open system to integrate any studio tracking device
+Accessible price point, great value proposition
+4K - SDI input / output

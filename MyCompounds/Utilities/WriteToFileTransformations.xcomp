@@ -1,0 +1,1239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-23T18:21:53.4269633+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-23T18:30:18.5531454+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="ViewCenter" type="PointF" value="-83.39867, 210.9603" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="Notes" type="String" value="" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Text Concat Multi" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-130, -37" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value=";" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="" />
+				<Pin Name="Text2" Type="PinStringValue" Value="" />
+				<Pin Name="Text3" Type="PinStringValue" Value="" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-651, -355" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-647, -286" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-646, -217" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-649, -153" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-648, -84" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-648, -20" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-647, 42" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-649, 105" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-653, 175" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-653, 240" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-652, 309" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-655, 373" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-654, 442" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-654, 506" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-653, 568" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TransformationToText 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-655, 631" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-617, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-303, -322" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorToText">
+					<Properties Name="Vector To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-301, -265" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="" />
+						<Pin Name="ItemFormat" Type="PinStringValue" Value="%g" />
+						<Pin Name="Separator" Type="PinStringValue" Value=", " />
+						<Pin Name="EmptyText" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-67, -308" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="&gt;" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinStringValue" SourceModule="Text Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector To Text" ToPin="Vector" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Vector To Text 2" ToPin="Vector" />
+				<Connection FromModule="Vector To Text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="Vector To Text 2" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="TextExporter">
+			<Properties Name="Text Exporter" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="204, 47" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="OutputFolder" Type="PinStringValue" Value="[MyCompounds]:Utilities" />
+				<Pin Name="OutputFile" Type="PinStringValue" Value="TextTransformation" />
+				<Pin Name="AutoNumbering" Type="PinBoolValue" Value="False" />
+				<Pin Name="ExactPath" Type="PinStringValue" Value="" />
+				<Pin Name="OutputSuffix" Type="PinStringValue" Value="" />
+				<Pin Name="Encoding" Type="PinIntValue" Value="teeUTF8" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="TransformationToText" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 2" Type="PinTransformationValue" SourceModule="TransformationToText 2" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 3" Type="PinTransformationValue" SourceModule="TransformationToText 3" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 4" Type="PinTransformationValue" SourceModule="TransformationToText 4" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 5" Type="PinTransformationValue" SourceModule="TransformationToText 5" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 6" Type="PinTransformationValue" SourceModule="TransformationToText 6" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 7" Type="PinTransformationValue" SourceModule="TransformationToText 7" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 8" Type="PinTransformationValue" SourceModule="TransformationToText 8" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 9" Type="PinTransformationValue" SourceModule="TransformationToText 9" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 10" Type="PinTransformationValue" SourceModule="TransformationToText 10" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 11" Type="PinTransformationValue" SourceModule="TransformationToText 11" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 12" Type="PinTransformationValue" SourceModule="TransformationToText 12" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 13" Type="PinTransformationValue" SourceModule="TransformationToText 13" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 14" Type="PinTransformationValue" SourceModule="TransformationToText 14" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 15" Type="PinTransformationValue" SourceModule="TransformationToText 15" SourcePin="Transformation 1" />
+		<Pin Name="Transformation 16" Type="PinTransformationValue" SourceModule="TransformationToText 16" SourcePin="Transformation 1" />
+		<Pin Name="Output Folder" Type="PinStringValue" SourceModule="Text Exporter" SourcePin="OutputFolder" />
+		<Pin Name="Output File" Type="PinStringValue" SourceModule="Text Exporter" SourcePin="OutputFile" />
+		<Pin Name="Export" Type="PinTriggerValue" SourceModule="Text Exporter" SourcePin="Export" />
+	</ExposerInputPins>
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="TransformationToText" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+		<Connection FromModule="TransformationToText 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+		<Connection FromModule="TransformationToText 3" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+		<Connection FromModule="TransformationToText 4" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+		<Connection FromModule="TransformationToText 5" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text5" />
+		<Connection FromModule="TransformationToText 6" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text6" />
+		<Connection FromModule="TransformationToText 7" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text7" />
+		<Connection FromModule="TransformationToText 8" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text8" />
+		<Connection FromModule="TransformationToText 9" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text9" />
+		<Connection FromModule="TransformationToText 10" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text10" />
+		<Connection FromModule="TransformationToText 11" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text11" />
+		<Connection FromModule="TransformationToText 12" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text12" />
+		<Connection FromModule="TransformationToText 13" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text13" />
+		<Connection FromModule="TransformationToText 14" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text14" />
+		<Connection FromModule="TransformationToText 15" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text15" />
+		<Connection FromModule="TransformationToText 16" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text16" />
+		<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Exporter" ToPin="Text" />
+	</Connections>
+</AximmetryCompound>

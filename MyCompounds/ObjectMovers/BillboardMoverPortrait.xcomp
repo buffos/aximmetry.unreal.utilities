@@ -1,0 +1,1437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="BILLBOARDS">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="60" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2021-08-13T14:18:49.4558804+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-15T20:05:16.8631096+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-20T02:14:27.8999347+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="" Tags="">
+			<Thumbnail Data="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" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="BillboardMoverPortrait" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="503, -794" />
+			<item key="ViewCenter" type="PointF" value="766.5693, -20.82309" />
+			<item key="ZoomFactor" type="Single" value="0.638709664" />
+			<item key="Notes" type="String" value="" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="ObjectMover 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1218, 49" />
+					<item key="Notes" type="String" value="" />
+					<item key="ViewCenter" type="PointF" value="289.0737, 873.6418" />
+					<item key="ZoomFactor" type="Single" value="0.618783355" />
+					<item key="Importer" type="String" value="LinkedCompound" />
+					<item key="ImporterVersion" type="Int32" value="3" />
+					<item key="ImportSourcePath" type="String" value="[MyCompounds]:ObjectMovers\ObjectMover.xcomp" />
+					<item key="ImportSourceHash" type="String" value="1FC332133135B41B3D138F99F4D10FF5" />
+					<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="SceneNode">
+					<Properties Name="MovingNode" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1063, 352" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [-1.184516, 1.25887287, 2.61510015], [79.691, 1.36603785E-05, -89.99999], [2.49599743, 2.49599767, 1.40399873]" />
+						<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+						<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Commands" Type="PinVectorValue" Value="" />
+						<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="TimeDelay" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-433, 695" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="600" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0.5" />
+					</PinValues>
+				</Module>
+				<Module Type="TranslationAll">
+					<Properties Name="Translation All" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="553, 508" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="X" Type="PinScalarValue" Value="0" />
+						<Pin Name="Y" Type="PinScalarValue" Value="0" />
+						<Pin Name="Z" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="DeltaMovementPositive" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-452, 785" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="100" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="DirectionMoverX" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="45, 414" />
+							<item key="ViewCenter" type="PointF" value="101.0323, 684.2485" />
+							<item key="ZoomFactor" type="Single" value="0.6640234" />
+							<item key="Notes" type="String" value="" />
+							<item key="ImportSourceHash" type="String" value="1BAE4FBC9A03B63AFAAC63D85FA5D6BF" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:ObjectMovers\ObjectDirectionMover.xcomp" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-280, 457" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="359, 476" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="-1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MoveNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-480, 475" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="InitialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 178" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddPositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="564, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="120, 478" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MovePositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 291" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-296, 274" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="108, 302" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="341, 293" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="755, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="SetScalarPin">
+							<Properties Name="Set Scalar Pin for InitiialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="981, 98" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Module" Type="PinStringValue" Value="InitialDelta" />
+								<Pin Name="Pin" Type="PinStringValue" Value="In" />
+								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="Value" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Delay" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-681, 832" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Step" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-677, 1001" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Multiply">
+							<Properties Name="Negate" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-495, 1060" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="-1" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-298, 374" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-276, 570" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="PositiveDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MovePositive" SourcePin="In" />
+						<Pin Name="NegativeDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MoveNegative" SourcePin="In" />
+						<Pin Name="InitialDelta" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="In" />
+						<Pin Name="Delay" Type="PinScalarValue" IsLocked="True" SourceModule="Delay" SourcePin="In" />
+						<Pin Name="MovementStep" Type="PinScalarValue" IsLocked="True" SourceModule="Step" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Hold_Move_Negative" ToPin="Pass" />
+						<Connection FromModule="Smooth Negative" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="In" />
+						<Connection FromModule="Negate" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="Maximum" />
+						<Connection FromModule="InitialDelta" FromPin="Out" ToModule="AddPositive" ToPin="A" />
+						<Connection FromModule="Dash Scalar Positive" FromPin="Out" ToModule="AddPositive" ToPin="B" />
+						<Connection FromModule="Hold_Move_Negative" FromPin="Passed" ToModule="Smooth Negative" ToPin="In" />
+						<Connection FromModule="Not 2" FromPin="Out" ToModule="Smooth Negative" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Negative" ToPin="Delay" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Hold_Move_Positive" ToPin="Pass" />
+						<Connection FromModule="Hold_Move_Positive" FromPin="Passed" ToModule="Smooth Positive" ToPin="In" />
+						<Connection FromModule="Not" FromPin="Out" ToModule="Smooth Positive" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Positive" ToPin="Delay" />
+						<Connection FromModule="Smooth Positive" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="In" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="Maximum" />
+						<Connection FromModule="AddPositive" FromPin="Out" ToModule="AddNegative" ToPin="A" />
+						<Connection FromModule="Dash Scalar Negative" FromPin="Out" ToModule="AddNegative" ToPin="B" />
+						<Connection FromModule="AddNegative" FromPin="Out" ToModule="Set Scalar Pin for InitiialDelta" ToPin="Value" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Negate" ToPin="A" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Not" ToPin="In" />
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Not 2" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="DirectionMoverY" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="45, 578" />
+							<item key="ViewCenter" type="PointF" value="101.0323, 684.2485" />
+							<item key="ZoomFactor" type="Single" value="0.6640234" />
+							<item key="Notes" type="String" value="" />
+							<item key="ImportSourceHash" type="String" value="1BAE4FBC9A03B63AFAAC63D85FA5D6BF" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:ObjectMovers\ObjectDirectionMover.xcomp" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-280, 457" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="359, 476" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="-1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MoveNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-480, 475" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="InitialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 178" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddPositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="564, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="120, 478" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MovePositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 291" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-296, 274" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="108, 302" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="341, 293" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="755, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="SetScalarPin">
+							<Properties Name="Set Scalar Pin for InitiialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="981, 98" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Module" Type="PinStringValue" Value="InitialDelta" />
+								<Pin Name="Pin" Type="PinStringValue" Value="In" />
+								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="Value" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Delay" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-681, 832" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Step" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-677, 1001" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Multiply">
+							<Properties Name="Negate" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-495, 1060" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="-1" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-298, 374" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-276, 570" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="PositiveDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MovePositive" SourcePin="In" />
+						<Pin Name="NegativeDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MoveNegative" SourcePin="In" />
+						<Pin Name="InitialDelta" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="In" />
+						<Pin Name="Delay" Type="PinScalarValue" IsLocked="True" SourceModule="Delay" SourcePin="In" />
+						<Pin Name="MovementStep" Type="PinScalarValue" IsLocked="True" SourceModule="Step" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Hold_Move_Negative" ToPin="Pass" />
+						<Connection FromModule="Smooth Negative" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="In" />
+						<Connection FromModule="Negate" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="Maximum" />
+						<Connection FromModule="InitialDelta" FromPin="Out" ToModule="AddPositive" ToPin="A" />
+						<Connection FromModule="Dash Scalar Positive" FromPin="Out" ToModule="AddPositive" ToPin="B" />
+						<Connection FromModule="Hold_Move_Negative" FromPin="Passed" ToModule="Smooth Negative" ToPin="In" />
+						<Connection FromModule="Not 2" FromPin="Out" ToModule="Smooth Negative" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Negative" ToPin="Delay" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Hold_Move_Positive" ToPin="Pass" />
+						<Connection FromModule="Hold_Move_Positive" FromPin="Passed" ToModule="Smooth Positive" ToPin="In" />
+						<Connection FromModule="Not" FromPin="Out" ToModule="Smooth Positive" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Positive" ToPin="Delay" />
+						<Connection FromModule="Smooth Positive" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="In" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="Maximum" />
+						<Connection FromModule="AddPositive" FromPin="Out" ToModule="AddNegative" ToPin="A" />
+						<Connection FromModule="Dash Scalar Negative" FromPin="Out" ToModule="AddNegative" ToPin="B" />
+						<Connection FromModule="AddNegative" FromPin="Out" ToModule="Set Scalar Pin for InitiialDelta" ToPin="Value" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Negate" ToPin="A" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Not" ToPin="In" />
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Not 2" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="DirectionMoverZ" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="46, 744" />
+							<item key="ViewCenter" type="PointF" value="101.0323, 684.2485" />
+							<item key="ZoomFactor" type="Single" value="0.6640234" />
+							<item key="Notes" type="String" value="" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:ObjectMovers\ObjectDirectionMover.xcomp" />
+							<item key="ImportSourceHash" type="String" value="1BAE4FBC9A03B63AFAAC63D85FA5D6BF" />
+							<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-280, 457" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="359, 476" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="-1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MoveNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-480, 475" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="InitialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 178" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddPositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="564, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Negative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="120, 478" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogical">
+							<Properties Name="MovePositive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-476, 291" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold_Move_Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-296, 274" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Smooth">
+							<Properties Name="Smooth Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="108, 302" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="DashScalar">
+							<Properties Name="Dash Scalar Positive" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="341, 293" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="Minimum" Type="PinScalarValue" Value="0" />
+								<Pin Name="Maximum" Type="PinScalarValue" Value="1" />
+								<Pin Name="Exponential" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="AddNegative" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="755, 168" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="SetScalarPin">
+							<Properties Name="Set Scalar Pin for InitiialDelta" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="981, 98" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Module" Type="PinStringValue" Value="InitialDelta" />
+								<Pin Name="Pin" Type="PinStringValue" Value="In" />
+								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="Value" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Delay" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-681, 832" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Step" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-677, 1001" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Multiply">
+							<Properties Name="Negate" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-495, 1060" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="-1" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-298, 374" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="Not">
+							<Properties Name="Not 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-276, 570" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="PositiveDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MovePositive" SourcePin="In" />
+						<Pin Name="NegativeDirection" Type="PinBoolValue" IsLocked="True" SourceModule="MoveNegative" SourcePin="In" />
+						<Pin Name="InitialDelta" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="In" />
+						<Pin Name="Delay" Type="PinScalarValue" IsLocked="True" SourceModule="Delay" SourcePin="In" />
+						<Pin Name="MovementStep" Type="PinScalarValue" IsLocked="True" SourceModule="Step" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="InitialDelta" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Hold_Move_Negative" ToPin="Pass" />
+						<Connection FromModule="Smooth Negative" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="In" />
+						<Connection FromModule="Negate" FromPin="Out" ToModule="Dash Scalar Negative" ToPin="Maximum" />
+						<Connection FromModule="InitialDelta" FromPin="Out" ToModule="AddPositive" ToPin="A" />
+						<Connection FromModule="Dash Scalar Positive" FromPin="Out" ToModule="AddPositive" ToPin="B" />
+						<Connection FromModule="Hold_Move_Negative" FromPin="Passed" ToModule="Smooth Negative" ToPin="In" />
+						<Connection FromModule="Not 2" FromPin="Out" ToModule="Smooth Negative" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Negative" ToPin="Delay" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Hold_Move_Positive" ToPin="Pass" />
+						<Connection FromModule="Hold_Move_Positive" FromPin="Passed" ToModule="Smooth Positive" ToPin="In" />
+						<Connection FromModule="Not" FromPin="Out" ToModule="Smooth Positive" ToPin="Reset" />
+						<Connection FromModule="Delay" FromPin="Out" ToModule="Smooth Positive" ToPin="Delay" />
+						<Connection FromModule="Smooth Positive" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="In" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Dash Scalar Positive" ToPin="Maximum" />
+						<Connection FromModule="AddPositive" FromPin="Out" ToModule="AddNegative" ToPin="A" />
+						<Connection FromModule="Dash Scalar Negative" FromPin="Out" ToModule="AddNegative" ToPin="B" />
+						<Connection FromModule="AddNegative" FromPin="Out" ToModule="Set Scalar Pin for InitiialDelta" ToPin="Value" />
+						<Connection FromModule="Step" FromPin="Out" ToModule="Negate" ToPin="A" />
+						<Connection FromModule="MovePositive" FromPin="Out" ToModule="Not" ToPin="In" />
+						<Connection FromModule="MoveNegative" FromPin="Out" ToModule="Not 2" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="TransformationConcat">
+					<Properties Name="Transformation Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="775, 554" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="Reset" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="76, 1025" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="CountDown X" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="492, 994" />
+							<item key="ViewCenter" type="PointF" value="693.3799, 1119.896" />
+							<item key="ZoomFactor" type="Single" value="0.7866278" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Utilities\CountDownScalar.xcomp" />
+							<item key="ImportSourceHash" type="String" value="311D3D9C7AC73B76662F96566289F09B" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Smooth">
+							<Properties Name="Smooth" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="657, 793" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="5" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="2" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="293, 801" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="24, 797" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="StartingValue" Type="PinScalarValue" IsLocked="True" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="ResetDuration" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Delay" />
+						<Pin Name="Reset" Type="PinTriggerValue" IsLocked="True" SourceModule="Hold" SourcePin="Pass" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Hold" FromPin="Out" ToModule="Smooth" ToPin="InitValue" />
+						<Connection FromModule="Hold" FromPin="Passed" ToModule="Smooth" ToPin="Reset" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Hold" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="SetScalarPin">
+					<Properties Name="Reset DirectionMoverX" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="816, 899" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="DirectionMoverX" />
+						<Pin Name="Pin" Type="PinStringValue" Value="InitialDelta" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="SetScalarPin">
+					<Properties Name="Reset DirectionMoverY" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="817, 1043" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="DirectionMoverY" />
+						<Pin Name="Pin" Type="PinStringValue" Value="InitialDelta" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="SetScalarPin">
+					<Properties Name="Reset DirectionMoverZ" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="818, 1184" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="DirectionMoverZ" />
+						<Pin Name="Pin" Type="PinStringValue" Value="InitialDelta" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="CountDown Y" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="490, 1097" />
+							<item key="ViewCenter" type="PointF" value="693.3799, 1119.896" />
+							<item key="ZoomFactor" type="Single" value="0.7866278" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Utilities\CountDownScalar.xcomp" />
+							<item key="ImportSourceHash" type="String" value="311D3D9C7AC73B76662F96566289F09B" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Smooth">
+							<Properties Name="Smooth" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="657, 793" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="5" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="2" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="293, 801" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="24, 797" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="StartingValue" Type="PinScalarValue" IsLocked="True" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="ResetDuration" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Delay" />
+						<Pin Name="Reset" Type="PinTriggerValue" IsLocked="True" SourceModule="Hold" SourcePin="Pass" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Hold" FromPin="Out" ToModule="Smooth" ToPin="InitValue" />
+						<Connection FromModule="Hold" FromPin="Passed" ToModule="Smooth" ToPin="Reset" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Hold" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="CountDown Z" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="489, 1209" />
+							<item key="ViewCenter" type="PointF" value="693.3799, 1119.896" />
+							<item key="ZoomFactor" type="Single" value="0.7866278" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+							<item key="Importer" type="String" value="LinkedCompound" />
+							<item key="ImporterVersion" type="Int32" value="3" />
+							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Utilities\CountDownScalar.xcomp" />
+							<item key="ImportSourceHash" type="String" value="311D3D9C7AC73B76662F96566289F09B" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Smooth">
+							<Properties Name="Smooth" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="657, 793" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="5" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="True" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="2" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="False" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.5" />
+							</PinValues>
+						</Module>
+						<Module Type="Hold">
+							<Properties Name="Hold" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="293, 801" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+								<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+								<Pin Name="Period" Type="PinScalarValue" Value="1" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="24, 797" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="StartingValue" Type="PinScalarValue" IsLocked="True" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="ResetDuration" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Delay" />
+						<Pin Name="Reset" Type="PinTriggerValue" IsLocked="True" SourceModule="Hold" SourcePin="Pass" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinScalarValue" IsLocked="True" SourceModule="Smooth" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Hold" FromPin="Out" ToModule="Smooth" ToPin="InitValue" />
+						<Connection FromModule="Hold" FromPin="Passed" ToModule="Smooth" ToPin="Reset" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Hold" ToPin="In" />
+					</Connections>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="CountDown Duration" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="37, 1161" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="2" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Right" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverX" SourcePin="PositiveDirection" />
+				<Pin Name="Left" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverX" SourcePin="NegativeDirection" />
+				<Pin Name="Up" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverY" SourcePin="PositiveDirection" />
+				<Pin Name="Down" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverY" SourcePin="NegativeDirection" />
+				<Pin Name="Front" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverZ" SourcePin="PositiveDirection" />
+				<Pin Name="Back" Type="PinBoolValue" IsLocked="True" SourceModule="DirectionMoverZ" SourcePin="NegativeDirection" />
+				<Pin Name="InitialDX" Type="PinScalarValue" IsLocked="True" SourceModule="DirectionMoverX" SourcePin="InitialDelta" />
+				<Pin Name="InitialDY" Type="PinScalarValue" IsLocked="True" SourceModule="DirectionMoverY" SourcePin="InitialDelta" />
+				<Pin Name="InitialDZ" Type="PinScalarValue" IsLocked="True" SourceModule="DirectionMoverZ" SourcePin="InitialDelta" />
+				<Pin Name="TimeForMovement" Type="PinScalarValue" IsLocked="True" SourceModule="TimeDelay" SourcePin="In" />
+				<Pin Name="DeltaMovement" Type="PinScalarValue" IsLocked="True" SourceModule="DeltaMovementPositive" SourcePin="In" />
+				<Pin Name="Initial Transformation" Type="PinTransformationValue" IsLocked="True" SourceModule="MovingNode" SourcePin="Transformation" />
+				<Pin Name="Add Transform" Type="PinTransformationValue" IsLocked="True" SourceModule="Transformation Concat" SourcePin="Transformation" />
+				<Pin Name="Reset" Type="PinTriggerValue" IsLocked="True" SourceModule="Reset" SourcePin="In" />
+				<Pin Name="ResetDuration" Type="PinScalarValue" IsLocked="True" SourceModule="CountDown Duration" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="World Transf" Type="PinTransformationValue" IsLocked="True" SourceModule="MovingNode" SourcePin="WorldTransf" />
+				<Pin Name="Add Transform" Type="PinTransformationValue" IsLocked="True" SourceModule="Transformation Concat" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Concat" FromPin="Out" ToModule="MovingNode" ToPin="AddTransform" />
+				<Connection FromModule="DirectionMoverX" FromPin="Out" ToModule="Translation All" ToPin="X" />
+				<Connection FromModule="DirectionMoverY" FromPin="Out" ToModule="Translation All" ToPin="Y" />
+				<Connection FromModule="DirectionMoverZ" FromPin="Out" ToModule="Translation All" ToPin="Z" />
+				<Connection FromModule="TimeDelay" FromPin="Out" ToModule="DirectionMoverX" ToPin="Delay" />
+				<Connection FromModule="DeltaMovementPositive" FromPin="Out" ToModule="DirectionMoverX" ToPin="MovementStep" />
+				<Connection FromModule="TimeDelay" FromPin="Out" ToModule="DirectionMoverY" ToPin="Delay" />
+				<Connection FromModule="DeltaMovementPositive" FromPin="Out" ToModule="DirectionMoverY" ToPin="MovementStep" />
+				<Connection FromModule="TimeDelay" FromPin="Out" ToModule="DirectionMoverZ" ToPin="Delay" />
+				<Connection FromModule="DeltaMovementPositive" FromPin="Out" ToModule="DirectionMoverZ" ToPin="MovementStep" />
+				<Connection FromModule="Translation All" FromPin="Out" ToModule="Transformation Concat" ToPin="After" />
+				<Connection FromModule="DirectionMoverX" FromPin="Out" ToModule="CountDown X" ToPin="StartingValue" />
+				<Connection FromModule="CountDown Duration" FromPin="Out" ToModule="CountDown X" ToPin="ResetDuration" />
+				<Connection FromModule="Reset" FromPin="Out" ToModule="CountDown X" ToPin="Reset" />
+				<Connection FromModule="CountDown X" FromPin="Out" ToModule="Reset DirectionMoverX" ToPin="Value" />
+				<Connection FromModule="CountDown Y" FromPin="Out" ToModule="Reset DirectionMoverY" ToPin="Value" />
+				<Connection FromModule="CountDown Z" FromPin="Out" ToModule="Reset DirectionMoverZ" ToPin="Value" />
+				<Connection FromModule="DirectionMoverY" FromPin="Out" ToModule="CountDown Y" ToPin="StartingValue" />
+				<Connection FromModule="CountDown Duration" FromPin="Out" ToModule="CountDown Y" ToPin="ResetDuration" />
+				<Connection FromModule="Reset" FromPin="Out" ToModule="CountDown Y" ToPin="Reset" />
+				<Connection FromModule="DirectionMoverZ" FromPin="Out" ToModule="CountDown Z" ToPin="StartingValue" />
+				<Connection FromModule="CountDown Duration" FromPin="Out" ToModule="CountDown Z" ToPin="ResetDuration" />
+				<Connection FromModule="Reset" FromPin="Out" ToModule="CountDown Z" ToPin="Reset" />
+			</Connections>
+		</Module>
+		<Module Type="CollectionTransformation">
+			<Properties Name="Collection Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="938, 108" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1283, -168" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyCollection">
+			<Properties Name="Copy Collection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="796, -15" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Shadow" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1284, -270" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Shadow Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1287, -362" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Refl Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1295, -444" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="AO Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="TransformationCompose">
+			<Properties Name="Transformation Compose" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="960, 615" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+				<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TransformationDecompose">
+			<Properties Name="Transformation Decompose" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-166, 617" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="VectorSplit">
+			<Properties Name="Vector Split" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="215, 543" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+			</PinValues>
+		</Module>
+		<Module Type="VectorMerge">
+			<Properties Name="Vector Merge" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="666, 530" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="X" Type="PinScalarValue" Value="0" />
+				<Pin Name="Y" Type="PinScalarValue" Value="0" />
+				<Pin Name="Z" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Multiply">
+			<Properties Name="Minus" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="463, 457" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="1" />
+				<Pin Name="B" Type="PinVectorValue" Value="-1" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="In" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+		<Pin Name="Right" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Front" />
+		<Pin Name="Left" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Back" />
+		<Pin Name="Up" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Left" />
+		<Pin Name="Down" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Right" />
+		<Pin Name="Front" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Up" />
+		<Pin Name="Back" Type="PinBoolValue" SourceModule="ObjectMover 4" SourcePin="Down" />
+		<Pin Name="InitialDX" Type="PinScalarValue" SourceModule="ObjectMover 4" SourcePin="InitialDZ" />
+		<Pin Name="InitialDY" Type="PinScalarValue" SourceModule="ObjectMover 4" SourcePin="InitialDX" />
+		<Pin Name="InitialDZ" Type="PinScalarValue" SourceModule="ObjectMover 4" SourcePin="InitialDY" />
+		<Pin Name="TimeForMovement" Type="PinScalarValue" SourceModule="ObjectMover 4" SourcePin="TimeForMovement" />
+		<Pin Name="DeltaMovement" Type="PinScalarValue" SourceModule="ObjectMover 4" SourcePin="DeltaMovement" />
+		<Pin Name="Add Transform" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+		<Pin Name="Reset" Type="PinTriggerValue" SourceModule="ObjectMover 4" SourcePin="Reset" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinCollectionValue" SourceModule="Set Collection Transformation Reflection" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Collection Transformation" FromPin="Out" ToModule="ObjectMover 4" ToPin="Initial Transformation" />
+		<Connection FromModule="Transformation Compose" FromPin="Transformation" ToModule="ObjectMover 4" ToPin="Add Transform" />
+		<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Collection Transformation" ToPin="Collection" />
+		<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Set Collection Transformation" ToPin="Collection" />
+		<Connection FromModule="ObjectMover 4" FromPin="World Transf" ToModule="Set Collection Transformation" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation" FromPin="Out" ToModule="Set Collection Transformation Shadow" ToPin="Collection" />
+		<Connection FromModule="ObjectMover 4" FromPin="World Transf" ToModule="Set Collection Transformation Shadow" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation Shadow" FromPin="Out" ToModule="Set Collection Transformation Reflection" ToPin="Collection" />
+		<Connection FromModule="ObjectMover 4" FromPin="World Transf" ToModule="Set Collection Transformation Reflection" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation Reflection" FromPin="Out" ToModule="Set Collection Transformation Reflection 2" ToPin="Collection" />
+		<Connection FromModule="ObjectMover 4" FromPin="World Transf" ToModule="Set Collection Transformation Reflection 2" ToPin="Value" />
+		<Connection FromModule="Vector Merge" FromPin="Vector" ToModule="Transformation Compose" ToPin="Position" />
+		<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Transformation Compose" ToPin="Rotation" />
+		<Connection FromModule="Transformation Decompose" FromPin="Scale" ToModule="Transformation Compose" ToPin="Scale" />
+		<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Vector Split" ToPin="Vector" />
+		<Connection FromModule="Minus" FromPin="Out" ToModule="Vector Merge" ToPin="X" />
+		<Connection FromModule="Vector Split" FromPin="Z" ToModule="Vector Merge" ToPin="Y" />
+		<Connection FromModule="Vector Split" FromPin="X" ToModule="Vector Merge" ToPin="Z" />
+		<Connection FromModule="Vector Split" FromPin="Y" ToModule="Minus" ToPin="A" />
+	</Connections>
+</AximmetryCompound>

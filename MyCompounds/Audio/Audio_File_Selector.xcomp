@@ -1,0 +1,1505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Control Board">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-02-28T16:59:40.7696783+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-02-28T17:02:04.7463551+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-25T14:22:00.9001338+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-25T14:24:04.1663052+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-26T17:41:32.5664527+03:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-26T17:46:09.0028795+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-08T15:41:49.2229032+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-08T15:44:33.4976902+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio_File_Selector" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="53, -18" />
+			<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+			<item key="ViewCenter" type="PointF" value="-1078.014, 983.1127" />
+			<item key="ZoomFactor" type="Single" value="0.6063746" />
+			<item key="Notes" type="String" value="" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-462, 538" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="AUDIO PANEL 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-892, 873" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyIntegerAC">
+					<Properties Name="Copy Integer AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-560.1293, 782.5726" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-734.2361, 780.2413" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-388.1803, 841.3307" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-333.3347, 997.162" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-333.3347, 997.162" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-333.3347, 997.162" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-616.7988, 1088.573" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogicalAC">
+					<Properties Name="Copy Logical AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1145.954, 914.6976" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="#$Selected,OFF" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="In" />
+				<Pin Name="Audio File 1" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+				<Pin Name="Audio File 2" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="In" />
+				<Pin Name="Audio File 3" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+				<Pin Name="Audio File 4" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="In" />
+				<Pin Name="Audio File 5" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="In" />
+				<Pin Name="Audio File 6" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="In" />
+				<Pin Name="Audio File 7" Type="PinStringValue" SourceModule="Copy Text 7" SourcePin="In" />
+				<Pin Name="Audio File 8" Type="PinStringValue" SourceModule="Copy Text 8" SourcePin="In" />
+				<Pin Name="Audio File 9" Type="PinStringValue" SourceModule="Copy Text 9" SourcePin="In" />
+				<Pin Name="Audio File 10" Type="PinStringValue" SourceModule="Copy Text 10" SourcePin="In" />
+				<Pin Name="Audio File 11" Type="PinStringValue" SourceModule="Copy Text 11" SourcePin="In" />
+				<Pin Name="Audio File 12" Type="PinStringValue" SourceModule="Copy Text 12" SourcePin="In" />
+				<Pin Name="Audio File 13" Type="PinStringValue" SourceModule="Copy Text 13" SourcePin="In" />
+				<Pin Name="Audio File 14" Type="PinStringValue" SourceModule="Copy Text 14" SourcePin="In" />
+				<Pin Name="Audio File 15" Type="PinStringValue" SourceModule="Copy Text 15" SourcePin="In" />
+				<Pin Name="Audio File 16" Type="PinStringValue" SourceModule="Copy Text 16" SourcePin="In" />
+				<Pin Name="Looping" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="#$Selected,OFF" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="Out" />
+				<Pin Name="Audio File 1" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+				<Pin Name="Audio File 2" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="Out" />
+				<Pin Name="Audio File 3" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+				<Pin Name="Audio File 4" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="Out" />
+				<Pin Name="Audio File 5" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="Out" />
+				<Pin Name="Audio File 6" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="Out" />
+				<Pin Name="Audio File 7" Type="PinStringValue" SourceModule="Copy Text 7" SourcePin="Out" />
+				<Pin Name="Audio File 8" Type="PinStringValue" SourceModule="Copy Text 8" SourcePin="Out" />
+				<Pin Name="Audio File 9" Type="PinStringValue" SourceModule="Copy Text 9" SourcePin="Out" />
+				<Pin Name="Audio File 10" Type="PinStringValue" SourceModule="Copy Text 10" SourcePin="Out" />
+				<Pin Name="Audio File 11" Type="PinStringValue" SourceModule="Copy Text 11" SourcePin="Out" />
+				<Pin Name="Audio File 12" Type="PinStringValue" SourceModule="Copy Text 12" SourcePin="Out" />
+				<Pin Name="Audio File 13" Type="PinStringValue" SourceModule="Copy Text 13" SourcePin="Out" />
+				<Pin Name="Audio File 14" Type="PinStringValue" SourceModule="Copy Text 14" SourcePin="Out" />
+				<Pin Name="Audio File 15" Type="PinStringValue" SourceModule="Copy Text 15" SourcePin="Out" />
+				<Pin Name="Audio File 16" Type="PinStringValue" SourceModule="Copy Text 16" SourcePin="Out" />
+				<Pin Name="Looping" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections />
+			<Enhancer type="PinCollector" />
+		</Module>
+		<Module Type="SwitchAudio">
+			<Properties Name="Switch Audio" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="61, 1027" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Selected" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-463, 620" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-460, 687" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-455, 752" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-453, 829" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-451, 897" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-445, 970" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-446, 1042" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-442, 1120" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-439, 1187" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-434, 1252" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-432, 1329" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-430, 1397" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-424, 1470" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-420, 1538" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioPlayer">
+			<Properties Name="Audio Player 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-414, 1611" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioFile" Type="PinStringValue" Value="" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
+				<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+				<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="Volume" Type="PinScalarValue" Value="1" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC SET_AUDIO_FILES" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1236, 996" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+					<item key="ViewCenter" type="PointF" value="-1489.99, 284.9709" />
+					<item key="ZoomFactor" type="Single" value="0.8441392" />
+					<item key="Notes" type="String" value="" />
+					<item key="ImportSourcePath" type="String" value="[MyCompounds]:Utilities\OSC_setAudioFiles.xcomp" />
+					<item key="ImporterVersion" type="Int32" value="3" />
+					<item key="Importer" type="String" value="LinkedCompound" />
+					<item key="ImportSourceHash" type="String" value="8631A797EFF37CCCFCE57D77B0A82067" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="OSCMethod">
+					<Properties Name="OSC Method" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2169, -16" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Address" Type="PinStringValue" Value="/vs_left" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1529, -414" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="1" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1528, -348" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="2" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1527, -283" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="3" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1531, -220" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="4" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1530, -154" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="5" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1529, -89" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="6" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1527, -15" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="7" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1526, 51" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="8" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1525, 116" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="9" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1529, 179" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="10" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1528, 245" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="11" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1527, 310" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="12" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1529, 382" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="9" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1533, 445" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="10" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1532, 511" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="11" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="Collection vf1 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1531, 576" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="12" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="OSCScalar">
+					<Properties Name="OSC Scalar" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1499, -726" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Address" Type="PinStringValue" Value="/vs_left/video" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Text Concat" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1789, -709" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="" />
+						<Pin Name="B" Type="PinStringValue" Value="video" />
+						<Pin Name="Separator" Type="PinStringValue" Value="/" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="osc address" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2517, -241" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_music_1" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 1" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-878, -783" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 1" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="PIN COLLECTOR NAME" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2581, 250" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value=".VIDEOLEFTWALL" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-876, -682" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 2" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-874, -586" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 3" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-871, -475" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 4" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-865, -374" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 5" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-862, -269" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 6" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-857, -173" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 7" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-852, -72" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 8" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-852, 24" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 9" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-851, 115" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 10" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-852, 227" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 11" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-847, 328" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 12" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-849, 425" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 13" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850, 523" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 14" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-847, 619" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 15" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetTextPin">
+					<Properties Name="Set Video File 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-843, 710" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="Audio File 16" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetIntegerPin">
+					<Properties Name="Set Integer Pin" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-512, -235" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
+						<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="Value" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="ModuleName" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-3005, 263" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="AUDIO PANEL 1" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcat">
+					<Properties Name="Parent Module" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2804, 248" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinStringValue" Value="..\" />
+						<Pin Name="B" Type="PinStringValue" Value="" />
+						<Pin Name="Separator" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="set all" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1186, 195" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="OSC_ADDRESS" Type="PinStringValue" IsLocked="True" SourceModule="osc address" SourcePin="In" />
+				<Pin Name="Pin Collector Name" Type="PinStringValue" IsLocked="True" SourceModule="ModuleName" SourcePin="In" />
+				<Pin Name="SetALL" Type="PinTriggerValue" IsLocked="True" SourceModule="set all" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins />
+			<Connections>
+				<Connection FromModule="osc address" FromPin="Out" ToModule="OSC Method" ToPin="Address" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 2" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 3" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 4" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 5" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 6" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 7" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 8" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 9" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 10" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 11" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 12" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 13" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 14" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 15" ToPin="Collection" />
+				<Connection FromModule="OSC Method" FromPin="Out" ToModule="Collection vf1 16" ToPin="Collection" />
+				<Connection FromModule="Text Concat" FromPin="Out" ToModule="OSC Scalar" ToPin="Address" />
+				<Connection FromModule="osc address" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 1" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 1" ToPin="Set" />
+				<Connection FromModule="Collection vf1" FromPin="Out" ToModule="Set Video File 1" ToPin="Value" />
+				<Connection FromModule="Parent Module" FromPin="Out" ToModule="PIN COLLECTOR NAME" ToPin="In" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 2" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 2" ToPin="Set" />
+				<Connection FromModule="Collection vf1 2" FromPin="Out" ToModule="Set Video File 2" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 3" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 3" ToPin="Set" />
+				<Connection FromModule="Collection vf1 3" FromPin="Out" ToModule="Set Video File 3" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 4" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 4" ToPin="Set" />
+				<Connection FromModule="Collection vf1 4" FromPin="Out" ToModule="Set Video File 4" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 5" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 5" ToPin="Set" />
+				<Connection FromModule="Collection vf1 5" FromPin="Out" ToModule="Set Video File 5" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 6" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 6" ToPin="Set" />
+				<Connection FromModule="Collection vf1 6" FromPin="Out" ToModule="Set Video File 6" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 7" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 7" ToPin="Set" />
+				<Connection FromModule="Collection vf1 7" FromPin="Out" ToModule="Set Video File 7" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 8" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 8" ToPin="Set" />
+				<Connection FromModule="Collection vf1 8" FromPin="Out" ToModule="Set Video File 8" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 9" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 9" ToPin="Set" />
+				<Connection FromModule="Collection vf1 9" FromPin="Out" ToModule="Set Video File 9" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 10" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 10" ToPin="Set" />
+				<Connection FromModule="Collection vf1 10" FromPin="Out" ToModule="Set Video File 10" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 11" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 11" ToPin="Set" />
+				<Connection FromModule="Collection vf1 11" FromPin="Out" ToModule="Set Video File 11" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 12" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 12" ToPin="Set" />
+				<Connection FromModule="Collection vf1 12" FromPin="Out" ToModule="Set Video File 12" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 13" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 13" ToPin="Set" />
+				<Connection FromModule="Collection vf1 13" FromPin="Out" ToModule="Set Video File 13" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 14" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 14" ToPin="Set" />
+				<Connection FromModule="Collection vf1 14" FromPin="Out" ToModule="Set Video File 14" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 15" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 15" ToPin="Set" />
+				<Connection FromModule="Collection vf1 15" FromPin="Out" ToModule="Set Video File 15" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Video File 16" ToPin="Module" />
+				<Connection FromModule="set all" FromPin="Out" ToModule="Set Video File 16" ToPin="Set" />
+				<Connection FromModule="Collection vf1 16" FromPin="Out" ToModule="Set Video File 16" ToPin="Value" />
+				<Connection FromModule="PIN COLLECTOR NAME" FromPin="Out" ToModule="Set Integer Pin" ToPin="Module" />
+				<Connection FromModule="OSC Scalar" FromPin="Out" ToModule="Set Integer Pin" ToPin="Value" />
+				<Connection FromModule="ModuleName" FromPin="Out" ToModule="Parent Module" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="956, 1053" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="LastSelectedAudio" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="NotEqual">
+			<Properties Name="Not OFF??" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="366, 1060" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="If new audio selected and its not OFF" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="552, 1132" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="LastSelectedAudio" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2009, 686" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="1" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="PLAY" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1788, 616" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set to LAST SONG (or FIRST)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1471, 613" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="AUDIO PANEL 1" />
+				<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="STOP" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1785, 831" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set to OFF" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1626, 830" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="AUDIO PANEL 1" />
+				<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Maximum">
+			<Properties Name="Maximum (bigger than 1)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1799, 678" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="1" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="PLAY" Type="PinTriggerValue" SourceModule="PLAY" SourcePin="In" />
+		<Pin Name="STOP" Type="PinTriggerValue" SourceModule="STOP" SourcePin="In" />
+		<Pin Name="SetALL" Type="PinTriggerValue" SourceModule="OSC SET_AUDIO_FILES" SourcePin="SetALL" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Audio Out" Type="PinAudioValue" SourceModule="Switch Audio" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 1" ToModule="Audio Player 1" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 1" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="#$Selected,OFF" ToModule="Switch Audio" ToPin="Selected" />
+		<Connection FromModule="Audio Player 1" FromPin="Out" ToModule="Switch Audio" ToPin="Audio1" />
+		<Connection FromModule="Audio Player 2" FromPin="Out" ToModule="Switch Audio" ToPin="Audio2" />
+		<Connection FromModule="Audio Player 3" FromPin="Out" ToModule="Switch Audio" ToPin="Audio3" />
+		<Connection FromModule="Audio Player 4" FromPin="Out" ToModule="Switch Audio" ToPin="Audio4" />
+		<Connection FromModule="Audio Player 5" FromPin="Out" ToModule="Switch Audio" ToPin="Audio5" />
+		<Connection FromModule="Audio Player 6" FromPin="Out" ToModule="Switch Audio" ToPin="Audio6" />
+		<Connection FromModule="Audio Player 7" FromPin="Out" ToModule="Switch Audio" ToPin="Audio7" />
+		<Connection FromModule="Audio Player 8" FromPin="Out" ToModule="Switch Audio" ToPin="Audio8" />
+		<Connection FromModule="Audio Player 9" FromPin="Out" ToModule="Switch Audio" ToPin="Audio9" />
+		<Connection FromModule="Audio Player 10" FromPin="Out" ToModule="Switch Audio" ToPin="Audio10" />
+		<Connection FromModule="Audio Player 11" FromPin="Out" ToModule="Switch Audio" ToPin="Audio11" />
+		<Connection FromModule="Audio Player 12" FromPin="Out" ToModule="Switch Audio" ToPin="Audio12" />
+		<Connection FromModule="Audio Player 13" FromPin="Out" ToModule="Switch Audio" ToPin="Audio13" />
+		<Connection FromModule="Audio Player 14" FromPin="Out" ToModule="Switch Audio" ToPin="Audio14" />
+		<Connection FromModule="Audio Player 15" FromPin="Out" ToModule="Switch Audio" ToPin="Audio15" />
+		<Connection FromModule="Audio Player 16" FromPin="Out" ToModule="Switch Audio" ToPin="Audio16" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 2" ToModule="Audio Player 2" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 2" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 3" ToModule="Audio Player 3" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 3" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 4" ToModule="Audio Player 4" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 4" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 5" ToModule="Audio Player 5" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 5" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 6" ToModule="Audio Player 6" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 6" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 7" ToModule="Audio Player 7" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 7" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 8" ToModule="Audio Player 8" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 8" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 9" ToModule="Audio Player 9" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 9" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 10" ToModule="Audio Player 10" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 11" ToModule="Audio Player 11" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 11" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 12" ToModule="Audio Player 12" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 12" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 13" ToModule="Audio Player 13" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 13" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 14" ToModule="Audio Player 14" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 14" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 15" ToModule="Audio Player 15" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 15" ToPin="Looping" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Audio File 16" ToModule="Audio Player 16" ToPin="AudioFile" />
+		<Connection FromModule="AUDIO PANEL 1" FromPin="Looping" ToModule="Audio Player 16" ToPin="Looping" />
+		<Connection FromModule="If new audio selected and its not OFF" FromPin="Out" ToModule="Set Integer Pin" ToPin="Set" />
+		<Connection FromModule="Switch Audio" FromPin="Selected" ToModule="Set Integer Pin" ToPin="Value" />
+		<Connection FromModule="Switch Audio" FromPin="Selected" ToModule="Not OFF??" ToPin="A" />
+		<Connection FromModule="Not OFF??" FromPin="Out" ToModule="If new audio selected and its not OFF" ToPin="A" />
+		<Connection FromModule="Switch Audio" FromPin="Triggered" ToModule="If new audio selected and its not OFF" ToPin="B" />
+		<Connection FromModule="PLAY" FromPin="Out" ToModule="Set to LAST SONG (or FIRST)" ToPin="Set" />
+		<Connection FromModule="Maximum (bigger than 1)" FromPin="Out" ToModule="Set to LAST SONG (or FIRST)" ToPin="Value" />
+		<Connection FromModule="STOP" FromPin="Out" ToModule="Set to OFF" ToPin="Set" />
+		<Connection FromModule="LastSelectedAudio" FromPin="Out" ToModule="Maximum (bigger than 1)" ToPin="A" />
+	</Connections>
+</AximmetryCompound>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-23T17:58:19.6582631+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="ViewCenter" type="PointF" value="-68.17784, 101.6976" />
+			<item key="ZoomFactor" type="Single" value="0.6640234" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="Notes" type="String" value="" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1247, -543" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1246, -477" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1245, -407" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1248, -334" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1246, -262" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1243, -192" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1242, -122" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1241, -46" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1228, 43" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="TextExporter">
+			<Properties Name="Text Exporter" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-463, -161" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="OutputFolder" Type="PinStringValue" Value="[MyCompounds]:Utilities" />
+				<Pin Name="OutputFile" Type="PinStringValue" Value="TextConcat" />
+				<Pin Name="AutoNumbering" Type="PinBoolValue" Value="False" />
+				<Pin Name="ExactPath" Type="PinStringValue" Value="" />
+				<Pin Name="OutputSuffix" Type="PinStringValue" Value="" />
+				<Pin Name="Encoding" Type="PinIntValue" Value="teeUTF8" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Text Concat Multi" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-798, -199" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value=";" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="" />
+				<Pin Name="Text2" Type="PinStringValue" Value="" />
+				<Pin Name="Text3" Type="PinStringValue" Value="" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1227, 109" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1226, 179" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1229, 252" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1227, 324" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1224, 394" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1223, 464" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Scalar To Text 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1222, 540" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Value 1" Type="PinDoubleValue" SourceModule="Scalar To Text" SourcePin="Value" />
+		<Pin Name="Value 2" Type="PinDoubleValue" SourceModule="Scalar To Text 2" SourcePin="Value" />
+		<Pin Name="Value 3" Type="PinDoubleValue" SourceModule="Scalar To Text 3" SourcePin="Value" />
+		<Pin Name="Value 4" Type="PinDoubleValue" SourceModule="Scalar To Text 4" SourcePin="Value" />
+		<Pin Name="Value 5" Type="PinDoubleValue" SourceModule="Scalar To Text 5" SourcePin="Value" />
+		<Pin Name="Value 6" Type="PinDoubleValue" SourceModule="Scalar To Text 6" SourcePin="Value" />
+		<Pin Name="Value 7" Type="PinDoubleValue" SourceModule="Scalar To Text 7" SourcePin="Value" />
+		<Pin Name="Value 8" Type="PinDoubleValue" SourceModule="Scalar To Text 8" SourcePin="Value" />
+		<Pin Name="Value 9" Type="PinDoubleValue" SourceModule="Scalar To Text 9" SourcePin="Value" />
+		<Pin Name="Value 10" Type="PinDoubleValue" SourceModule="Scalar To Text 10" SourcePin="Value" />
+		<Pin Name="Value 11" Type="PinDoubleValue" SourceModule="Scalar To Text 11" SourcePin="Value" />
+		<Pin Name="Value 12" Type="PinDoubleValue" SourceModule="Scalar To Text 12" SourcePin="Value" />
+		<Pin Name="Value 13" Type="PinDoubleValue" SourceModule="Scalar To Text 13" SourcePin="Value" />
+		<Pin Name="Value 14" Type="PinDoubleValue" SourceModule="Scalar To Text 14" SourcePin="Value" />
+		<Pin Name="Value 15" Type="PinDoubleValue" SourceModule="Scalar To Text 15" SourcePin="Value" />
+		<Pin Name="Value 16" Type="PinDoubleValue" SourceModule="Scalar To Text 16" SourcePin="Value" />
+		<Pin Name="FileName" Type="PinStringValue" SourceModule="Text Exporter" SourcePin="OutputFile" />
+		<Pin Name="Output Folder" Type="PinStringValue" SourceModule="Text Exporter" SourcePin="OutputFolder" />
+		<Pin Name="Export" Type="PinTriggerValue" SourceModule="Text Exporter" SourcePin="Export" />
+	</ExposerInputPins>
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Exporter" ToPin="Text" />
+		<Connection FromModule="Scalar To Text" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+		<Connection FromModule="Scalar To Text 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+		<Connection FromModule="Scalar To Text 3" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+		<Connection FromModule="Scalar To Text 4" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+		<Connection FromModule="Scalar To Text 5" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text5" />
+		<Connection FromModule="Scalar To Text 6" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text6" />
+		<Connection FromModule="Scalar To Text 7" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text7" />
+		<Connection FromModule="Scalar To Text 8" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text8" />
+		<Connection FromModule="Scalar To Text 9" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text9" />
+		<Connection FromModule="Scalar To Text 10" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text10" />
+		<Connection FromModule="Scalar To Text 11" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text11" />
+		<Connection FromModule="Scalar To Text 12" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text12" />
+		<Connection FromModule="Scalar To Text 13" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text13" />
+		<Connection FromModule="Scalar To Text 14" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text14" />
+		<Connection FromModule="Scalar To Text 15" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text15" />
+		<Connection FromModule="Scalar To Text 16" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text16" />
+	</Connections>
+</AximmetryCompound>

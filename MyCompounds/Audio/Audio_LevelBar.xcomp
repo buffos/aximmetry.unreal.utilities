@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-04T15:43:37.4517063+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-07T00:48:58.1083013+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-09T17:21:58.4008442+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="False" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="793, 2373" />
+			<item key="ViewCenter" type="PointF" value="-101.69, 423.5406" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Input Description&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-387.3474, -52.73198, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:$$$context$$$:in:Text&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="PaintNode">
+			<Properties Name="Paint Node" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-599, 446" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="ZOrder" Type="PinScalarValue" Value="0" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="PaintView">
+			<Properties Name="Paint View" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="210, 383" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="ZOrder" Type="PinScalarValue" Value="1" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="PixelMode" Type="PinBoolValue" Value="True" />
+				<Pin Name="BgColor" Type="PinColorValue" Value="1, #FE121A4B" />
+				<Pin Name="VisibilityGroup" Type="PinIntValue" Value="1" />
+				<Pin Name="OutSize" Type="PinVectorValue" Value="200, 50" />
+			</PinValues>
+		</Module>
+		<Module Type="AudioLevel">
+			<Properties Name="Audio Level" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-601, 151" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Logarithmic" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Copy">
+			<Properties Name="Bar Size" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-588, 361" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="100, 14" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinVectorValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-284, 68" />
+					<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
+					<item key="ZoomFactor" type="Single" value="0.5223393" />
+					<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Make the Index Zero Based&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-3043, -1974, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;4&quot; Title=&quot;Get Normalized Value&quot; Text=&quot;It gets the level of the current channel (from -60 to 0) and outputs it in (0,1)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-3171, -2279, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Subtract 1 from Index&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:4&quot; To=&quot;node:Get Normalized Value&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="Copy">
+					<Properties Name="Bar Size (X,Y)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2913, -1735" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinVectorValue" Value="" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="ArrayIndex">
+					<Properties Name="Array Index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-3333, -2063" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Subtract">
+					<Properties Name="Subtract 1 from Index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-3008, -1892" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="ArraySize">
+					<Properties Name="Array Size" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2158, -2193" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2593, -1889" />
+							<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="Multiply">
+							<Properties Name="Multiply by bar index" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="377, -620" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="1" />
+								<Pin Name="B" Type="PinVectorValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="VectorSplit">
+							<Properties Name="Vector Split 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-133, -600" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+							</PinValues>
+						</Module>
+						<Module Type="Add">
+							<Properties Name="Add Gap to Y" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="119, -559" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="A" Type="PinVectorValue" Value="0" />
+								<Pin Name="B" Type="PinVectorValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-118, -491" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="TranslationY">
+							<Properties Name="Translation Y" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="645, -637" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Delta" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Bar Index" Type="PinVectorValue" SourceModule="Multiply by bar index" SourcePin="A" />
+						<Pin Name="Vector" Type="PinVectorValue" SourceModule="Vector Split 3" SourcePin="Vector" />
+						<Pin Name="Gap" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinTransformationValue" SourceModule="Translation Y" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Add Gap to Y" FromPin="Out" ToModule="Multiply by bar index" ToPin="B" />
+						<Connection FromModule="Vector Split 3" FromPin="Y" ToModule="Add Gap to Y" ToPin="A" />
+						<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Add Gap to Y" ToPin="B" />
+						<Connection FromModule="Multiply by bar index" FromPin="Out" ToModule="Translation Y" ToPin="Delta" />
+					</Connections>
+					<Descriptions>
+						<Description Target="mod:Add Gap to Y" Index="0" Title="Y + Gap" Text="Y + Gap is the offset for every bar" />
+						<Description Target="pin:Multiply by bar index:out:Out" Index="0" Title="The final offset" Text="" />
+					</Descriptions>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-3033, -2134" />
+							<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+							<item key="ViewCenter" type="PointF" value="-1003.522, 360.6575" />
+							<item key="ZoomFactor" type="Single" value="0.618783355" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="VectorItem">
+							<Properties Name="Levels (Left, Right)" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1745, 15" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Vector" Type="PinVectorValue" Value="" />
+								<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+								<Pin Name="Index" Type="PinIntValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="Unlerp">
+							<Properties Name="Unlerp (from [-60,0] translate to [0,1])" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1317, -19" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="0" />
+								<Pin Name="A" Type="PinScalarValue" Value="-60" />
+								<Pin Name="B" Type="PinScalarValue" Value="0" />
+								<Pin Name="Clamp" Type="PinBoolValue" Value="True" />
+							</PinValues>
+						</Module>
+						<Module Type="If">
+							<Properties Name="If" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-814, 87" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="If" Type="PinBoolValue" Value="False" />
+								<Pin Name="Then" Type="PinVectorValue" Value="1" />
+								<Pin Name="Else" Type="PinVectorValue" Value="0" />
+								<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+							</PinValues>
+						</Module>
+						<Module Type="VectorSize">
+							<Properties Name="Vector Size" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-1243, 121" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Vector" Type="PinVectorValue" Value="" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Levels" Type="PinVectorValue" SourceModule="Levels (Left, Right)" SourcePin="Vector" />
+						<Pin Name="Index" Type="PinIntValue" SourceModule="Levels (Left, Right)" SourcePin="Index" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Out" Type="PinVectorValue" SourceModule="If" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections>
+						<Connection FromModule="Levels (Left, Right)" FromPin="Out" ToModule="Unlerp (from [-60,0] translate to [0,1])" ToPin="In" />
+						<Connection FromModule="Vector Size" FromPin="Out" ToModule="If" ToPin="If" />
+						<Connection FromModule="Unlerp (from [-60,0] translate to [0,1])" FromPin="Out" ToModule="If" ToPin="Then" />
+						<Connection FromModule="Levels (Left, Right)" FromPin="Out" ToModule="Vector Size" ToPin="Vector" />
+					</Connections>
+					<Descriptions>
+						<Description Target="pin:If:out:Out" Index="0" Title="Now we have a normalized [0,1] value" Text="" />
+						<Description Target="mod:Vector Size" Index="0" Title="Check if Audio is Empty" Text="We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)" />
+						<Description Target="mod:If" Index="0" Title="Check if Audio is Empty" Text="We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)" />
+						<Description Target="mod:Levels (Left, Right)" Index="0" Title="Get the Left and Right value seperately" Text="" />
+					</Descriptions>
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-2055, -1912" />
+							<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
+							<item key="ZoomFactor" type="Single" value="0.5406462" />
+							<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Transition from Value to Value smoothly&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-512, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Smooth Scalar (Normalized Level)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="PaintRectangle">
+							<Properties Name="Paint Bar Background" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="259, 97" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="ZOrder" Type="PinScalarValue" Value="-1" />
+								<Pin Name="Fill" Type="PinBoolValue" Value="True" />
+								<Pin Name="Draw" Type="PinBoolValue" Value="False" />
+								<Pin Name="LeftTop" Type="PinVectorValue" Value="0, 0" />
+								<Pin Name="RightBottom" Type="PinVectorValue" Value="1, 1" />
+							</PinValues>
+						</Module>
+						<Module Type="SolidBrush">
+							<Properties Name="Solid Brush" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-10, 93" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Color" Type="PinColorValue" Value="1, #505050" />
+							</PinValues>
+						</Module>
+						<Module Type="PaintNode">
+							<Properties Name="Paint Node" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-528, 57" />
+									<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="Active" Type="PinBoolValue" Value="True" />
+								<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+								<Pin Name="ZOrder" Type="PinScalarValue" Value="0" />
+								<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+							</PinValues>
+						</Module>
+						<Module Type="SmoothScalar">
+							<Properties Name="Smooth Scalar (Normalized Level)" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-442, -394" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="InitValue" Type="PinScalarValue" Value="0" />
+								<Pin Name="Circular" Type="PinBoolValue" Value="False" />
+								<Pin Name="CircularRange" Type="PinScalarValue" Value="360" />
+								<Pin Name="Linear" Type="PinBoolValue" Value="False" />
+								<Pin Name="Delay" Type="PinScalarValue" Value="0" />
+								<Pin Name="DualDelay" Type="PinBoolValue" Value="True" />
+								<Pin Name="LowerDelay" Type="PinScalarValue" Value="0.1" />
+							</PinValues>
+						</Module>
+						<Module Type="Copy">
+							<Properties Name="Bar Size (X,Y)" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-421, -162" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinVectorValue" Value="" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinVectorValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Normalized Level" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="-710, -404" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="242, -333" />
+									<item key="Notes" type="String" value="" />
+									<item key="ViewCenter" type="PointF" value="348.2495, 34.6217" />
+									<item key="ZoomFactor" type="Single" value="0.793946445" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="VectorSplit">
+									<Properties Name="Vector Split" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="58, 47" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+									</PinValues>
+								</Module>
+								<Module Type="Multiply">
+									<Properties Name="Level X  = X*level" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="259, -3" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="A" Type="PinVectorValue" Value="1" />
+										<Pin Name="B" Type="PinVectorValue" Value="1" />
+									</PinValues>
+								</Module>
+								<Module Type="VectorMerge">
+									<Properties Name="Vector (Level X, Y)" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="496, 44" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="X" Type="PinScalarValue" Value="0" />
+										<Pin Name="Y" Type="PinScalarValue" Value="0" />
+										<Pin Name="Z" Type="PinScalarValue" Value="0" />
+									</PinValues>
+								</Module>
+								<Module Type="PaintRectangle">
+									<Properties Name="Paint Rectangle" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="723, -108" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Active" Type="PinBoolValue" Value="True" />
+										<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+										<Pin Name="ZOrder" Type="PinScalarValue" Value="0" />
+										<Pin Name="Fill" Type="PinBoolValue" Value="True" />
+										<Pin Name="Draw" Type="PinBoolValue" Value="False" />
+										<Pin Name="LeftTop" Type="PinVectorValue" Value="0, 0" />
+										<Pin Name="RightBottom" Type="PinVectorValue" Value="1, 1" />
+									</PinValues>
+								</Module>
+								<Module Type="SolidBrush">
+									<Properties Name="Solid Brush" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="483, -159" />
+											<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Color" Type="PinColorValue" Value="1, #878787" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Vector Split" SourcePin="Vector" />
+								<Pin Name="Normalized Level" Type="PinVectorValue" SourceModule="Level X  = X*level" SourcePin="B" />
+								<Pin Name="Parent" Type="PinPaintObjectChildReferenceValue" SourceModule="Paint Rectangle" SourcePin="Parent" />
+							</ExposerInputPins>
+							<ExposerOutputPins />
+							<Connections>
+								<Connection FromModule="Vector Split" FromPin="X" ToModule="Level X  = X*level" ToPin="A" />
+								<Connection FromModule="Level X  = X*level" FromPin="Out" ToModule="Vector (Level X, Y)" ToPin="X" />
+								<Connection FromModule="Vector Split" FromPin="Y" ToModule="Vector (Level X, Y)" ToPin="Y" />
+								<Connection FromModule="Solid Brush" FromPin="Out" ToModule="Paint Rectangle" ToPin="Brush" />
+								<Connection FromModule="Vector (Level X, Y)" FromPin="Vector" ToModule="Paint Rectangle" ToPin="RightBottom" />
+							</Connections>
+						</Module>
+						<Module Type="Compound">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="252, -181" />
+									<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+									<item key="ViewCenter" type="PointF" value="491.1236, 462.0981" />
+									<item key="ZoomFactor" type="Single" value="0.7866278" />
+								</ExtraData>
+							</Properties>
+							<Children>
+								<Module Type="VectorSplit">
+									<Properties Name="Vector Split" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="81, 375" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+									</PinValues>
+								</Module>
+								<Module Type="Multiply">
+									<Properties Name="Level X (mult)" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="263, 263" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="A" Type="PinVectorValue" Value="1" />
+										<Pin Name="B" Type="PinVectorValue" Value="1" />
+									</PinValues>
+								</Module>
+								<Module Type="VectorMerge">
+									<Properties Name="Vector (Level X, Y, 0)" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="651, 455" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="X" Type="PinScalarValue" Value="0" />
+										<Pin Name="Y" Type="PinScalarValue" Value="0" />
+										<Pin Name="Z" Type="PinScalarValue" Value="0" />
+									</PinValues>
+								</Module>
+								<Module Type="Subtract">
+									<Properties Name="Level X - 4" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="550, 295" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="A" Type="PinVectorValue" Value="0" />
+										<Pin Name="B" Type="PinVectorValue" Value="4" />
+									</PinValues>
+								</Module>
+								<Module Type="VectorMerge">
+									<Properties Name="Vector Merge (X,0,0)" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="742, 228" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="X" Type="PinScalarValue" Value="0" />
+										<Pin Name="Y" Type="PinScalarValue" Value="0" />
+										<Pin Name="Z" Type="PinScalarValue" Value="0" />
+									</PinValues>
+								</Module>
+								<Module Type="PaintRectangle">
+									<Properties Name="Paint Rectangle 3" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="1043, 313" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="Active" Type="PinBoolValue" Value="True" />
+										<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+										<Pin Name="ZOrder" Type="PinScalarValue" Value="1" />
+										<Pin Name="Fill" Type="PinBoolValue" Value="True" />
+										<Pin Name="Draw" Type="PinBoolValue" Value="False" />
+										<Pin Name="LeftTop" Type="PinVectorValue" Value="0, 0" />
+										<Pin Name="RightBottom" Type="PinVectorValue" Value="1, 1" />
+									</PinValues>
+								</Module>
+								<Module Type="Compound">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="255, 553" />
+											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+										</ExtraData>
+									</Properties>
+									<Children>
+										<Module Type="GreaterOrEqual">
+											<Properties Name="&gt;= 0.99 ?" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="-211, -12" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="A" Type="PinScalarValue" Value="0" />
+												<Pin Name="B" Type="PinScalarValue" Value="0.99" />
+											</PinValues>
+										</Module>
+										<Module Type="GreaterOrEqual">
+											<Properties Name="&gt;=0.90?" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="-204, 113" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="A" Type="PinScalarValue" Value="0" />
+												<Pin Name="B" Type="PinScalarValue" Value="0.9" />
+											</PinValues>
+										</Module>
+										<Module Type="IfColor">
+											<Properties Name="If Color 2" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="-30, 191" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="If" Type="PinBoolValue" Value="False" />
+												<Pin Name="Then" Type="PinColorValue" Value="1, #FFEF00" />
+												<Pin Name="Else" Type="PinColorValue" Value="1, #59E800" />
+												<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+											</PinValues>
+										</Module>
+										<Module Type="IfColor">
+											<Properties Name="If Color" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="166, 73" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="If" Type="PinBoolValue" Value="False" />
+												<Pin Name="Then" Type="PinColorValue" Value="1, #FF130C" />
+												<Pin Name="Else" Type="PinColorValue" Value="0, White" />
+												<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+											</PinValues>
+										</Module>
+										<Module Type="SolidBrush">
+											<Properties Name="Solid Brush 3" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="335, 73" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="Color" Type="PinColorValue" Value="1, #FF130C" />
+											</PinValues>
+										</Module>
+										<Module Type="CopyScalar">
+											<Properties Name="Peak" IsLocked="False">
+												<ExtraData>
+													<item key="Location" type="PointF" value="-479, 62" />
+												</ExtraData>
+											</Properties>
+											<PinValues>
+												<Pin Name="In" Type="PinScalarValue" Value="0" />
+												<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+												<Pin Name="Default" Type="PinScalarValue" Value="0" />
+											</PinValues>
+										</Module>
+									</Children>
+									<ExposerInputPins>
+										<Pin Name="Peak" Type="PinScalarValue" SourceModule="Peak" SourcePin="In" />
+									</ExposerInputPins>
+									<ExposerOutputPins>
+										<Pin Name="Out" Type="PinBrushValue" SourceModule="Solid Brush 3" SourcePin="Out" />
+									</ExposerOutputPins>
+									<Connections>
+										<Connection FromModule="Peak" FromPin="Out" ToModule="&gt;= 0.99 ?" ToPin="A" />
+										<Connection FromModule="Peak" FromPin="Out" ToModule="&gt;=0.90?" ToPin="A" />
+										<Connection FromModule="&gt;=0.90?" FromPin="Out" ToModule="If Color 2" ToPin="If" />
+										<Connection FromModule="&gt;= 0.99 ?" FromPin="Out" ToModule="If Color" ToPin="If" />
+										<Connection FromModule="If Color 2" FromPin="Out" ToModule="If Color" ToPin="Else" />
+										<Connection FromModule="If Color" FromPin="Out" ToModule="Solid Brush 3" ToPin="Color" />
+									</Connections>
+									<Descriptions>
+										<Description Target="pin:If Color 2:in:Then" Index="0" Title="Yellow if &gt;= 0.90" Text="" />
+										<Description Target="pin:If Color 2:in:Else" Index="0" Title="Green if &lt; 0.90" Text="" />
+										<Description Target="pin:If Color:in:Then" Index="0" Title="Red if &gt;=0.99" Text="" />
+									</Descriptions>
+								</Module>
+								<Module Type="PeakHold">
+									<Properties Name="Peak Hold" IsLocked="False">
+										<ExtraData>
+											<item key="Location" type="PointF" value="-29, 494" />
+										</ExtraData>
+									</Properties>
+									<PinValues>
+										<Pin Name="In" Type="PinVectorValue" Value="" />
+										<Pin Name="MinValue" Type="PinScalarValue" Value="0" />
+										<Pin Name="HoldTime" Type="PinScalarValue" Value="0.3" />
+										<Pin Name="FallAccel" Type="PinScalarValue" Value="1" />
+									</PinValues>
+								</Module>
+							</Children>
+							<ExposerInputPins>
+								<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Vector Split" SourcePin="Vector" />
+								<Pin Name="Parent" Type="PinPaintObjectChildReferenceValue" SourceModule="Paint Rectangle 3" SourcePin="Parent" />
+								<Pin Name="Normalized Level" Type="PinVectorValue" SourceModule="Peak Hold" SourcePin="In" />
+							</ExposerInputPins>
+							<ExposerOutputPins />
+							<Connections>
+								<Connection FromModule="Peak Hold" FromPin="Out" ToModule="Level X (mult)" ToPin="A" />
+								<Connection FromModule="Vector Split" FromPin="X" ToModule="Level X (mult)" ToPin="B" />
+								<Connection FromModule="Level X (mult)" FromPin="Out" ToModule="Vector (Level X, Y, 0)" ToPin="X" />
+								<Connection FromModule="Vector Split" FromPin="Y" ToModule="Vector (Level X, Y, 0)" ToPin="Y" />
+								<Connection FromModule="Level X (mult)" FromPin="Out" ToModule="Level X - 4" ToPin="A" />
+								<Connection FromModule="Level X - 4" FromPin="Out" ToModule="Vector Merge (X,0,0)" ToPin="X" />
+								<Connection FromModule="Caclulate Peak Color" FromPin="Out" ToModule="Paint Rectangle 3" ToPin="Brush" />
+								<Connection FromModule="Vector Merge (X,0,0)" FromPin="Vector" ToModule="Paint Rectangle 3" ToPin="LeftTop" />
+								<Connection FromModule="Vector (Level X, Y, 0)" FromPin="Vector" ToModule="Paint Rectangle 3" ToPin="RightBottom" />
+								<Connection FromModule="Peak Hold" FromPin="Out" ToModule="Caclulate Peak Color" ToPin="Peak" />
+							</Connections>
+							<Descriptions>
+								<Description Target="mod:Level X (mult)" Index="0" Title="Calculate the box level size" Text="We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box" />
+								<Description Target="mod:Level X - 4" Index="0" Title="Move 4 pixels befor the peak of the level" Text="" />
+							</Descriptions>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Normalized Level" Type="PinScalarValue" SourceModule="Normalized Level" SourcePin="In" />
+						<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Paint Node" SourcePin="Transformation" />
+						<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Bar Size (X,Y)" SourcePin="In" />
+						<Pin Name="Parent" Type="PinPaintObjectChildReferenceValue" SourceModule="Paint Node" SourcePin="Parent" />
+					</ExposerInputPins>
+					<ExposerOutputPins />
+					<Connections>
+						<Connection FromModule="Paint Node" FromPin="Children" ToModule="Paint Bar Background" ToPin="Parent" />
+						<Connection FromModule="Solid Brush" FromPin="Out" ToModule="Paint Bar Background" ToPin="Brush" />
+						<Connection FromModule="Bar Size (X,Y)" FromPin="Out" ToModule="Paint Bar Background" ToPin="RightBottom" />
+						<Connection FromModule="Normalized Level" FromPin="Out" ToModule="Smooth Scalar (Normalized Level)" ToPin="In" />
+						<Connection FromModule="Bar Size (X,Y)" FromPin="Out" ToModule="Paint Level Bar" ToPin="Bar Size" />
+						<Connection FromModule="Smooth Scalar (Normalized Level)" FromPin="Out" ToModule="Paint Level Bar" ToPin="Normalized Level" />
+						<Connection FromModule="Paint Node" FromPin="Children" ToModule="Paint Level Bar" ToPin="Parent" />
+						<Connection FromModule="Bar Size (X,Y)" FromPin="Out" ToModule="Paint  Peak Box" ToPin="Bar Size" />
+						<Connection FromModule="Paint Node" FromPin="Children" ToModule="Paint  Peak Box" ToPin="Parent" />
+						<Connection FromModule="Normalized Level" FromPin="Out" ToModule="Paint  Peak Box" ToPin="Normalized Level" />
+					</Connections>
+					<Descriptions>
+						<Description Target="mod:Smooth Scalar (Normalized Level)" Index="0" Title="Transition from Value to Value smoothly" Text="" />
+					</Descriptions>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Bar Size (X,Y)" SourcePin="In" />
+				<Pin Name="Gap" Type="PinScalarValue" SourceModule="Calculate Y Offset" SourcePin="Gap" />
+				<Pin Name="Levels" Type="PinVectorValue" SourceModule="Get Normalized Value" SourcePin="Levels" />
+				<Pin Name="Parent" Type="PinPaintObjectChildReferenceValue" SourceModule="Draw Level Bar" SourcePin="Parent" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Channels" Type="PinIntValue" SourceModule="Array Size" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Subtract 1 from Index" ToPin="A" />
+				<Connection FromModule="Subtract 1 from Index" FromPin="Out" ToModule="Calculate Y Offset" ToPin="Bar Index" />
+				<Connection FromModule="Bar Size (X,Y)" FromPin="Out" ToModule="Calculate Y Offset" ToPin="Vector" />
+				<Connection FromModule="Array Index" FromPin="Out" ToModule="Get Normalized Value" ToPin="Index" />
+				<Connection FromModule="Get Normalized Value" FromPin="Out" ToModule="Draw Level Bar" ToPin="Normalized Level" />
+				<Connection FromModule="Calculate Y Offset" FromPin="Out" ToModule="Draw Level Bar" ToPin="Transformation" />
+				<Connection FromModule="Bar Size (X,Y)" FromPin="Out" ToModule="Draw Level Bar" ToPin="Bar Size" />
+			</Connections>
+			<Descriptions>
+				<Description Target="mod:Subtract 1 from Index" Index="0" Title="Make the Index Zero Based" Text="" />
+				<Description Target="mod:Get Normalized Value" Index="0" Title="Get Normalized Value" Text="It gets the level of the current channel (from -60 to 0) and outputs it in (0,1)" />
+			</Descriptions>
+		</Module>
+		<Module Type="CopyScalar">
+			<Properties Name="Gap" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-600, 260" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinScalarValue" Value="8" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-23, 357" />
+					<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
+					<item key="ZoomFactor" type="Single" value="0.7866278" />
+					<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;We have NoOfBars-1 gaps between the bars&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;302, 270, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Gap * (NoOfBars - 1)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyInteger">
+					<Properties Name="NoOfBars" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-86, -16" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Multiply">
+					<Properties Name="Multiply" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="440, -33" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="1" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorSplit">
+					<Properties Name="Vector Split" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="205, -62" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorMerge">
+					<Properties Name="Vector Merge" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1042, -66" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="X" Type="PinScalarValue" Value="0" />
+						<Pin Name="Y" Type="PinScalarValue" Value="0" />
+						<Pin Name="Z" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Subtract">
+					<Properties Name="NoOfBars - 1" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="196, 87" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Multiply">
+					<Properties Name="Gap * (NoOfBars - 1)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="401, 86" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="1" />
+						<Pin Name="B" Type="PinVectorValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Add">
+					<Properties Name="Add" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="645, -30" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Vector Split" SourcePin="Vector" />
+				<Pin Name="Gap" Type="PinVectorValue" SourceModule="Gap * (NoOfBars - 1)" SourcePin="B" />
+				<Pin Name="NoOfBars" Type="PinIntValue" SourceModule="NoOfBars" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out Size" Type="PinVectorValue" SourceModule="Vector Merge" SourcePin="Vector" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Vector Split" FromPin="Y" ToModule="Multiply" ToPin="A" />
+				<Connection FromModule="NoOfBars" FromPin="Out" ToModule="Multiply" ToPin="B" />
+				<Connection FromModule="Vector Split" FromPin="X" ToModule="Vector Merge" ToPin="X" />
+				<Connection FromModule="Add" FromPin="Out" ToModule="Vector Merge" ToPin="Y" />
+				<Connection FromModule="NoOfBars" FromPin="Out" ToModule="NoOfBars - 1" ToPin="A" />
+				<Connection FromModule="NoOfBars - 1" FromPin="Out" ToModule="Gap * (NoOfBars - 1)" ToPin="A" />
+				<Connection FromModule="Multiply" FromPin="Out" ToModule="Add" ToPin="A" />
+				<Connection FromModule="Gap * (NoOfBars - 1)" FromPin="Out" ToModule="Add" ToPin="B" />
+			</Connections>
+			<Descriptions>
+				<Description Target="mod:Gap * (NoOfBars - 1)" Index="0" Title="We have NoOfBars-1 gaps between the bars" Text="" />
+			</Descriptions>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-255, 238" />
+					<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
+					<item key="ZoomFactor" type="Single" value="0.7541157" />
+					<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Subtract 1.5&quot; Text=&quot;There is a 3 pixel gap from the defined size of the text, so we split it in half to center it inside the gap&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-26, 1030, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Translate Text&quot; Text=&quot;Translate Text by Y pixels, which is the height of the bar + the 1.5 pixels which is an overhead&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;400, 1131, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Subtract 1.5&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Translation Y&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="PaintText">
+					<Properties Name="Paint Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1391, 496" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="ZOrder" Type="PinScalarValue" Value="1" />
+						<Pin Name="Text" Type="PinStringValue" Value="Text" />
+						<Pin Name="LeftTop" Type="PinVectorValue" Value="0, 0" />
+						<Pin Name="RightBottom" Type="PinVectorValue" Value="200, 10" />
+						<Pin Name="Clip" Type="PinBoolValue" Value="True" />
+						<Pin Name="SnapToPixels" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorSplit">
+					<Properties Name="Split Bar Size to X and Y" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-18, 589" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Vector" Type="PinVectorValue" Value="0, 0, 0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextFormat">
+					<Properties Name="Text Format" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="931, 437" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="FontFamily" Type="PinStringValue" Value="Tahoma" />
+						<Pin Name="FontSize" Type="PinScalarValue" Value="10" />
+						<Pin Name="FontWeight" Type="PinIntValue" Value="fwNormal" />
+						<Pin Name="FontStyle" Type="PinIntValue" Value="fsNormal" />
+						<Pin Name="FontStretch" Type="PinIntValue" Value="feNormal" />
+						<Pin Name="FontLocale" Type="PinStringValue" Value="en-US" />
+						<Pin Name="TextAlignment" Type="PinIntValue" Value="taLeading" />
+						<Pin Name="ParagraphAlignment" Type="PinIntValue" Value="paNear" />
+						<Pin Name="CharLeadingSpacing" Type="PinScalarValue" Value="0" />
+						<Pin Name="CharTrailingSpacing" Type="PinScalarValue" Value="0" />
+						<Pin Name="CharMinAvanceWidth" Type="PinScalarValue" Value="0" />
+						<Pin Name="UseLineSpacing" Type="PinBoolValue" Value="False" />
+						<Pin Name="BaseLine" Type="PinScalarValue" Value="10" />
+						<Pin Name="LineSpacing" Type="PinScalarValue" Value="20" />
+						<Pin Name="ReadingDirection" Type="PinIntValue" Value="rdLeftToRight" />
+						<Pin Name="WordWrapping" Type="PinIntValue" Value="wwNoWrap" />
+						<Pin Name="Trimming" Type="PinIntValue" Value="trimNone" />
+					</PinValues>
+				</Module>
+				<Module Type="VectorMerge">
+					<Properties Name="Right Bottom (BarSizeX, Gap)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="835, 592" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="X" Type="PinScalarValue" Value="200" />
+						<Pin Name="Y" Type="PinScalarValue" Value="100" />
+						<Pin Name="Z" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="SolidBrush">
+					<Properties Name="Solid Brush" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1145, 511" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Color" Type="PinColorValue" Value="1, #57FF41" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Text Height = GAP" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="656, 439" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="10" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="10" />
+					</PinValues>
+				</Module>
+				<Module Type="PaintNode">
+					<Properties Name="Paint Node 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="769, 865" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+						<Pin Name="ZOrder" Type="PinScalarValue" Value="0" />
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="TranslationY">
+					<Properties Name="Translation Y" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="509, 858" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Delta" Type="PinScalarValue" Value="18.5" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Gap" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="430, 621" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="10" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Subtract">
+					<Properties Name="Subtract 1.5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="285, 874" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="1.5" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Split Bar Size to X and Y" SourcePin="Vector" />
+				<Pin Name="Parent" Type="PinPaintObjectChildReferenceValue" SourceModule="Paint Node 2" SourcePin="Parent" />
+				<Pin Name="Gap" Type="PinScalarValue" SourceModule="Gap" SourcePin="In" />
+				<Pin Name="Text" Type="PinStringValue" SourceModule="Paint Text" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins />
+			<Connections>
+				<Connection FromModule="Paint Node 2" FromPin="Children" ToModule="Paint Text" ToPin="Parent" />
+				<Connection FromModule="Text Format" FromPin="Out" ToModule="Paint Text" ToPin="TextFormat" />
+				<Connection FromModule="Solid Brush" FromPin="Out" ToModule="Paint Text" ToPin="Brush" />
+				<Connection FromModule="Right Bottom (BarSizeX, Gap)" FromPin="Vector" ToModule="Paint Text" ToPin="RightBottom" />
+				<Connection FromModule="Text Height = GAP" FromPin="Out" ToModule="Text Format" ToPin="FontSize" />
+				<Connection FromModule="Split Bar Size to X and Y" FromPin="X" ToModule="Right Bottom (BarSizeX, Gap)" ToPin="X" />
+				<Connection FromModule="Gap" FromPin="Out" ToModule="Right Bottom (BarSizeX, Gap)" ToPin="Y" />
+				<Connection FromModule="Gap" FromPin="Out" ToModule="Text Height = GAP" ToPin="In" />
+				<Connection FromModule="Translation Y" FromPin="Out" ToModule="Paint Node 2" ToPin="Transformation" />
+				<Connection FromModule="Subtract 1.5" FromPin="Out" ToModule="Translation Y" ToPin="Delta" />
+				<Connection FromModule="Split Bar Size to X and Y" FromPin="Y" ToModule="Subtract 1.5" ToPin="A" />
+			</Connections>
+			<Descriptions>
+				<Description Target="mod:Subtract 1.5" Index="0" Title="Subtract 1.5" Text="There is a 3 pixel gap from the defined size of the text, so we split it in half to center it inside the gap" />
+				<Description Target="mod:Translation Y" Index="0" Title="Translate Text" Text="Translate Text by Y pixels, which is the height of the bar + the 1.5 pixels which is an overhead" />
+			</Descriptions>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Audio" Type="PinAudioValue" SourceModule="Audio Level" SourcePin="Audio" />
+		<Pin Name="Bar Size" Type="PinVectorValue" SourceModule="Bar Size" SourcePin="In" />
+		<Pin Name="Gap" Type="PinScalarValue" SourceModule="Gap" SourcePin="In" />
+		<Pin Name="Text" Type="PinStringValue" SourceModule="Draw Text" SourcePin="Text" />
+		<Pin Name="Bg Color" Type="PinColorValue" SourceModule="Paint View" SourcePin="BgColor" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinVideoValue" SourceModule="Paint View" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Paint Node" FromPin="Children" ToModule="Paint View" ToPin="Parent" />
+		<Connection FromModule="Calculate View Size" FromPin="Out Size" ToModule="Paint View" ToPin="OutSize" />
+		<Connection FromModule="Bar Size" FromPin="Out" ToModule="Draw BAR(s)" ToPin="Bar Size" />
+		<Connection FromModule="Gap" FromPin="Out" ToModule="Draw BAR(s)" ToPin="Gap" />
+		<Connection FromModule="Audio Level" FromPin="Out" ToModule="Draw BAR(s)" ToPin="Levels" />
+		<Connection FromModule="Paint Node" FromPin="Children" ToModule="Draw BAR(s)" ToPin="Parent" />
+		<Connection FromModule="Bar Size" FromPin="Out" ToModule="Calculate View Size" ToPin="Bar Size" />
+		<Connection FromModule="Gap" FromPin="Out" ToModule="Calculate View Size" ToPin="Gap" />
+		<Connection FromModule="Draw BAR(s)" FromPin="Channels" ToModule="Calculate View Size" ToPin="NoOfBars" />
+		<Connection FromModule="Bar Size" FromPin="Out" ToModule="Draw Text" ToPin="Bar Size" />
+		<Connection FromModule="Paint Node" FromPin="Children" ToModule="Draw Text" ToPin="Parent" />
+		<Connection FromModule="Gap" FromPin="Out" ToModule="Draw Text" ToPin="Gap" />
+	</Connections>
+	<Descriptions>
+		<Description Target="pin:$$$this$$$:in:Text" Index="0" Title="Input Description" Text="" />
+	</Descriptions>
+</AximmetryCompound>

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="3840, 2160" PixelAspect="1:1" FrameRate="0" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-29T12:23:07.5119899+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Loop Index" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-71, 221" />
+			<item key="ViewCenter" type="PointF" value="-1088.428, 335.2437" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;0 (Stop) 1 (Loop) 2 (Reverse)&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1919, 803, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:mode&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="CopyInteger">
+			<Properties Name="current index" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1622, 416" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Start" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1631, -108" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="Timer">
+			<Properties Name="Timer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1307, -78" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Playing" Type="PinBoolValue" Value="False" />
+				<Pin Name="StartTime" Type="PinDoubleValue" Value="0" />
+				<Pin Name="EndTime" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Frames" Type="PinBoolValue" Value="False" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="False" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyDouble">
+			<Properties Name="Delay" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1574, 152" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinDoubleValue" Value="2" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinDoubleValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin (current index)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-930, 70" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current index" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="-4" />
+			</PinValues>
+		</Module>
+		<Module Type="Add">
+			<Properties Name="index+ direction" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1150, 202" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1494, -160" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Stop" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1673, -9" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Reset" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1950, 221" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin (reset current index)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1714, 234" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current index" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="current direction" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1650, 500" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="-1" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Max Size" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1657, 584" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="4" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin (reset current index) 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-681, 780" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current index" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="mode" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1656, 702" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="2" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin (reverse current direction)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-664, 569" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current direction" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="-1" />
+			</PinValues>
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1513, -10" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Starting Index" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2072, 597" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="1" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin (current direction)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1706, 326" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current direction" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Handle Loop" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-903, 769" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="And">
+					<Properties Name="And" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-957, 1041" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal to loop?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1190, 988" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="Greater">
+					<Properties Name="Greater than Max Size" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1228, 1067" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Current Index" Type="PinScalarValue" SourceModule="Greater than Max Size" SourcePin="A" />
+				<Pin Name="Max Index" Type="PinScalarValue" SourceModule="Greater than Max Size" SourcePin="B" />
+				<Pin Name="Mode" Type="PinScalarValue" SourceModule="Equal to loop?" SourcePin="A" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinBoolValue" SourceModule="And" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Equal to loop?" FromPin="Out" ToModule="And" ToPin="A" />
+				<Connection FromModule="Greater than Max Size" FromPin="Out" ToModule="And" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Handle Reverse" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-940, 569" />
+					<item key="ViewCenter" type="PointF" value="-684, 744.5" />
+					<item key="ZoomFactor" type="Single" value="1" />
+					<item key="Notes" type="String" value="" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="And">
+					<Properties Name="And 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-621, 529" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal to Reverse?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-948, 591" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="2" />
+					</PinValues>
+				</Module>
+				<Module Type="Multiply">
+					<Properties Name="Multiply x (-1)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-948, 412" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="1" />
+						<Pin Name="B" Type="PinVectorValue" Value="-1" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="index equal to starting index?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-966, 753" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-642, 809" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal to Reverse? 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-903, 848" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="2" />
+					</PinValues>
+				</Module>
+				<Module Type="TriggerAny">
+					<Properties Name="Trigger Any" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-488, 629" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal to Max Size?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-970, 509" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Mode" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1285, 746" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="current index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1219, 478" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="max size" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1212, 542" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="starting index" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1280, 666" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogical">
+					<Properties Name="running?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-443, 780" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="TriggerBoth">
+					<Properties Name="Trigger Both" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-258, 701" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Current Index" Type="PinIntValue" SourceModule="current index" SourcePin="In" />
+				<Pin Name="Current Direction" Type="PinVectorValue" SourceModule="Multiply x (-1)" SourcePin="A" />
+				<Pin Name="Max Size" Type="PinIntValue" SourceModule="max size" SourcePin="In" />
+				<Pin Name="Starting Index" Type="PinIntValue" SourceModule="starting index" SourcePin="In" />
+				<Pin Name="Mode" Type="PinIntValue" SourceModule="Mode" SourcePin="In" />
+				<Pin Name="Running?" Type="PinBoolValue" SourceModule="running?" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="reverse" Type="PinTriggerValue" SourceModule="Trigger Both" SourcePin="Out" />
+				<Pin Name="new direction" Type="PinVectorValue" SourceModule="Multiply x (-1)" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Equal to Max Size?" FromPin="Out" ToModule="And 2" ToPin="A" />
+				<Connection FromModule="Equal to Reverse?" FromPin="Out" ToModule="And 2" ToPin="B" />
+				<Connection FromModule="Mode" FromPin="Out" ToModule="Equal to Reverse?" ToPin="A" />
+				<Connection FromModule="current index" FromPin="Out" ToModule="index equal to starting index?" ToPin="A" />
+				<Connection FromModule="starting index" FromPin="Out" ToModule="index equal to starting index?" ToPin="B" />
+				<Connection FromModule="index equal to starting index?" FromPin="Out" ToModule="And 4" ToPin="A" />
+				<Connection FromModule="Equal to Reverse? 2" FromPin="Out" ToModule="And 4" ToPin="B" />
+				<Connection FromModule="Mode" FromPin="Out" ToModule="Equal to Reverse? 2" ToPin="A" />
+				<Connection FromModule="And 2" FromPin="Out" ToModule="Trigger Any" ToPin="A" />
+				<Connection FromModule="And 4" FromPin="Out" ToModule="Trigger Any" ToPin="B" />
+				<Connection FromModule="current index" FromPin="Out" ToModule="Equal to Max Size?" ToPin="A" />
+				<Connection FromModule="max size" FromPin="Out" ToModule="Equal to Max Size?" ToPin="B" />
+				<Connection FromModule="Trigger Any" FromPin="Out" ToModule="Trigger Both" ToPin="A" />
+				<Connection FromModule="running?" FromPin="Out" ToModule="Trigger Both" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Handle Stop" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-940, 414" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="Equal">
+					<Properties Name="Equal to Max Size?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1201, 117" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal to Stop?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1188, 214" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-892, 180" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Current Index" Type="PinScalarValue" SourceModule="Equal to Max Size?" SourcePin="A" />
+				<Pin Name="Max Size" Type="PinScalarValue" SourceModule="Equal to Max Size?" SourcePin="B" />
+				<Pin Name="Mode" Type="PinScalarValue" SourceModule="Equal to Stop?" SourcePin="A" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Stop" Type="PinBoolValue" SourceModule="And 3" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Equal to Max Size?" FromPin="Out" ToModule="And 3" ToPin="A" />
+				<Connection FromModule="Equal to Stop?" FromPin="Out" ToModule="And 3" ToPin="B" />
+			</Connections>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="default direction" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2089, 519" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="1" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Start" Type="PinTriggerValue" SourceModule="Start" SourcePin="In" />
+		<Pin Name="Stop" Type="PinTriggerValue" SourceModule="Stop" SourcePin="In" />
+		<Pin Name="Reset" Type="PinTriggerValue" SourceModule="Reset" SourcePin="In" />
+		<Pin Name="Delay(sec)" Type="PinDoubleValue" SourceModule="Delay" SourcePin="In" />
+		<Pin Name="Starting Index" Type="PinIntValue" SourceModule="Starting Index" SourcePin="In" />
+		<Pin Name="Current Index" Type="PinIntValue" SourceModule="current index" SourcePin="In" />
+		<Pin Name="Default Direction" Type="PinIntValue" SourceModule="default direction" SourcePin="In" />
+		<Pin Name="Current Direction" Type="PinIntValue" SourceModule="current direction" SourcePin="In" />
+		<Pin Name="Max Index" Type="PinIntValue" SourceModule="Max Size" SourcePin="In" />
+		<Pin Name="Mode" Type="PinIntValue" SourceModule="mode" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Current Index" Type="PinIntValue" SourceModule="current index" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Trigger Any" FromPin="Out" ToModule="Timer" ToPin="Play" />
+		<Connection FromModule="Trigger Any 2" FromPin="Out" ToModule="Timer" ToPin="Stop" />
+		<Connection FromModule="Delay" FromPin="Out" ToModule="Timer" ToPin="EndTime" />
+		<Connection FromModule="Timer" FromPin="Elapsed" ToModule="Set Integer Pin (current index)" ToPin="Set" />
+		<Connection FromModule="index+ direction" FromPin="Out" ToModule="Set Integer Pin (current index)" ToPin="Value" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="index+ direction" ToPin="A" />
+		<Connection FromModule="current direction" FromPin="Out" ToModule="index+ direction" ToPin="B" />
+		<Connection FromModule="Start" FromPin="Out" ToModule="Trigger Any" ToPin="A" />
+		<Connection FromModule="Timer" FromPin="Elapsed" ToModule="Trigger Any" ToPin="B" />
+		<Connection FromModule="Reset" FromPin="Out" ToModule="Set Integer Pin (reset current index)" ToPin="Set" />
+		<Connection FromModule="Starting Index" FromPin="Out" ToModule="Set Integer Pin (reset current index)" ToPin="Value" />
+		<Connection FromModule="Handle Loop" FromPin="Out" ToModule="Set Integer Pin (reset current index) 2" ToPin="Set" />
+		<Connection FromModule="Starting Index" FromPin="Out" ToModule="Set Integer Pin (reset current index) 2" ToPin="Value" />
+		<Connection FromModule="Handle Reverse" FromPin="reverse" ToModule="Set Integer Pin (reverse current direction)" ToPin="Set" />
+		<Connection FromModule="Handle Reverse" FromPin="new direction" ToModule="Set Integer Pin (reverse current direction)" ToPin="Value" />
+		<Connection FromModule="Stop" FromPin="Out" ToModule="Trigger Any 2" ToPin="A" />
+		<Connection FromModule="Handle Stop" FromPin="Stop" ToModule="Trigger Any 2" ToPin="B" />
+		<Connection FromModule="Reset" FromPin="Out" ToModule="Set Integer Pin (current direction)" ToPin="Set" />
+		<Connection FromModule="default direction" FromPin="Out" ToModule="Set Integer Pin (current direction)" ToPin="Value" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Handle Loop" ToPin="Current Index" />
+		<Connection FromModule="Max Size" FromPin="Out" ToModule="Handle Loop" ToPin="Max Index" />
+		<Connection FromModule="mode" FromPin="Out" ToModule="Handle Loop" ToPin="Mode" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Handle Reverse" ToPin="Current Index" />
+		<Connection FromModule="current direction" FromPin="Out" ToModule="Handle Reverse" ToPin="Current Direction" />
+		<Connection FromModule="Max Size" FromPin="Out" ToModule="Handle Reverse" ToPin="Max Size" />
+		<Connection FromModule="Starting Index" FromPin="Out" ToModule="Handle Reverse" ToPin="Starting Index" />
+		<Connection FromModule="mode" FromPin="Out" ToModule="Handle Reverse" ToPin="Mode" />
+		<Connection FromModule="Timer" FromPin="Running" ToModule="Handle Reverse" ToPin="Running?" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Handle Stop" ToPin="Current Index" />
+		<Connection FromModule="Max Size" FromPin="Out" ToModule="Handle Stop" ToPin="Max Size" />
+		<Connection FromModule="mode" FromPin="Out" ToModule="Handle Stop" ToPin="Mode" />
+	</Connections>
+	<Descriptions>
+		<Description Target="mod:mode" Index="0" Title="0 (Stop) 1 (Loop) 2 (Reverse)" Text="" />
+	</Descriptions>
+</AximmetryCompound>

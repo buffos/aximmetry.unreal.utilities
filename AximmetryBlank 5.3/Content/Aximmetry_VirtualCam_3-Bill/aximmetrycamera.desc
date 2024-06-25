@@ -1,0 +1,8 @@
+FileVersion 1
+Id 5
+CameraVersion 73
+SortOrder 100
+DisplayName Green camera (virtual, 1-3 billboards)
+ToolTip Use with VirtualCam_Unreal_3-Cam, VirtualCam_Unreal_8-Cam, VirtualCam_Unreal_3-Cam_A-B-C or VirtualCam_Unreal_8-Cam_A-B-C compound in Aximmetry.
+AssetPaths /Game/Aximmetry_VirtualCam_3-Bill/Blueprints/Aximmetry_Virtual_Camera_1-3_Billboards
+Directories Aximmetry_VirtualCam_3-Bill

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryFileInfoCache version="2023.2.2">
+	<File Path="" V="1,638314271210983365,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="Audio_File_Selector.xcomp" V="1,638165654735102234,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Audio_LevelBar.xcomp" V="1,638139793184218469,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Audio_Mixing.xcomp" V="1,638165654826816121,0" Description="null" Tags="null" Properties="null" />
+	<File Path="MixMinus.xcomp" V="1,638095186918609356,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Record_3-Audio.xcomp" V="1,638271315315935669,0" Description="" Tags="" Properties="null" />
+	<File Path="Video_Recording.xcomp" V="1,638163986290036738,0" Description="null" Tags="null" Properties="null" />
+</AximmetryFileInfoCache>

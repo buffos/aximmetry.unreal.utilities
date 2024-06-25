@@ -1,0 +1,1137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary">
+				<item key="2" type="Int32" value="3" />
+			</PreviewChannels>
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Control Board">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="3840, 2160" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T16:30:54.5763883+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T18:41:14.8853044+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T18:44:36.3980174+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T18:46:03.3030965+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T19:05:20.6203637+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T20:42:34.8467766+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-17T23:32:00.4364295+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-17T23:40:04.8352228+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-18T00:29:46.9448657+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-19T15:45:52.7616101+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T22:55:37.2854943+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T23:20:56.1987094+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T23:42:00.9630600+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Object Texturer by Tag" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-368, 586" />
+			<item key="ViewCenter" type="PointF" value="1151.297, 391.784" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="Notes" type="String" value="" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TEXTURE" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="317, 204" />
+					<item key="Notes" type="String" value="" />
+					<item key="ViewCenter" type="PointF" value="1069.5, 416.5" />
+					<item key="ZoomFactor" type="Single" value="0.7067961" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyCollection">
+					<Properties Name="Copy Collection" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="539, 269" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="228, 412" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="390.1112, 485.2072" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CUBE" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="597.859, 479.0549" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="1" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="597.859, 479.0549" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="D:\AximmetryDownloadedStudios\Stage_EYACT\folder.png" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTrigger">
+							<Properties Name="Copy Trigger" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="651.1677, 569.0874" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="691.4583, 395.796" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="516.6497, 666.6172" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="TEXTURE" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyLogicalAC">
+							<Properties Name="Copy Logical AC" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="358.8681, 449.6374" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinBoolValue" Value="True" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Texture (OFF) or Decal (ON) ?" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="In" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+						<Pin Name="#$Selected" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="In" />
+						<Pin Name="Image File" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="In" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Texture (OFF) or Decal (ON) ?" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="Out" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+						<Pin Name="#$Selected" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="Out" />
+						<Pin Name="Image File" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="Out" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections />
+					<Enhancer type="PinCollector" />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="TAG" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 354" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="Image">
+					<Properties Name="Image" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 497" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Active" Type="PinBoolValue" Value="True" />
+						<Pin Name="ImageFile" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Selected" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 451" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="Texture" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 561" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="PREVIOUS COMMANDS" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1061, 278" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetCollectionText">
+					<Properties Name="Set COMMANDS Texts" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1706, 255" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Slot" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 404" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1089, 354" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value="," />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="665, 407" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="IfText">
+					<Properties Name="If Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1601, 377" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="If" Type="PinBoolValue" Value="False" />
+						<Pin Name="Then" Type="PinStringValue" Value="" />
+						<Pin Name="Else" Type="PinStringValue" Value="" />
+						<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1329, 290" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value=";" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Parameter Name" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="513, 620" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="TEXTURE" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogical">
+					<Properties Name="TEXTURE OR DECAL" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="545.2198, 180.1648" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="IfText">
+					<Properties Name="If Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="824, 166" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="If" Type="PinBoolValue" Value="False" />
+						<Pin Name="Then" Type="PinStringValue" Value="DECALTEXTURE" />
+						<Pin Name="Else" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="TEXTURE" Type="PinVideoValue" SourceModule="Image" SourcePin="Out" />
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Set COMMANDS Texts" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Tagged Item Texturer" FromPin="Tag" ToModule="TAG" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="Image File" ToModule="Image" ToPin="ImageFile" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="#$Selected" ToModule="Selected" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="#Texture" ToModule="Texture" ToPin="In" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="PREVIOUS COMMANDS" ToPin="Collection" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Collection" />
+				<Connection FromModule="If Text" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Value" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="Slot" ToModule="Slot" ToPin="In" />
+				<Connection FromModule="If Text 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+				<Connection FromModule="TAG" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+				<Connection FromModule="Scalar To Text" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+				<Connection FromModule="Parameter Name" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+				<Connection FromModule="Slot" FromPin="Out" ToModule="Scalar To Text" ToPin="Value" />
+				<Connection FromModule="Texture" FromPin="Out" ToModule="If Text" ToPin="If" />
+				<Connection FromModule="Text Concat Multi 2" FromPin="Out" ToModule="If Text" ToPin="Then" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="If Text" ToPin="Else" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text1" />
+				<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text2" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="Parameter Name" ToModule="Parameter Name" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer" FromPin="Texture (OFF) or Decal (ON) ?" ToModule="TEXTURE OR DECAL" ToPin="In" />
+				<Connection FromModule="TEXTURE OR DECAL" FromPin="Out" ToModule="If Text 2" ToPin="If" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="SCALAR" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="320, 311" />
+					<item key="Notes" type="String" value="" />
+					<item key="ViewCenter" type="PointF" value="1055, 430" />
+					<item key="ZoomFactor" type="Single" value="0.745901644" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyCollection">
+					<Properties Name="Copy Collection" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="539, 269" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer (Scalar)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="125, 409" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="390.1112, 485.2072" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CUBE" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTrigger">
+							<Properties Name="Copy Trigger" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="651.1677, 569.0874" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="691.4583, 395.796" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="516.6497, 666.6172" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="MIX" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyScalar">
+							<Properties Name="Copy Scalar" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="388.3626, 527.3956" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinScalarValue" Value="0.5" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinScalarValue" Value="0" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="In" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+						<Pin Name="Scalar Value" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="Out" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+						<Pin Name="Scalar Value" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="Out" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections />
+					<Enhancer type="PinCollector" />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="TAG" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 354" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Selected" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 451" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="Texture" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="520, 603" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="PREVIOUS COMMANDS" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1061, 278" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetCollectionText">
+					<Properties Name="Set COMMANDS Texts" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1706, 255" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Slot" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 404" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1089, 354" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value="," />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="665, 407" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="COMMAND TEXTURESCALAR" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="515, 193" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="TEXTURESCALAR" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="IfText">
+					<Properties Name="If Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1601, 377" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="If" Type="PinBoolValue" Value="False" />
+						<Pin Name="Then" Type="PinStringValue" Value="" />
+						<Pin Name="Else" Type="PinStringValue" Value="" />
+						<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1329, 290" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value=";" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Parameter Name" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="511, 501" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="TEXTURE" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Scalar Value" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="517, 552" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="697, 552" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Set COMMANDS Texts" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Tagged Item Texturer (Scalar)" FromPin="Tag" ToModule="TAG" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer (Scalar)" FromPin="#Texture" ToModule="Texture" ToPin="In" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="PREVIOUS COMMANDS" ToPin="Collection" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Collection" />
+				<Connection FromModule="If Text" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Value" />
+				<Connection FromModule="Tagged Item Texturer (Scalar)" FromPin="Slot" ToModule="Slot" ToPin="In" />
+				<Connection FromModule="COMMAND TEXTURESCALAR" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+				<Connection FromModule="TAG" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+				<Connection FromModule="Scalar To Text" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+				<Connection FromModule="Parameter Name" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+				<Connection FromModule="Scalar To Text 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text5" />
+				<Connection FromModule="Slot" FromPin="Out" ToModule="Scalar To Text" ToPin="Value" />
+				<Connection FromModule="Texture" FromPin="Out" ToModule="If Text" ToPin="If" />
+				<Connection FromModule="Text Concat Multi 2" FromPin="Out" ToModule="If Text" ToPin="Then" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="If Text" ToPin="Else" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text1" />
+				<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text2" />
+				<Connection FromModule="Tagged Item Texturer (Scalar)" FromPin="Parameter Name" ToModule="Parameter Name" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer (Scalar)" FromPin="Scalar Value" ToModule="Scalar Value" ToPin="In" />
+				<Connection FromModule="Scalar Value" FromPin="Out" ToModule="Scalar To Text 2" ToPin="Value" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="COLOR" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="325, 411" />
+					<item key="Notes" type="String" value="" />
+					<item key="ViewCenter" type="PointF" value="852.5757, 397.5049" />
+					<item key="ZoomFactor" type="Single" value="0.9482269" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyCollection">
+					<Properties Name="Copy Collection" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="539, 269" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="Compound">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer (COLOR)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="125, 409" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<Children>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="390.1112, 485.2072" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="CUBE" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyTrigger">
+							<Properties Name="Copy Trigger" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="651.1677, 569.0874" />
+								</ExtraData>
+							</Properties>
+							<PinValues />
+						</Module>
+						<Module Type="CopyIntegerAC">
+							<Properties Name="Copy Integer AC 2" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="691.4583, 395.796" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinIntValue" Value="0" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyText">
+							<Properties Name="Copy Text 3" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="516.6497, 666.6172" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinStringValue" Value="COLOR" />
+								<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinStringValue" Value="" />
+							</PinValues>
+						</Module>
+						<Module Type="CopyColor">
+							<Properties Name="Copy Color" IsLocked="False">
+								<ExtraData>
+									<item key="Location" type="PointF" value="345.4615, 504.6044" />
+								</ExtraData>
+							</Properties>
+							<PinValues>
+								<Pin Name="In" Type="PinColorValue" Value="1, #1400FF" />
+								<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+								<Pin Name="Default" Type="PinColorValue" Value="0, White" />
+							</PinValues>
+						</Module>
+					</Children>
+					<ExposerInputPins>
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="In" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+						<Pin Name="Color" Type="PinColorValue" SourceModule="Copy Color" SourcePin="In" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="In" />
+					</ExposerInputPins>
+					<ExposerOutputPins>
+						<Pin Name="Tag" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+						<Pin Name="Slot" Type="PinIntValue" SourceModule="Copy Integer AC 2" SourcePin="Out" />
+						<Pin Name="Parameter Name" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+						<Pin Name="Color" Type="PinColorValue" SourceModule="Copy Color" SourcePin="Out" />
+						<Pin Name="#Texture" Type="PinTriggerValue" SourceModule="Copy Trigger" SourcePin="Out" />
+					</ExposerOutputPins>
+					<Connections />
+					<Enhancer type="PinCollector" />
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="TAG" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 354" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Selected" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 451" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="Texture" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="490, 666" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+				<Module Type="CollectionText">
+					<Properties Name="PREVIOUS COMMANDS" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1061, 278" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="SetCollectionText">
+					<Properties Name="Set COMMANDS Texts" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1706, 255" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Key" Type="PinStringValue" Value="COMMANDS" />
+						<Pin Name="Index" Type="PinIntValue" Value="0" />
+						<Pin Name="Value" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="Slot" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="507, 404" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1089, 354" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value="," />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="665, 407" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="COMMAND TEXTURECOLOR" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="515, 193" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="TEXTURECOLOR" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="IfText">
+					<Properties Name="If Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1601, 377" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="If" Type="PinBoolValue" Value="False" />
+						<Pin Name="Then" Type="PinStringValue" Value="" />
+						<Pin Name="Else" Type="PinStringValue" Value="" />
+						<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="TextConcatMulti">
+					<Properties Name="Text Concat Multi 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1329, 290" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Separator" Type="PinStringValue" Value=";" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+						<Pin Name="Text1" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Text2" Type="PinStringValue" Value="" />
+						<Pin Name="Text3" Type="PinStringValue" Value="" />
+						<Pin Name="Text4" Type="PinStringValue" Value="" />
+						<Pin Name="Text5" Type="PinStringValue" Value="" />
+						<Pin Name="Text6" Type="PinStringValue" Value="" />
+						<Pin Name="Text7" Type="PinStringValue" Value="" />
+						<Pin Name="Text8" Type="PinStringValue" Value="" />
+						<Pin Name="Text9" Type="PinStringValue" Value="" />
+						<Pin Name="Text10" Type="PinStringValue" Value="" />
+						<Pin Name="Text11" Type="PinStringValue" Value="" />
+						<Pin Name="Text12" Type="PinStringValue" Value="" />
+						<Pin Name="Text13" Type="PinStringValue" Value="" />
+						<Pin Name="Text14" Type="PinStringValue" Value="" />
+						<Pin Name="Text15" Type="PinStringValue" Value="" />
+						<Pin Name="Text16" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Parameter Name" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="511, 501" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="TEXTURE" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="TEXTURE" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyColor">
+					<Properties Name="Copy Color" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="491, 612" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinColorValue" Value="0, White" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinColorValue" Value="0, White" />
+					</PinValues>
+				</Module>
+				<Module Type="ColorDecompose">
+					<Properties Name="Color Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="644, 612" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Color" Type="PinColorValue" Value="" />
+						<Pin Name="Space" Type="PinIntValue" Value="csRGB" />
+						<Pin Name="Norm" Type="PinBoolValue" Value="True" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="858, 565" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="858, 612" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="858, 659" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+				<Module Type="ScalarToText">
+					<Properties Name="Scalar To Text 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="858, 706" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+						<Pin Name="Format" Type="PinStringValue" Value="%g" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="Set COMMANDS Texts" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Tagged Item Texturer (COLOR)" FromPin="Tag" ToModule="TAG" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer (COLOR)" FromPin="#Texture" ToModule="Texture" ToPin="In" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="PREVIOUS COMMANDS" ToPin="Collection" />
+				<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Collection" />
+				<Connection FromModule="If Text" FromPin="Out" ToModule="Set COMMANDS Texts" ToPin="Value" />
+				<Connection FromModule="Tagged Item Texturer (COLOR)" FromPin="Slot" ToModule="Slot" ToPin="In" />
+				<Connection FromModule="COMMAND TEXTURECOLOR" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+				<Connection FromModule="TAG" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+				<Connection FromModule="Scalar To Text" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+				<Connection FromModule="Parameter Name" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+				<Connection FromModule="Scalar To Text 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text5" />
+				<Connection FromModule="Scalar To Text 3" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text6" />
+				<Connection FromModule="Scalar To Text 4" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text7" />
+				<Connection FromModule="Scalar To Text 5" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text8" />
+				<Connection FromModule="Slot" FromPin="Out" ToModule="Scalar To Text" ToPin="Value" />
+				<Connection FromModule="Texture" FromPin="Out" ToModule="If Text" ToPin="If" />
+				<Connection FromModule="Text Concat Multi 2" FromPin="Out" ToModule="If Text" ToPin="Then" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="If Text" ToPin="Else" />
+				<Connection FromModule="PREVIOUS COMMANDS" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text1" />
+				<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text2" />
+				<Connection FromModule="Tagged Item Texturer (COLOR)" FromPin="Parameter Name" ToModule="Parameter Name" ToPin="In" />
+				<Connection FromModule="Tagged Item Texturer (COLOR)" FromPin="Color" ToModule="Copy Color" ToPin="In" />
+				<Connection FromModule="Copy Color" FromPin="Out" ToModule="Color Decompose" ToPin="Color" />
+				<Connection FromModule="Color Decompose" FromPin="C1" ToModule="Scalar To Text 2" ToPin="Value" />
+				<Connection FromModule="Color Decompose" FromPin="C2" ToModule="Scalar To Text 3" ToPin="Value" />
+				<Connection FromModule="Color Decompose" FromPin="C3" ToModule="Scalar To Text 4" ToPin="Value" />
+				<Connection FromModule="Color Decompose" FromPin="Alpha" ToModule="Scalar To Text 5" ToPin="Value" />
+			</Connections>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="TEXTURE" SourcePin="TEXTS" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="TEXTS" Type="PinCollectionValue" SourceModule="COLOR" SourcePin="TEXTS" />
+		<Pin Name="TEXTURE" Type="PinVideoValue" SourceModule="TEXTURE" SourcePin="TEXTURE" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="TEXTURE" FromPin="TEXTS" ToModule="SCALAR" ToPin="TEXTS" />
+		<Connection FromModule="SCALAR" FromPin="TEXTS" ToModule="COLOR" ToPin="TEXTS" />
+	</Connections>
+</AximmetryCompound>

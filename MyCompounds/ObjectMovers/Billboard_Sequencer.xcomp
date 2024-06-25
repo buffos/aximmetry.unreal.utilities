@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="CAMERAS">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="60" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-01-28T00:09:34.0238444+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="" Tags="">
+			<Thumbnail Data="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" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Billboard Sequencer" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="40, 241" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="Sequencer">
+			<Properties Name="Sequencer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-399, 579" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+					<item key="SeqLayout:Sequence" type="String" value="&lt;SequenceLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.304&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&#x9;&lt;BeginGroup name=&quot;Sequence Node&quot; isExpanded=&quot;True&quot; module=&quot;Root\Sequence Node&quot; /&gt;&#xD;&#xA;&#x9;&lt;CurvesTrack sourceModule=&quot;Root\Sequence Node&quot; sourcePin=&quot;SeqPosition&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;autoValueRange&gt;False&lt;/autoValueRange&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValueRange start=&quot;-1.9029690409695159&quot; end=&quot;3.0276677358984263&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;DisplayMode&gt;Maximized&lt;/DisplayMode&gt;&#xD;&#xA;&#x9;&#x9;&lt;Height&gt;533&lt;/Height&gt;&#xD;&#xA;&#x9;&#x9;&lt;NormalHeight&gt;100&lt;/NormalHeight&gt;&#xD;&#xA;&#x9;&#x9;&lt;EditableComponents&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;Component&gt;Y&lt;/Component&gt;&#xD;&#xA;&#x9;&#x9;&lt;/EditableComponents&gt;&#xD;&#xA;&#x9;&lt;/CurvesTrack&gt;&#xD;&#xA;&#x9;&lt;EndGroup /&gt;&#xD;&#xA;&lt;/SequenceLayout&gt;" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Sequence" Type="PinSequenceValue">
+					<TimeFormat type="@@@null@@@" />
+					<Markers />
+				</Pin>
+				<Pin Name="PlayingState" Type="PinIntValue" Value="psStopped" />
+				<Pin Name="Speed" Type="PinScalarValue" Value="1" />
+				<Pin Name="Backwards" Type="PinBoolValue" Value="False" />
+				<Pin Name="Bounce" Type="PinBoolValue" Value="False" />
+				<Pin Name="Looping" Type="PinBoolValue" Value="True" />
+				<Pin Name="StayInLoopReg" Type="PinBoolValue" Value="False" />
+				<Pin Name="AutoLoopReg" Type="PinBoolValue" Value="True" />
+				<Pin Name="LoopStart" Type="PinDoubleValue" Value="0" />
+				<Pin Name="LoopEnd" Type="PinDoubleValue" Value="1" />
+				<Pin Name="HaltAtMarker" Type="PinIntValue" Value="0" />
+				<Pin Name="JumpToMarker" Type="PinIntValue" Value="1" />
+				<Pin Name="OnStopGoTo" Type="PinIntValue" Value="sgLoopStart" />
+				<Pin Name="SkipOnInit" Type="PinBoolValue" Value="False" />
+				<Pin Name="StopWhenInactive" Type="PinBoolValue" Value="True" />
+				<Pin Name="EditorCursor" Type="PinDoubleValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SequenceNode">
+			<Properties Name="Sequence Node" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-37, 500" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+				<Pin Name="Sequenced" Type="PinBoolValue" Value="True" />
+				<Pin Name="SeqPositionData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="False">
+					<Parts>
+						<Part StartTime="0" EndTime="3" ContentOffset="0">
+							<Curves>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys>
+										<Key ShapeLinked="False" Time="0" InControlPoint="-0.5, 0" OutControlPoint="0.5, 0" Continuity="C1" Value="0">
+											<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+												<PrevKeyOut Ease="0" Slope="0.33" />
+											</Shape>
+										</Key>
+										<Key ShapeLinked="False" Time="0.66666666666666663" InControlPoint="-0.33, 0" OutControlPoint="0.33, 0" Continuity="C1" Value="0.73254155821369815">
+											<Shape type="MCurveAutoBezierShape" Ease="0" Slope="0.33">
+												<PrevKeyOut Ease="0" Slope="0.33" />
+											</Shape>
+										</Key>
+										<Key ShapeLinked="False" Time="1.4333333333333333" InControlPoint="-0.329823414566719, -0.0154761001425474" OutControlPoint="0.366666666666666, 0.0172048732796061" Continuity="C1" Value="-0.164949174192013">
+											<Shape type="MCurveSplineShape" />
+										</Key>
+										<Key ShapeLinked="False" Time="2.1" InControlPoint="-0.33, 0" OutControlPoint="0.33, 0" Continuity="C1" Value="0.1051378637523297">
+											<Shape type="MCurveSplineShape" />
+										</Key>
+										<Key ShapeLinked="False" Time="3" InControlPoint="-0.209, 0" OutControlPoint="0.209, 0" Continuity="C1" Value="-0.005734957759868764">
+											<Shape type="MCurveSplineShape" />
+										</Key>
+									</Keys>
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+							</Curves>
+						</Part>
+					</Parts>
+				</Pin>
+				<Pin Name="SeqRotationData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+					<Parts>
+						<Part StartTime="0" EndTime="1" ContentOffset="0">
+							<Curves>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+							</Curves>
+						</Part>
+					</Parts>
+				</Pin>
+				<Pin Name="SeqScaleData" Type="PinSequenceTrackValue" AllowEdit="True" AutoSizeable="True">
+					<Parts>
+						<Part StartTime="0" EndTime="1" ContentOffset="0">
+							<Curves>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+								<Curve PreBehaviour="Constant" PostBehaviour="Constant">
+									<Keys />
+								</Curve>
+							</Curves>
+						</Part>
+					</Parts>
+				</Pin>
+			</PinValues>
+		</Module>
+		<Module Type="CollectionTransformation">
+			<Properties Name="Collection Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-369, 403" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyCollection">
+			<Properties Name="Copy Collection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-569, 402" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Scene Node" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="250, 374" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="591, 455" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Shadow" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="581, 361" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="shadow transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="584, 269" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Refl Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="592, 187" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="AO Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="In" Type="PinCollectionValue" SourceModule="Copy Collection" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinCollectionValue" SourceModule="Set Collection Transformation Reflection 2" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Sequencer" FromPin="Tracks" ToModule="Sequence Node" ToPin="SeqPosition" />
+		<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Collection Transformation" ToPin="Collection" />
+		<Connection FromModule="Collection Transformation" FromPin="Out" ToModule="Scene Node" ToPin="Transformation" />
+		<Connection FromModule="Sequence Node" FromPin="WorldTransf" ToModule="Scene Node" ToPin="AddTransform" />
+		<Connection FromModule="Copy Collection" FromPin="Out" ToModule="Set Collection Transformation 2" ToPin="Collection" />
+		<Connection FromModule="Scene Node" FromPin="WorldTransf" ToModule="Set Collection Transformation 2" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation 2" FromPin="Out" ToModule="Set Collection Transformation Shadow" ToPin="Collection" />
+		<Connection FromModule="Scene Node" FromPin="WorldTransf" ToModule="Set Collection Transformation Shadow" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation Shadow" FromPin="Out" ToModule="Set Collection Transformation Reflection" ToPin="Collection" />
+		<Connection FromModule="Scene Node" FromPin="WorldTransf" ToModule="Set Collection Transformation Reflection" ToPin="Value" />
+		<Connection FromModule="Set Collection Transformation Reflection" FromPin="Out" ToModule="Set Collection Transformation Reflection 2" ToPin="Collection" />
+		<Connection FromModule="Scene Node" FromPin="WorldTransf" ToModule="Set Collection Transformation Reflection 2" ToPin="Value" />
+	</Connections>
+</AximmetryCompound>

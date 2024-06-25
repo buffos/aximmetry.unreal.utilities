@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryFileInfoCache version="2023.2.2">
+	<File Path="BillboardMover.xcomp" V="1,637829714821210500,0" Description="" Tags="" Properties="null" />
+	<File Path="BillboardMoverPortrait.xcomp" V="1,637833392679089362,0" Description="" Tags="" Properties="null" />
+	<File Path="CameraMover.xcomp" V="1,637829716894563911,0" Description="" Tags="" Properties="null" />
+	<File Path="ObjectDirectionMover.xcomp" V="1,637829672745830154,0" Description="" Tags="" Properties="null" />
+	<File Path="ObjectMover.xcomp" V="1,637829714210779906,0" Description="" Tags="" Properties="null" />
+	<File Path="PositionSelector.xcomp" V="1,637836726404246793,0" Description="" Tags="" Properties="null" />
+	<File Path="PositionSelectorOLD.xcomp" V="1,637834799879307476,0" Description="" Tags="" Properties="null" />
+	<File Path="" V="1,638192272867159978,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="Billboard_Sequencer.xcomp" V="1,638104613740278587,0" Description="" Tags="" Properties="null" />
+	<File Path="Billboard_Switch_Positioner.xcomp" V="1,638171097041510059,0" Description="" Tags="" Properties="null" />
+	<File Path="Object_Switch_Positioner.xcomp" V="1,638162527957040340,0" Description="" Tags="" Properties="null" />
+</AximmetryFileInfoCache>

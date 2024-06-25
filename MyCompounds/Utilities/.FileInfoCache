@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryFileInfoCache version="2023.2.2">
+	<File Path="CountDownScalar.xcomp" V="1,637644785644923602,0" Description="" Tags="" Properties="null" />
+	<File Path="ForLoop.xcomp" V="1,638163971538227375,0" Description="null" Tags="null" Properties="null" />
+	<File Path="LogicalFlipFlop.xcomp" V="1,637608372869440073,0" Description="null" Tags="null" Properties="null" />
+	<File Path="PersistentTransformationSwitcher.xcomp" V="1,637836726334011949,0" Description="" Tags="" Properties="null" />
+	<File Path="ReadFromFileScalars.xcomp" V="1,637836564005183367,0" Description="null" Tags="null" Properties="null" />
+	<File Path="ReadFromFileTransformations.xcomp" V="1,637836576959565254,0" Description="null" Tags="null" Properties="null" />
+	<File Path="SwitchTriggerOnInteger.xcomp" V="1,637829687680389872,0" Description="null" Tags="null" Properties="null" />
+	<File Path="TriggerOnIntegerValueChanged.xcomp" V="1,637608832506991119,0" Description="null" Tags="null" Properties="null" />
+	<File Path="TriggerOnIntegerValueChangedWithDebounchTime.xcomp" V="1,637609439049255005,0" Description="null" Tags="null" Properties="null" />
+	<File Path="TriggerOnIntegerWithDebounchTime.xcomp" V="1,637609467450689280,0" Description="null" Tags="null" Properties="null" />
+	<File Path="WriteToFileScalars.xcomp" V="1,637836550996632493,0" Description="null" Tags="null" Properties="null" />
+	<File Path="WriteToFileTransformations.xcomp" V="1,637836570185621200,0" Description="null" Tags="null" Properties="null" />
+	<File Path="" V="1,638192272867039959,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="ConcatArrayEntryToText.xcomp" V="1,638114022620398179,0" Description="null" Tags="null" Properties="null" />
+	<File Path="ControlPinValueWithTriggers.xcomp" V="1,638144120051664614,0" Description="null" Tags="null" Properties="null" />
+	<File Path="DAY_TIME_WEATHER.xcomp" V="1,638162249559046760,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Get_Vector_Item_(Safe).xcomp" V="1,638156937727065617,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Lights_Components (push updates version).xcomp" V="1,638173730713952798,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Lights_Components (Talent) (push updates version).xcomp" V="1,638179748252747884,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Lights_Components (Talent).xcomp" V="1,638165642002822016,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Lights_Components.xcomp" V="1,638166482516486443,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Loop_Index_With_Timer.xcomp" V="1,638156893875230204,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Multi_Trigger_Any.xcomp" V="1,638170273320412659,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Object_Texturer_by_Tag.xcomp" V="1,638179765209721651,0" Description="null" Tags="null" Properties="null" />
+	<File Path="OSC_Audio_Levels.xcomp" V="1,638142416240000000,0" Description="null" Tags="null" Properties="null" />
+	<File Path="OSC_setAudioFiles.xcomp" V="1,638154492410000000,0" Description="null" Tags="null" Properties="null" />
+	<File Path="OSC_setVideoFiles.xcomp" V="1,638154495200000000,0" Description="null" Tags="null" Properties="null" />
+	<File Path="OSC_Trigger.xcomp" V="1,638143422199768036,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Project_Commands.xcomp" V="1,638189750702193396,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Push_Color_Updates_as_Text.xcomp" V="1,638166781819160114,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Push_FreeVector_Updates_as_Text.xcomp" V="1,638177960591851836,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Push_Text_Updates.xcomp" V="1,638167586930648315,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Push_Transformations_Updates_as_Text.xcomp" V="1,638166783502625331,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Push_Value_Updates_as_Text.xcomp" V="1,638166779940057244,0" Description="null" Tags="null" Properties="null" />
+</AximmetryFileInfoCache>

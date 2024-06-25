@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-02-07T21:17:35.2338702+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-02-07T21:31:02.0348067+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Stop increasing the index when we exausted the array&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;308, -396, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Stop concatenating when we reach the end of the array&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;433, 245, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Update variables&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;924, -113, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;4&quot; Title=&quot;counter&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-373, -343, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;5&quot; Title=&quot;Size of the array&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-415, -149, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;6&quot; Title=&quot;for the first entry we do not need a separator&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-354, 496, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;7&quot; Title=&quot;Intialization&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1262, 23, 0, 0&quot; TitleFontSize=&quot;18&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Hold&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Hold Text&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Set Integer Pin&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Set Text Pin&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:4&quot; To=&quot;node:current index&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:5&quot; To=&quot;node:Collection Array Count&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:6&quot; To=&quot;node:If Text (choose separator)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:6&quot; To=&quot;node:Equal to Zero&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:7&quot; To=&quot;node:Initialize Counter&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:7&quot; To=&quot;node:Initialize text&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+			<item key="ViewCenter" type="PointF" value="-259.4167, 62.59898" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="EditedTextPin" type="String" value="Text" />
+			<item key="EditedTextModule" type="String" value="Root\JSON Text" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="JSONText">
+			<Properties Name="JSON Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-546, 62" />
+					<item key="TextLayout:Text" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;TextLayout Start=&quot;1, 4&quot; End=&quot;1, 4&quot; /&gt;" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="{&#xD;&#xA;&quot;name&quot;:&quot;John&quot;,&#xD;&#xA;&quot;age&quot;:30,&#xD;&#xA;&quot;cars&quot;:[&quot;Ford&quot;, &quot;BMW&quot;, &quot;Fiat&quot;]&#xD;&#xA;}" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionArrayCount">
+			<Properties Name="Collection Array Count" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-343, -59" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="cars" />
+			</PinValues>
+		</Module>
+		<Module Type="LessOrEqual">
+			<Properties Name="Less Or Equal" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="115, -103" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="current index" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-427, -258" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="4" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="-1" />
+			</PinValues>
+		</Module>
+		<Module Type="Add">
+			<Properties Name="plus 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="667, -252" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="GetTextFromCollection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-297, 219" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="cars" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyText">
+			<Properties Name="initial text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-182, 142" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="Ford;BMW;Fiat" />
+				<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="171, 157" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="SetTextPin">
+			<Properties Name="Set Text Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="922, 26" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="initial text" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinStringValue" Value="Ford;BMW;Fiat" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="821, -271" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current index" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinIntValue" Value="4" />
+			</PinValues>
+		</Module>
+		<Module Type="Hold">
+			<Properties Name="Hold" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="410, -258" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Trigger LoopStart" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1612, -11" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="Hold">
+			<Properties Name="Initialize Counter" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1315, -207" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="0" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Subtract">
+			<Properties Name="Subtract" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-82, -57" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="HoldText">
+			<Properties Name="Initialize text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1298, 178" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SetIntegerPin">
+			<Properties Name="Set Integer Pin 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1000, -200" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="current index" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetTextPin">
+			<Properties Name="Set Text Pin 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-988, 184" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="initial text" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="HoldText">
+			<Properties Name="Hold Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="459, 99" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal to Zero" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-403, 365" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="IfText">
+			<Properties Name="If Text (choose separator)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-187, 364" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinStringValue" Value="" />
+				<Pin Name="Else" Type="PinStringValue" Value=";" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins />
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="JSON Text" FromPin="Out" ToModule="Collection Array Count" ToPin="Collection" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Less Or Equal" ToPin="A" />
+		<Connection FromModule="Subtract" FromPin="Out" ToModule="Less Or Equal" ToPin="B" />
+		<Connection FromModule="Hold" FromPin="Out" ToModule="plus 1" ToPin="A" />
+		<Connection FromModule="JSON Text" FromPin="Out" ToModule="GetTextFromCollection" ToPin="Collection" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="GetTextFromCollection" ToPin="Index" />
+		<Connection FromModule="initial text" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+		<Connection FromModule="GetTextFromCollection" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+		<Connection FromModule="If Text (choose separator)" FromPin="Out" ToModule="Text Concat" ToPin="Separator" />
+		<Connection FromModule="Hold Text" FromPin="Out" ToModule="Set Text Pin" ToPin="Value" />
+		<Connection FromModule="plus 1" FromPin="Out" ToModule="Set Integer Pin" ToPin="Value" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Hold" ToPin="In" />
+		<Connection FromModule="Less Or Equal" FromPin="Out" ToModule="Hold" ToPin="PassIf" />
+		<Connection FromModule="Trigger LoopStart" FromPin="Out" ToModule="Initialize Counter" ToPin="Pass" />
+		<Connection FromModule="Collection Array Count" FromPin="Count" ToModule="Subtract" ToPin="A" />
+		<Connection FromModule="Trigger LoopStart" FromPin="Out" ToModule="Initialize text" ToPin="Pass" />
+		<Connection FromModule="Initialize Counter" FromPin="Passed" ToModule="Set Integer Pin 2" ToPin="Set" />
+		<Connection FromModule="Initialize Counter" FromPin="Out" ToModule="Set Integer Pin 2" ToPin="Value" />
+		<Connection FromModule="Initialize text" FromPin="Passed" ToModule="Set Text Pin 2" ToPin="Set" />
+		<Connection FromModule="Initialize text" FromPin="Out" ToModule="Set Text Pin 2" ToPin="Value" />
+		<Connection FromModule="Text Concat" FromPin="Out" ToModule="Hold Text" ToPin="In" />
+		<Connection FromModule="Less Or Equal" FromPin="Out" ToModule="Hold Text" ToPin="PassIf" />
+		<Connection FromModule="current index" FromPin="Out" ToModule="Equal to Zero" ToPin="A" />
+		<Connection FromModule="Equal to Zero" FromPin="Out" ToModule="If Text (choose separator)" ToPin="If" />
+	</Connections>
+	<Descriptions>
+		<Description Target="mod:Hold" Index="0" Title="Stop increasing the index when we exausted the array" Text="" />
+		<Description Target="mod:Hold Text" Index="0" Title="Stop concatenating when we reach the end of the array" Text="" />
+		<Description Target="mod:Set Integer Pin" Index="0" Title="Update variables" Text="" />
+		<Description Target="mod:Set Text Pin" Index="0" Title="Update variables" Text="" />
+		<Description Target="mod:current index" Index="0" Title="counter" Text="" />
+		<Description Target="mod:Collection Array Count" Index="0" Title="Size of the array" Text="" />
+		<Description Target="mod:If Text (choose separator)" Index="0" Title="for the first entry we do not need a separator" Text="" />
+		<Description Target="mod:Equal to Zero" Index="0" Title="for the first entry we do not need a separator" Text="" />
+		<Description Target="mod:Initialize Counter" Index="0" Title="Intialization" Text="" />
+		<Description Target="mod:Initialize text" Index="0" Title="Intialization" Text="" />
+	</Descriptions>
+</AximmetryCompound>

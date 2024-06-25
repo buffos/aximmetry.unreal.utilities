@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2024.2.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" AllowWASD="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="MidiParams" InterpretSpecialCCs="False" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Bilboard 1">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="60" />
+		<Parameter type="ArrHistoryParams" UniqueID="B1F0140E-59BE-424B-9595-6EDF781B71F4" Revision="5">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-02-01T17:45:16.1525989+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-13T17:20:06.1215417+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-13T17:30:39.0701331+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-13T19:13:18.1661005+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-13T21:34:12.7631178+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-22T22:04:05.0233173+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-23T09:19:59.6511141+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-05T00:35:57.8054708+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-08T15:40:52.5710286+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-14T22:55:04.1339303+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-06T18:48:49.8910885+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-06T18:52:25.8375429+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-06T19:05:26.5669552+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-06T19:08:33.9970972+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-06T19:09:49.4158667+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="" Tags="" ThumbnailDontCrop="False">
+			<Thumbnail Data="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" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Billboard_Switch_Positioner" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-1436, 587" />
+			<item key="ViewCenter" type="PointF" value="-1831.703, 1878.125" />
+			<item key="ZoomFactor" type="Single" value="0.8441392" />
+			<item key="Notes" type="String" value="" />
+			<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2998, 1272" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Shadow" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2988, 1178" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="shadow transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2991, 1086" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="Refl Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetCollectionTransformation">
+			<Properties Name="Set Collection Transformation Reflection 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2999, 1004" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="AO Transform" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Scene Node 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-226, 1006" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [0.9999999, 0.9999999, 0.9999999]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="536, 562" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [4.720829, -0.1707866, 1.572136], [0, 0, 0], [1.9, 1.9, 1.9]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Billboard  Position" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1575, 1676" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyIntegerAC">
+					<Properties Name="Copy Integer AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="725.2532, 1138.518" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="3" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1091.679, 2324.569" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-850.7398, 1528.187" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogicalAC">
+					<Properties Name="Copy Logical AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2196.707, 1504.793" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="In">
+					<Controllers>
+						<item type="OscController" ControllerID="0" ExtControllerID="/talent/position1" BacklightIndex="1" DeviceName="OSC">
+							<Target type="CtrBoardButtonPressCtrTarget" Button="1" />
+						</item>
+						<item type="OscController" ControllerID="0" ExtControllerID="/talent/position2" BacklightIndex="1" DeviceName="OSC">
+							<Target type="CtrBoardButtonPressCtrTarget" Button="2" />
+						</item>
+						<item type="OscController" ControllerID="0" ExtControllerID="/talent/position3" BacklightIndex="1" DeviceName="OSC">
+							<Target type="CtrBoardButtonPressCtrTarget" Button="3" />
+						</item>
+					</Controllers>
+				</Pin>
+				<Pin Name="Transition Speed 1" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+				<Pin Name="Transition Speed 2" Type="PinScalarValue" SourceModule="Copy Scalar 2" SourcePin="In" />
+				<Pin Name="Transition Speed 3" Type="PinScalarValue" SourceModule="Copy Scalar 3" SourcePin="In" />
+				<Pin Name="Transition Speed 4" Type="PinScalarValue" SourceModule="Copy Scalar 4" SourcePin="In" />
+				<Pin Name="Transition Speed 5" Type="PinScalarValue" SourceModule="Copy Scalar 5" SourcePin="In" />
+				<Pin Name="Transition Speed 6" Type="PinScalarValue" SourceModule="Copy Scalar 6" SourcePin="In" />
+				<Pin Name="Transition Speed 7" Type="PinScalarValue" SourceModule="Copy Scalar 7" SourcePin="In" />
+				<Pin Name="Transition Speed 8" Type="PinScalarValue" SourceModule="Copy Scalar 8" SourcePin="In" />
+				<Pin Name="Transition Speed 9" Type="PinScalarValue" SourceModule="Copy Scalar 9" SourcePin="In" />
+				<Pin Name="Transition Speed 10" Type="PinScalarValue" SourceModule="Copy Scalar 10" SourcePin="In" />
+				<Pin Name="Transition Speed 11" Type="PinScalarValue" SourceModule="Copy Scalar 11" SourcePin="In" />
+				<Pin Name="Transition Speed 12" Type="PinScalarValue" SourceModule="Copy Scalar 12" SourcePin="In" />
+				<Pin Name="Transition Speed 13" Type="PinScalarValue" SourceModule="Copy Scalar 13" SourcePin="In" />
+				<Pin Name="Transition Speed 14" Type="PinScalarValue" SourceModule="Copy Scalar 14" SourcePin="In" />
+				<Pin Name="Transition Speed 15" Type="PinScalarValue" SourceModule="Copy Scalar 15" SourcePin="In" />
+				<Pin Name="Transition Speed 16" Type="PinScalarValue" SourceModule="Copy Scalar 16" SourcePin="In" />
+				<Pin Name="#_Mirror" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="Out" />
+				<Pin Name="Transition Speed 1" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="Out" />
+				<Pin Name="Transition Speed 2" Type="PinScalarValue" SourceModule="Copy Scalar 2" SourcePin="Out" />
+				<Pin Name="Transition Speed 3" Type="PinScalarValue" SourceModule="Copy Scalar 3" SourcePin="Out" />
+				<Pin Name="Transition Speed 4" Type="PinScalarValue" SourceModule="Copy Scalar 4" SourcePin="Out" />
+				<Pin Name="Transition Speed 5" Type="PinScalarValue" SourceModule="Copy Scalar 5" SourcePin="Out" />
+				<Pin Name="Transition Speed 6" Type="PinScalarValue" SourceModule="Copy Scalar 6" SourcePin="Out" />
+				<Pin Name="Transition Speed 7" Type="PinScalarValue" SourceModule="Copy Scalar 7" SourcePin="Out" />
+				<Pin Name="Transition Speed 8" Type="PinScalarValue" SourceModule="Copy Scalar 8" SourcePin="Out" />
+				<Pin Name="Transition Speed 9" Type="PinScalarValue" SourceModule="Copy Scalar 9" SourcePin="Out" />
+				<Pin Name="Transition Speed 10" Type="PinScalarValue" SourceModule="Copy Scalar 10" SourcePin="Out" />
+				<Pin Name="Transition Speed 11" Type="PinScalarValue" SourceModule="Copy Scalar 11" SourcePin="Out" />
+				<Pin Name="Transition Speed 12" Type="PinScalarValue" SourceModule="Copy Scalar 12" SourcePin="Out" />
+				<Pin Name="Transition Speed 13" Type="PinScalarValue" SourceModule="Copy Scalar 13" SourcePin="Out" />
+				<Pin Name="Transition Speed 14" Type="PinScalarValue" SourceModule="Copy Scalar 14" SourcePin="Out" />
+				<Pin Name="Transition Speed 15" Type="PinScalarValue" SourceModule="Copy Scalar 15" SourcePin="Out" />
+				<Pin Name="Transition Speed 16" Type="PinScalarValue" SourceModule="Copy Scalar 16" SourcePin="Out" />
+				<Pin Name="#_Mirror" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections />
+			<Enhancer type="PinCollector" />
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Bilboard 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1484, 636" />
+					<item key="ViewCenter" type="PointF" value="17.9551, 56.28448" />
+					<item key="ZoomFactor" type="Single" value="0.6640234" />
+				</ExtraData>
+			</Properties>
+			<Children />
+			<ExposerInputPins />
+			<ExposerOutputPins />
+			<Connections />
+			<Enhancer type="ControlBoard">
+				<Modules>
+					<Module Path="Billboard  Position" Location="142, -64" Color="#E79286" />
+					<Module Path="Position 1" Location="-487, -61" Color="#E79286" />
+					<Module Path="Position 2" Location="-379, -61" Color="#E79286" />
+					<Module Path="Position 3" Location="-271, -61" Color="#E79286" />
+					<Module Path="Position 4" Location="-163, -61" Color="#E79286" />
+					<Module Path="Position 5" Location="-487, 44" Color="#E79286" />
+					<Module Path="Position 6" Location="-379, 44" Color="#E79286" />
+					<Module Path="Position 7" Location="-271, 44" Color="#E79286" />
+					<Module Path="Position 8" Location="-163, 44" Color="#E79286" />
+					<Module Path="Position 9" Location="-487, 152" Color="#E79286" />
+					<Module Path="Position 10" Location="-379, 152" Color="#E79286" />
+					<Module Path="Position 11" Location="-271, 152" Color="#E79286" />
+					<Module Path="Position 12" Location="-163, 152" Color="#E79286" />
+					<Module Path="Position 13" Location="-487, 260" Color="#E79286" />
+					<Module Path="Position 14" Location="-379, 260" Color="#E79286" />
+					<Module Path="Position 15" Location="-271, 260" Color="#E79286" />
+					<Module Path="Position 16" Location="-163, 260" Color="#E79286" />
+				</Modules>
+			</Enhancer>
+		</Module>
+		<Module Type="SwitchTransformation">
+			<Properties Name="Switch Billboard Positions" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1098, 981" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Selected" Type="PinIntValue" Value="3" />
+				<Pin Name="Value1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value3" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value4" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value5" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value6" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value7" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value8" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value9" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value10" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value11" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value12" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value13" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value14" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value15" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value16" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="543, 657" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [5.342084, -0.1573238, -0.9901011], [0.0001502642, -0.000396151, -0.0004371321], [1.900002, 1.900002, 1.900002]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="544, 778" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [4.733373, 0.05372883, -4.82449], [0, 0, 0], [1.900002, 1.900002, 1.900002]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="550, 881" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [8.630894, 0.02063406, 1.321481], [-6.83019E-05, 2.732076E-05, 5.464151E-05], [1.900001, 1.900001, 1.900001]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="552, 989" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [14.29274, -0.1240955, 1.955532], [0, 0, 0], [1.9, 1.9, 1.9]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="556, 1114" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [1.788139E-07, 0, 2.264374], [-1.366038E-05, -1.366038E-05, 2.732076E-05], [1.9, 1.9, 1.9]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="560, 1221" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0.06981897, -0.4036609, 0.2490611], [-1.366038E-05, -1.366038E-05, 2.732076E-05], [0.9999999, 0.9999999, 0.9999999]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="569, 1324" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="570, 1433" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="572, 1541" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="570, 1663" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [1.788139E-07, 0, 2.264374], [-1.366038E-05, -1.366038E-05, 2.732076E-05], [0.9999999, 0.9999999, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="574, 1770" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [-5.960464E-08, 1.192093E-07, -1.91648], [-1.366038E-05, -1.366038E-05, 2.732076E-05], [0.9999999, 0.9999999, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="583, 1873" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="584, 1982" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="586, 2090" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="Position 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="588, 2217" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SmoothTransformation">
+			<Properties Name="Smooth Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1548, 1218" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="InitValue" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Circular" Type="PinBoolValue" Value="True" />
+				<Pin Name="Linear" Type="PinBoolValue" Value="False" />
+				<Pin Name="Delay" Type="PinScalarValue" Value="0.5" />
+			</PinValues>
+		</Module>
+		<Module Type="SwitchScalar">
+			<Properties Name="Transition Times" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1118, 1610" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Selected" Type="PinIntValue" Value="3" />
+				<Pin Name="Value1" Type="PinScalarValue" Value="0.1" />
+				<Pin Name="Value2" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value3" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value4" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value5" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value6" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value7" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value8" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value9" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value10" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value11" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value12" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value13" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value14" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value15" Type="PinScalarValue" Value="1" />
+				<Pin Name="Value16" Type="PinScalarValue" Value="1" />
+				<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="IfTransformation">
+			<Properties Name="If Mirror talent" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2221, 1173" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Else" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Mirror Transform" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1862, 1273" />
+					<item key="Notes" type="String" value="" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TransformationDecompose">
+					<Properties Name="Transformation Decompose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1777, 1344" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Transformation" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2780, 1359" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="RotationSplit">
+					<Properties Name="Rotation Split" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1997, 1477" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+					</PinValues>
+				</Module>
+				<Module Type="Add">
+					<Properties Name="Add Y 180 deg" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2313, 1500" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinVectorValue" Value="0" />
+						<Pin Name="B" Type="PinVectorValue" Value="180" />
+					</PinValues>
+				</Module>
+				<Module Type="RotationMerge">
+					<Properties Name="Rotation Merge" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="2579, 1485" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="X" Type="PinScalarValue" Value="0" />
+						<Pin Name="Y" Type="PinScalarValue" Value="0" />
+						<Pin Name="Z" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Decompose" SourcePin="Transformation" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Transformation Decompose" FromPin="Position" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Rotation Merge" FromPin="Rotation" ToModule="Transformation Compose" ToPin="Rotation" />
+				<Connection FromModule="Transformation Decompose" FromPin="Scale" ToModule="Transformation Compose" ToPin="Scale" />
+				<Connection FromModule="Transformation Decompose" FromPin="Rotation" ToModule="Rotation Split" ToPin="Rotation" />
+				<Connection FromModule="Rotation Split" FromPin="Y" ToModule="Add Y 180 deg" ToPin="A" />
+				<Connection FromModule="Rotation Split" FromPin="X" ToModule="Rotation Merge" ToPin="X" />
+				<Connection FromModule="Add Y 180 deg" FromPin="Out" ToModule="Rotation Merge" ToPin="Y" />
+				<Connection FromModule="Rotation Split" FromPin="Z" ToModule="Rotation Merge" ToPin="Z" />
+			</Connections>
+		</Module>
+		<Module Type="SetTransformationPin">
+			<Properties Name="Set Transformation Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2439, 706" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
+				<Pin Name="Module" Type="PinStringValue" Value="..\VirtualCam_Unreal_3-Cam\INPUT %N=1\Line %N\BILLBOARD %N" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Transformation" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+				<Pin Name="AllowUndo" Type="PinBoolValue" Value="False" />
+				<Pin Name="Force" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [4.733372, 0.05372882, -4.82449], [0, 0, 0], [1.900002, 1.900002, 1.900002]" />
+				<Pin Name="ForcePRS" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Transition Speed 1" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 1" />
+		<Pin Name="Transition Speed 2" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 2" />
+		<Pin Name="Transition Speed 3" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 3" />
+		<Pin Name="Transition Speed 4" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 4" />
+		<Pin Name="Transition Speed 5" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 5" />
+		<Pin Name="Transition Speed 6" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 6" />
+		<Pin Name="Transition Speed 7" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 7" />
+		<Pin Name="Transition Speed 8" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 8" />
+		<Pin Name="Transition Speed 9" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 9" />
+		<Pin Name="Transition Speed 10" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 10" />
+		<Pin Name="Transition Speed 11" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 11" />
+		<Pin Name="Transition Speed 12" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 12" />
+		<Pin Name="Transition Speed 13" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 13" />
+		<Pin Name="Transition Speed 14" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 14" />
+		<Pin Name="Transition Speed 15" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 15" />
+		<Pin Name="Transition Speed 16" Type="PinScalarValue" SourceModule="Billboard  Position" SourcePin="Transition Speed 16" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="BillBoardTransformation" Type="PinTransformationValue" SourceModule="If Mirror talent" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Set Collection Transformation 2" FromPin="Out" ToModule="Set Collection Transformation Shadow" ToPin="Collection" />
+		<Connection FromModule="Set Collection Transformation Shadow" FromPin="Out" ToModule="Set Collection Transformation Reflection" ToPin="Collection" />
+		<Connection FromModule="Set Collection Transformation Reflection" FromPin="Out" ToModule="Set Collection Transformation Reflection 2" ToPin="Collection" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 1" ToPin="Parent" />
+		<Connection FromModule="Billboard  Position" FromPin="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" ToModule="Switch Billboard Positions" ToPin="Selected" />
+		<Connection FromModule="Position 1" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value1" />
+		<Connection FromModule="Position 2" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value2" />
+		<Connection FromModule="Position 3" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value3" />
+		<Connection FromModule="Position 4" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value4" />
+		<Connection FromModule="Position 5" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value5" />
+		<Connection FromModule="Position 6" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value6" />
+		<Connection FromModule="Position 7" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value7" />
+		<Connection FromModule="Position 8" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value8" />
+		<Connection FromModule="Position 9" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value9" />
+		<Connection FromModule="Position 10" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value10" />
+		<Connection FromModule="Position 11" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value11" />
+		<Connection FromModule="Position 12" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value12" />
+		<Connection FromModule="Position 13" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value13" />
+		<Connection FromModule="Position 14" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value14" />
+		<Connection FromModule="Position 15" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value15" />
+		<Connection FromModule="Position 16" FromPin="WorldTransf" ToModule="Switch Billboard Positions" ToPin="Value16" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 2" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 3" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 4" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 5" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 6" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 7" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 8" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 9" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 10" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 11" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 12" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 13" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 14" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 15" ToPin="Parent" />
+		<Connection FromModule="Scene Node 2" FromPin="Children" ToModule="Position 16" ToPin="Parent" />
+		<Connection FromModule="Switch Billboard Positions" FromPin="Out" ToModule="Smooth Transformation" ToPin="In" />
+		<Connection FromModule="Switch Billboard Positions" FromPin="Out" ToModule="Smooth Transformation" ToPin="InitValue" />
+		<Connection FromModule="Transition Times" FromPin="Out" ToModule="Smooth Transformation" ToPin="Delay" />
+		<Connection FromModule="Billboard  Position" FromPin="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" ToModule="Transition Times" ToPin="Selected" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 1" ToModule="Transition Times" ToPin="Value1" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 2" ToModule="Transition Times" ToPin="Value2" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 3" ToModule="Transition Times" ToPin="Value3" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 4" ToModule="Transition Times" ToPin="Value4" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 5" ToModule="Transition Times" ToPin="Value5" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 6" ToModule="Transition Times" ToPin="Value6" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 7" ToModule="Transition Times" ToPin="Value7" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 8" ToModule="Transition Times" ToPin="Value8" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 9" ToModule="Transition Times" ToPin="Value9" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 10" ToModule="Transition Times" ToPin="Value10" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 11" ToModule="Transition Times" ToPin="Value11" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 12" ToModule="Transition Times" ToPin="Value12" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 13" ToModule="Transition Times" ToPin="Value13" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 14" ToModule="Transition Times" ToPin="Value14" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 15" ToModule="Transition Times" ToPin="Value15" />
+		<Connection FromModule="Billboard  Position" FromPin="Transition Speed 16" ToModule="Transition Times" ToPin="Value16" />
+		<Connection FromModule="Billboard  Position" FromPin="#_Mirror" ToModule="If Mirror talent" ToPin="If" />
+		<Connection FromModule="Calculate Mirror Transform" FromPin="Transformation" ToModule="If Mirror talent" ToPin="Then" />
+		<Connection FromModule="Smooth Transformation" FromPin="Out" ToModule="If Mirror talent" ToPin="Else" />
+		<Connection FromModule="Smooth Transformation" FromPin="Out" ToModule="Calculate Mirror Transform" ToPin="Transformation" />
+		<Connection FromModule="If Mirror talent" FromPin="Out" ToModule="Set Transformation Pin" ToPin="Value" />
+	</Connections>
+</AximmetryCompound>

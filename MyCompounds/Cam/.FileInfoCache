@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryFileInfoCache version="2023.2.2">
+	<File Path="" V="1,638314271210983365,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="VirtualCam_Unreal_A-B_Preview_3-Cam.xcomp" V="1,638136313642138021,0" Description="" Tags="" Properties="null" />
+	<File Path="Elements" V="1,638165658664658197,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="Elements\BillBoardTransfromations.xcomp" V="1,638143196071655980,0" Description="" Tags="" Properties="null" />
+	<File Path="Elements\VCamU_Billboard.xcomp" V="1,638143157253246906,0" Description="" Tags="" Properties="null" />
+	<File Path="Elements\VCamU_InputLine.xcomp" V="1,638143105649177413,0" Description="" Tags="" Properties="null" />
+</AximmetryFileInfoCache>

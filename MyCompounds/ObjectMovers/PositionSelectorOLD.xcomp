@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="POSITION BOARD">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="60" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T16:48:01.5071857+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T16:54:52.5518008+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:07:00.9796303+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:08:13.6926642+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:09:50.8320838+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:12:29.2322335+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:15:14.0867321+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-21T17:19:47.9237517+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="" Tags="">
+			<Thumbnail Data="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" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="PositionSelector" IsLocked="False">
+		<ExtraData>
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="Notes" type="String" value="" />
+			<item key="ViewCenter" type="PointF" value="-136.4299, -4.386776" />
+			<item key="ZoomFactor" type="Single" value="0.5223393" />
+			<item key="Location" type="PointF" value="691, 302" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="SwitchTransformation">
+			<Properties Name="Switch Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="648, -157" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Selected" Type="PinIntValue" Value="4" />
+				<Pin Name="Value1" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value2" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value3" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value4" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value5" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value6" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value7" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value8" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value9" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value10" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value11" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value12" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value13" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value14" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value15" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Value16" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="ForceAll" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Selected Position" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1059, 5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Hold">
+			<Properties Name="Hold until selection changed" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-730, 1" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="NotEqual">
+			<Properties Name="Not Equal" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-880, 134" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTransformation">
+			<Properties Name="Previous Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-816, 412" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinTransformationValue" Value="T [-4.09848928, 2.56245971, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTransformation">
+			<Properties Name="Current Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-817, 332" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinTransformationValue" Value="T [-4.09848928, 2.56245971, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+			</PinValues>
+		</Module>
+		<Module Type="SetTransformationPin">
+			<Properties Name="Update Previous Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-63, 237" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="Previous Transformation" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="T [-4.09848928, 2.56245971, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="ForcePRS" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SetTransformationPin">
+			<Properties Name="Update Current Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="1022, -252" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="Current Transformation" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinTransformationValue" Value="[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [-4.098489, 2.56246, 0, 1]]" />
+				<Pin Name="ForcePRS" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Edit Switcher Values" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-21, -512" />
+					<item key="ViewCenter" type="PointF" value="-448.8719, -433.8975" />
+					<item key="ZoomFactor" type="Single" value="0.322985142" />
+					<item key="Notes" type="String" value="" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyLogical">
+					<Properties Name="Edit Transformation?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1378, -336" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTransformation">
+					<Properties Name="Copy Transformation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1388, -262" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Hold Until Editable" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1070, -358" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 1" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="235, -1245" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 1?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-358, -1080" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="35, -1214" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 2?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-356, -986" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="2" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="32, -1094" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="241, -1109" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 3?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-358, -883" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="3" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="34, -983" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="247, -994" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="248, -877" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 4?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-355, -774" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="4" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="34, -872" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 5?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-351, -667" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="5" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="34, -755" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="249, -747" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-350, -569" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="6" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="35, -641" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="250, -632" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-889, -194" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="252, -509" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 7?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-358, -459" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="7" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="31, -512" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 8?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-362, -344" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="8" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="32, -397" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="258, -373" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 9?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-364, -241" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="9" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="22, -287" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="264, -258" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="265, -141" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 10?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-361, -132" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="10" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="22, -176" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 11?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-357, -25" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="11" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="22, -59" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="266, -11" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-356, 73" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="12" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="19, 63" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="267, 104" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 13?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-356, 196" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="13" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 14?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-362, 303" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="14" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 15?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-352, 416" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="15" />
+					</PinValues>
+				</Module>
+				<Module Type="Equal">
+					<Properties Name="Equal 16?" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-359, 552" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="16" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="19, 192" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="19, 303" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="19, 420" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="And">
+					<Properties Name="And 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="18, 536" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinBoolValue" Value="False" />
+						<Pin Name="B" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="261, 221" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 14" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="262, 338" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 15" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="263, 468" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="HoldTransformation">
+					<Properties Name="Pass Transformation 16" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="264, 583" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+						<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+						<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+						<Pin Name="Period" Type="PinScalarValue" Value="1" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Edit Transformation?" Type="PinBoolValue" SourceModule="Edit Transformation?" SourcePin="In" />
+				<Pin Name="New Transformation" Type="PinTransformationValue" SourceModule="Copy Transformation" SourcePin="In" />
+				<Pin Name="Selected Switch" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out 1" Type="PinTransformationValue" SourceModule="Pass Transformation 1" SourcePin="Out" />
+				<Pin Name="Out 2" Type="PinTransformationValue" SourceModule="Pass Transformation 2" SourcePin="Out" />
+				<Pin Name="Out 3" Type="PinTransformationValue" SourceModule="Pass Transformation 3" SourcePin="Out" />
+				<Pin Name="Out 4" Type="PinTransformationValue" SourceModule="Pass Transformation 4" SourcePin="Out" />
+				<Pin Name="Out 5" Type="PinTransformationValue" SourceModule="Pass Transformation 5" SourcePin="Out" />
+				<Pin Name="Out 6" Type="PinTransformationValue" SourceModule="Pass Transformation 6" SourcePin="Out" />
+				<Pin Name="Out 7" Type="PinTransformationValue" SourceModule="Pass Transformation 7" SourcePin="Out" />
+				<Pin Name="Out 8" Type="PinTransformationValue" SourceModule="Pass Transformation 8" SourcePin="Out" />
+				<Pin Name="Out 9" Type="PinTransformationValue" SourceModule="Pass Transformation 9" SourcePin="Out" />
+				<Pin Name="Out 10" Type="PinTransformationValue" SourceModule="Pass Transformation 10" SourcePin="Out" />
+				<Pin Name="Out 11" Type="PinTransformationValue" SourceModule="Pass Transformation 11" SourcePin="Out" />
+				<Pin Name="Out 12" Type="PinTransformationValue" SourceModule="Pass Transformation 12" SourcePin="Out" />
+				<Pin Name="Out 13" Type="PinTransformationValue" SourceModule="Pass Transformation 13" SourcePin="Out" />
+				<Pin Name="Out 14" Type="PinTransformationValue" SourceModule="Pass Transformation 14" SourcePin="Out" />
+				<Pin Name="Out 15" Type="PinTransformationValue" SourceModule="Pass Transformation 15" SourcePin="Out" />
+				<Pin Name="Out 16" Type="PinTransformationValue" SourceModule="Pass Transformation 16" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Copy Transformation" FromPin="Out" ToModule="Hold Until Editable" ToPin="In" />
+				<Connection FromModule="Edit Transformation?" FromPin="Out" ToModule="Hold Until Editable" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 1" ToPin="In" />
+				<Connection FromModule="And" FromPin="Out" ToModule="Pass Transformation 1" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 1?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And" ToPin="A" />
+				<Connection FromModule="Equal 1?" FromPin="Out" ToModule="And" ToPin="B" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 2?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 2" ToPin="A" />
+				<Connection FromModule="Equal 2?" FromPin="Out" ToModule="And 2" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 2" ToPin="In" />
+				<Connection FromModule="And 2" FromPin="Out" ToModule="Pass Transformation 2" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 3?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 3" ToPin="A" />
+				<Connection FromModule="Equal 3?" FromPin="Out" ToModule="And 3" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 3" ToPin="In" />
+				<Connection FromModule="And 3" FromPin="Out" ToModule="Pass Transformation 3" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 4" ToPin="In" />
+				<Connection FromModule="And 4" FromPin="Out" ToModule="Pass Transformation 4" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 4?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 4" ToPin="A" />
+				<Connection FromModule="Equal 4?" FromPin="Out" ToModule="And 4" ToPin="B" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 5?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 5" ToPin="A" />
+				<Connection FromModule="Equal 5?" FromPin="Out" ToModule="And 5" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 5" ToPin="In" />
+				<Connection FromModule="And 5" FromPin="Out" ToModule="Pass Transformation 5" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 6" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 6" ToPin="A" />
+				<Connection FromModule="Equal 6" FromPin="Out" ToModule="And 6" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 6" ToPin="In" />
+				<Connection FromModule="And 6" FromPin="Out" ToModule="Pass Transformation 6" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 7" ToPin="In" />
+				<Connection FromModule="And 7" FromPin="Out" ToModule="Pass Transformation 7" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 7?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 7" ToPin="A" />
+				<Connection FromModule="Equal 7?" FromPin="Out" ToModule="And 7" ToPin="B" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 8?" ToPin="A" />
+				<Connection FromModule="Equal 8?" FromPin="Out" ToModule="And 8" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 8" ToPin="In" />
+				<Connection FromModule="And 8" FromPin="Out" ToModule="Pass Transformation 8" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 9?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 9" ToPin="A" />
+				<Connection FromModule="Equal 9?" FromPin="Out" ToModule="And 9" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 9" ToPin="In" />
+				<Connection FromModule="And 9" FromPin="Out" ToModule="Pass Transformation 9" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 10" ToPin="In" />
+				<Connection FromModule="And 10" FromPin="Out" ToModule="Pass Transformation 10" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 10?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 10" ToPin="A" />
+				<Connection FromModule="Equal 10?" FromPin="Out" ToModule="And 10" ToPin="B" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 11?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 11" ToPin="A" />
+				<Connection FromModule="Equal 11?" FromPin="Out" ToModule="And 11" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 11" ToPin="In" />
+				<Connection FromModule="And 11" FromPin="Out" ToModule="Pass Transformation 11" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 12" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 12" ToPin="A" />
+				<Connection FromModule="Equal 12" FromPin="Out" ToModule="And 12" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 12" ToPin="In" />
+				<Connection FromModule="And 12" FromPin="Out" ToModule="Pass Transformation 12" ToPin="PassIf" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 13?" ToPin="A" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 14?" ToPin="A" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 15?" ToPin="A" />
+				<Connection FromModule="Copy Scalar" FromPin="Out" ToModule="Equal 16?" ToPin="A" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 13" ToPin="A" />
+				<Connection FromModule="Equal 13?" FromPin="Out" ToModule="And 13" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 14" ToPin="A" />
+				<Connection FromModule="Equal 14?" FromPin="Out" ToModule="And 14" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 15" ToPin="A" />
+				<Connection FromModule="Equal 15?" FromPin="Out" ToModule="And 15" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Passed" ToModule="And 16" ToPin="A" />
+				<Connection FromModule="Equal 16?" FromPin="Out" ToModule="And 16" ToPin="B" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 13" ToPin="In" />
+				<Connection FromModule="And 13" FromPin="Out" ToModule="Pass Transformation 13" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 14" ToPin="In" />
+				<Connection FromModule="And 14" FromPin="Out" ToModule="Pass Transformation 14" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 15" ToPin="In" />
+				<Connection FromModule="And 15" FromPin="Out" ToModule="Pass Transformation 15" ToPin="PassIf" />
+				<Connection FromModule="Hold Until Editable" FromPin="Out" ToModule="Pass Transformation 16" ToPin="In" />
+				<Connection FromModule="And 16" FromPin="Out" ToModule="Pass Transformation 16" ToPin="PassIf" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Object 1 Position" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1596, -425" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyIntegerAC">
+					<Properties Name="Copy Integer AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="756.0001, 534.0001" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="4" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyLogicalAC">
+					<Properties Name="Copy Logical AC" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-923.8517, -228.2162" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="In" />
+				<Pin Name="#__EDIT" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" Type="PinIntValue" SourceModule="Copy Integer AC" SourcePin="Out" />
+				<Pin Name="#__EDIT" Type="PinBoolValue" SourceModule="Copy Logical AC" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections />
+			<Enhancer type="PinCollector" />
+		</Module>
+		<Module Type="CopyLogical">
+			<Properties Name="Copy Logical" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1290, -307" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinBoolValue" Value="True" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1284, -398" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="2" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="POSITION BOARD" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1730, -729" />
+				</ExtraData>
+			</Properties>
+			<Children />
+			<ExposerInputPins />
+			<ExposerOutputPins />
+			<Connections />
+			<Enhancer type="ControlBoard">
+				<Modules>
+					<Module Path="Object 1 Position" Location="-437, -219" Color="" />
+					<Module Path="OBJECT 1" Location="393, -216" Color="" />
+				</Modules>
+			</Enhancer>
+		</Module>
+		<Module Type="SceneNode">
+			<Properties Name="OBJECT 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1941, -519" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Grouping" Type="PinVectorValue" Value="" />
+				<Pin Name="Transformation" Type="PinTransformationValue" Value="T [3.07766771, 0.9566002, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="Pivot" Type="PinVectorValue" Value="0, 0, 0" />
+				<Pin Name="BindingType" Type="PinIntValue" Value="bindLookAt" />
+				<Pin Name="AddTransform" Type="PinTransformationValue" Value="T [0, 0, 0], [0, 0, 0], [1, 1, 1]" />
+				<Pin Name="AddTransfType" Type="PinIntValue" Value="addtLocal" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Commands" Type="PinVectorValue" Value="" />
+				<Pin Name="InheritLights" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins />
+	<ExposerOutputPins>
+		<Pin Name="Current Transformation" Type="PinTransformationValue" SourceModule="Current Transformation" SourcePin="Out" />
+		<Pin Name="Previous Transformation" Type="PinTransformationValue" SourceModule="Previous Transformation" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Hold until selection changed" FromPin="Out" ToModule="Switch Transformation" ToPin="Selected" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 1" ToModule="Switch Transformation" ToPin="Value1" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 2" ToModule="Switch Transformation" ToPin="Value2" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 3" ToModule="Switch Transformation" ToPin="Value3" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 4" ToModule="Switch Transformation" ToPin="Value4" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 5" ToModule="Switch Transformation" ToPin="Value5" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 6" ToModule="Switch Transformation" ToPin="Value6" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 7" ToModule="Switch Transformation" ToPin="Value7" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 8" ToModule="Switch Transformation" ToPin="Value8" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 9" ToModule="Switch Transformation" ToPin="Value9" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 10" ToModule="Switch Transformation" ToPin="Value10" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 11" ToModule="Switch Transformation" ToPin="Value11" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 12" ToModule="Switch Transformation" ToPin="Value12" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 13" ToModule="Switch Transformation" ToPin="Value13" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 14" ToModule="Switch Transformation" ToPin="Value14" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 15" ToModule="Switch Transformation" ToPin="Value15" />
+		<Connection FromModule="Edit Switcher Values" FromPin="Out 16" ToModule="Switch Transformation" ToPin="Value16" />
+		<Connection FromModule="Copy Integer" FromPin="Out" ToModule="Selected Position" ToPin="In" />
+		<Connection FromModule="Selected Position" FromPin="Out" ToModule="Hold until selection changed" ToPin="In" />
+		<Connection FromModule="Not Equal" FromPin="Out" ToModule="Hold until selection changed" ToPin="PassIf" />
+		<Connection FromModule="Selected Position" FromPin="Out" ToModule="Not Equal" ToPin="A" />
+		<Connection FromModule="Switch Transformation" FromPin="Selected" ToModule="Not Equal" ToPin="B" />
+		<Connection FromModule="Hold until selection changed" FromPin="Passed" ToModule="Update Previous Transformation" ToPin="Set" />
+		<Connection FromModule="Current Transformation" FromPin="Out" ToModule="Update Previous Transformation" ToPin="Value" />
+		<Connection FromModule="Switch Transformation" FromPin="Out" ToModule="Update Current Transformation" ToPin="Value" />
+		<Connection FromModule="Copy Logical" FromPin="Out" ToModule="Edit Switcher Values" ToPin="Edit Transformation?" />
+		<Connection FromModule="OBJECT 1" FromPin="WorldTransf" ToModule="Edit Switcher Values" ToPin="New Transformation" />
+		<Connection FromModule="Selected Position" FromPin="Out" ToModule="Edit Switcher Values" ToPin="Selected Switch" />
+		<Connection FromModule="Object 1 Position" FromPin="#__EDIT" ToModule="Copy Logical" ToPin="In" />
+		<Connection FromModule="Object 1 Position" FromPin="#_,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" ToModule="Copy Integer" ToPin="In" />
+		<Connection FromModule="Current Transformation" FromPin="Out" ToModule="OBJECT 1" ToPin="Transformation" />
+	</Connections>
+</AximmetryCompound>

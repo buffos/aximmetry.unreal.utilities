@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary">
+				<item key="2" type="Int32" value="3" />
+			</PreviewChannels>
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Control Board">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-14T00:02:12.0296977+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Multi Trigger Any" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-130, -538" />
+			<item key="ViewCenter" type="PointF" value="348, -443.5" />
+			<item key="ZoomFactor" type="Single" value="1" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-400, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-244, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-79, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="88, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="263, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="431, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="607, -690" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-403, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-244, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-79, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="85, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="260, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="428, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="604, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="778, -598" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Trigger 1" Type="PinTriggerValue" SourceModule="Trigger Any" SourcePin="A" />
+		<Pin Name="Trigger 2" Type="PinTriggerValue" SourceModule="Trigger Any" SourcePin="B" />
+		<Pin Name="Trigger 3" Type="PinTriggerValue" SourceModule="Trigger Any 2" SourcePin="B" />
+		<Pin Name="Trigger 4" Type="PinTriggerValue" SourceModule="Trigger Any 3" SourcePin="B" />
+		<Pin Name="Trigger 5" Type="PinTriggerValue" SourceModule="Trigger Any 4" SourcePin="B" />
+		<Pin Name="Trigger 6" Type="PinTriggerValue" SourceModule="Trigger Any 5" SourcePin="B" />
+		<Pin Name="Trigger 7" Type="PinTriggerValue" SourceModule="Trigger Any 6" SourcePin="B" />
+		<Pin Name="Trigger 8" Type="PinTriggerValue" SourceModule="Trigger Any 7" SourcePin="B" />
+		<Pin Name="Trigger 9" Type="PinTriggerValue" SourceModule="Trigger Any 8" SourcePin="B" />
+		<Pin Name="Trigger 10" Type="PinTriggerValue" SourceModule="Trigger Any 9" SourcePin="B" />
+		<Pin Name="Trigger 11" Type="PinTriggerValue" SourceModule="Trigger Any 10" SourcePin="B" />
+		<Pin Name="Trigger 12" Type="PinTriggerValue" SourceModule="Trigger Any 11" SourcePin="B" />
+		<Pin Name="Trigger 13" Type="PinTriggerValue" SourceModule="Trigger Any 12" SourcePin="B" />
+		<Pin Name="Trigger 14" Type="PinTriggerValue" SourceModule="Trigger Any 13" SourcePin="B" />
+		<Pin Name="Trigger 15" Type="PinTriggerValue" SourceModule="Trigger Any 14" SourcePin="B" />
+		<Pin Name="Trigger 16" Type="PinTriggerValue" SourceModule="Trigger Any 15" SourcePin="B" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Trigger" Type="PinTriggerValue" SourceModule="Trigger Any 15" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Trigger Any" FromPin="Out" ToModule="Trigger Any 2" ToPin="A" />
+		<Connection FromModule="Trigger Any 2" FromPin="Out" ToModule="Trigger Any 3" ToPin="A" />
+		<Connection FromModule="Trigger Any 3" FromPin="Out" ToModule="Trigger Any 4" ToPin="A" />
+		<Connection FromModule="Trigger Any 4" FromPin="Out" ToModule="Trigger Any 5" ToPin="A" />
+		<Connection FromModule="Trigger Any 5" FromPin="Out" ToModule="Trigger Any 6" ToPin="A" />
+		<Connection FromModule="Trigger Any 6" FromPin="Out" ToModule="Trigger Any 7" ToPin="A" />
+		<Connection FromModule="Trigger Any 7" FromPin="Out" ToModule="Trigger Any 8" ToPin="A" />
+		<Connection FromModule="Trigger Any 8" FromPin="Out" ToModule="Trigger Any 9" ToPin="A" />
+		<Connection FromModule="Trigger Any 9" FromPin="Out" ToModule="Trigger Any 10" ToPin="A" />
+		<Connection FromModule="Trigger Any 10" FromPin="Out" ToModule="Trigger Any 11" ToPin="A" />
+		<Connection FromModule="Trigger Any 11" FromPin="Out" ToModule="Trigger Any 12" ToPin="A" />
+		<Connection FromModule="Trigger Any 12" FromPin="Out" ToModule="Trigger Any 13" ToPin="A" />
+		<Connection FromModule="Trigger Any 13" FromPin="Out" ToModule="Trigger Any 14" ToPin="A" />
+		<Connection FromModule="Trigger Any 14" FromPin="Out" ToModule="Trigger Any 15" ToPin="A" />
+	</Connections>
+</AximmetryCompound>

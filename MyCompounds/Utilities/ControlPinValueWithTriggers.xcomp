@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-14T17:33:25.1624633+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="Notes" type="String" value="" />
+			<item key="ViewCenter" type="PointF" value="-183.7067, 181.7137" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="CopyTrigger">
+			<Properties Name="UP" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-551, -89" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="CopyScalar">
+			<Properties Name="Current Value" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-282, -266" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinScalarValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="IfScalar">
+			<Properties Name="If Scalar" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-418, -55" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinScalarValue" Value="0.1" />
+				<Pin Name="Else" Type="PinScalarValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyScalar">
+			<Properties Name="Value To Change" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-657, 26" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinScalarValue" Value="0.1" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Add">
+			<Properties Name="Add" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-232, -5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Subtract">
+			<Properties Name="Subtract" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-235, 87" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinVectorValue" Value="0" />
+				<Pin Name="B" Type="PinVectorValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="IfScalar">
+			<Properties Name="If Scalar 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-419, 74" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinScalarValue" Value="0.1" />
+				<Pin Name="Else" Type="PinScalarValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="DOWN" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-547, 133" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set Current Value" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="267, -85" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="Current Value" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0.2" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set Current Value 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="270, 123" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="Current Value" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0.1" />
+			</PinValues>
+		</Module>
+		<Module Type="TriggerAny">
+			<Properties Name="Trigger Any" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="50, -152" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set WANTED VALUE" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="485, -300" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="MODULE NAME" />
+				<Pin Name="Pin" Type="PinStringValue" Value="PINNAME" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0.2" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Reset" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-828, -358" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set Current Value 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-682, -358" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="Current Value" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="UP" Type="PinTriggerValue" SourceModule="UP" SourcePin="In" />
+		<Pin Name="DOWN" Type="PinTriggerValue" SourceModule="DOWN" SourcePin="In" />
+		<Pin Name="RESET" Type="PinTriggerValue" SourceModule="Reset" SourcePin="In" />
+		<Pin Name="Delta" Type="PinScalarValue" SourceModule="Value To Change" SourcePin="In" />
+		<Pin Name="Module" Type="PinStringValue" SourceModule="Set WANTED VALUE" SourcePin="Module" />
+		<Pin Name="Pin" Type="PinStringValue" SourceModule="Set WANTED VALUE" SourcePin="Pin" />
+	</ExposerInputPins>
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="UP" FromPin="Out" ToModule="If Scalar" ToPin="If" />
+		<Connection FromModule="Value To Change" FromPin="Out" ToModule="If Scalar" ToPin="Then" />
+		<Connection FromModule="If Scalar" FromPin="Out" ToModule="Add" ToPin="A" />
+		<Connection FromModule="Current Value" FromPin="Out" ToModule="Add" ToPin="B" />
+		<Connection FromModule="Current Value" FromPin="Out" ToModule="Subtract" ToPin="A" />
+		<Connection FromModule="If Scalar 2" FromPin="Out" ToModule="Subtract" ToPin="B" />
+		<Connection FromModule="DOWN" FromPin="Out" ToModule="If Scalar 2" ToPin="If" />
+		<Connection FromModule="Value To Change" FromPin="Out" ToModule="If Scalar 2" ToPin="Then" />
+		<Connection FromModule="UP" FromPin="Out" ToModule="Set Current Value" ToPin="Set" />
+		<Connection FromModule="Add" FromPin="Out" ToModule="Set Current Value" ToPin="Value" />
+		<Connection FromModule="DOWN" FromPin="Out" ToModule="Set Current Value 2" ToPin="Set" />
+		<Connection FromModule="Subtract" FromPin="Out" ToModule="Set Current Value 2" ToPin="Value" />
+		<Connection FromModule="UP" FromPin="Out" ToModule="Trigger Any" ToPin="A" />
+		<Connection FromModule="DOWN" FromPin="Out" ToModule="Trigger Any" ToPin="B" />
+		<Connection FromModule="Trigger Any" FromPin="Out" ToModule="Set WANTED VALUE" ToPin="Set" />
+		<Connection FromModule="Current Value" FromPin="Out" ToModule="Set WANTED VALUE" ToPin="Value" />
+		<Connection FromModule="Reset" FromPin="Out" ToModule="Set Current Value 3" ToPin="Set" />
+	</Connections>
+</AximmetryCompound>

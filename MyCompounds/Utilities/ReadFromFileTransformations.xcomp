@@ -1,0 +1,2141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2022.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-23T18:32:14.4822857+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-23T18:41:35.9425238+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="ViewCenter" type="PointF" value="1132.376, -366.0571" />
+			<item key="ZoomFactor" type="Single" value="0.382892847" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="Notes" type="String" value="" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="TextFile">
+			<Properties Name="Text File" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-211, -276.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="StartLineIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="LineCount" Type="PinIntValue" Value="100000" />
+				<Pin Name="TextFile" Type="PinStringValue" Value="[MyCompounds]:Utilities\TextConcat.txt" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyText">
+			<Properties Name="FileName" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-817, -13" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="TextTransformation" />
+				<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyText">
+			<Properties Name="OutputFolder" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-805, -132.5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="[MyCompounds]:Utilities" />
+				<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyText">
+			<Properties Name="Copy Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-829, 71.5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value=".txt" />
+				<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-633, 19.5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-413, -132.5" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="\\" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="181, -931" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="183, -859" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="189, -777" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="3" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="185, -697" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="4" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="183, -607" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="5" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="185, -533" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="6" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="191, -453" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="7" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="187, -373" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="8" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="185.5, -141.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="9" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="187.5, -68.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="10" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="193.5, 12.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="11" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="190.5, 92.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="12" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="188.5, 183.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="13" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="190.5, 256.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="14" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="196.5, 337.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="15" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="TextSlice">
+			<Properties Name="Text Slice 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="192.5, 417.5" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Text" Type="PinStringValue" Value="" />
+				<Pin Name="Separators" Type="PinStringValue" Value=";" />
+				<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+				<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="StartIndex" Type="PinIntValue" Value="16" />
+				<Pin Name="Count" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="444, -1013" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="448, -930" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="454, -833" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="457, -747" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="469, -644" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="473, -536" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="475, -447" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="475, -348" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="480, -220" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="482, -108" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="476, -8" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="479, 78" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="473, 173" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="477, 281" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="479, 370" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Text To Transformation 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="479, 469" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Position" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="429, -927" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="1" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextSlice">
+					<Properties Name="Text Slice Rotation" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="428, -850" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value="&gt;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="LineSepar" Type="PinBoolValue" Value="False" />
+						<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+						<Pin Name="StartIndex" Type="PinIntValue" Value="2" />
+						<Pin Name="Count" Type="PinIntValue" Value="1" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (position)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="691, -930" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TextToVector">
+					<Properties Name="Text To Vector (rotation)" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="695, -846" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Text" Type="PinStringValue" Value="" />
+						<Pin Name="Separators" Type="PinStringValue" Value=",;" />
+						<Pin Name="MultiSepar" Type="PinBoolValue" Value="True" />
+						<Pin Name="StrictErrChk" Type="PinBoolValue" Value="True" />
+						<Pin Name="SkipError" Type="PinBoolValue" Value="False" />
+						<Pin Name="ErrorValue" Type="PinScalarValue" Value="0" />
+						<Pin Name="SkipEmpty" Type="PinBoolValue" Value="False" />
+						<Pin Name="EmptyValue" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="TransformationCompose">
+					<Properties Name="Transformation Compose" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="1028, -919" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Position" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Rotation" Type="PinVectorValue" Value="0, 0, 0" />
+						<Pin Name="Scale" Type="PinVectorValue" Value="1" />
+						<Pin Name="Quaternion" Type="PinVectorValue" Value="" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Text (position)" Type="PinStringValue" SourceModule="Text Slice Position" SourcePin="Text" />
+				<Pin Name="Text (rotation)" Type="PinStringValue" SourceModule="Text Slice Rotation" SourcePin="Text" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Transformation" Type="PinTransformationValue" SourceModule="Transformation Compose" SourcePin="Transformation" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Text Slice Position" FromPin="Out" ToModule="Text To Vector (position)" ToPin="Text" />
+				<Connection FromModule="Text Slice Rotation" FromPin="Out" ToModule="Text To Vector (rotation)" ToPin="Text" />
+				<Connection FromModule="Text To Vector (position)" FromPin="Out" ToModule="Transformation Compose" ToPin="Position" />
+				<Connection FromModule="Text To Vector (rotation)" FromPin="Out" ToModule="Transformation Compose" ToPin="Rotation" />
+			</Connections>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Open" Type="PinBoolValue" SourceModule="Text File" SourcePin="Open" />
+		<Pin Name="OutputFolder" Type="PinStringValue" SourceModule="OutputFolder" SourcePin="In" />
+		<Pin Name="FileName" Type="PinStringValue" SourceModule="FileName" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Transformation 1" Type="PinTransformationValue" SourceModule="Text To Transformation" SourcePin="Transformation" />
+		<Pin Name="Transformation 2" Type="PinTransformationValue" SourceModule="Text To Transformation 2" SourcePin="Transformation" />
+		<Pin Name="Transformation 3" Type="PinTransformationValue" SourceModule="Text To Transformation 3" SourcePin="Transformation" />
+		<Pin Name="Transformation 4" Type="PinTransformationValue" SourceModule="Text To Transformation 4" SourcePin="Transformation" />
+		<Pin Name="Transformation 5" Type="PinTransformationValue" SourceModule="Text To Transformation 5" SourcePin="Transformation" />
+		<Pin Name="Transformation 6" Type="PinTransformationValue" SourceModule="Text To Transformation 6" SourcePin="Transformation" />
+		<Pin Name="Transformation 7" Type="PinTransformationValue" SourceModule="Text To Transformation 7" SourcePin="Transformation" />
+		<Pin Name="Transformation 8" Type="PinTransformationValue" SourceModule="Text To Transformation 8" SourcePin="Transformation" />
+		<Pin Name="Transformation 9" Type="PinTransformationValue" SourceModule="Text To Transformation 9" SourcePin="Transformation" />
+		<Pin Name="Transformation 10" Type="PinTransformationValue" SourceModule="Text To Transformation 10" SourcePin="Transformation" />
+		<Pin Name="Transformation 11" Type="PinTransformationValue" SourceModule="Text To Transformation 11" SourcePin="Transformation" />
+		<Pin Name="Transformation 12" Type="PinTransformationValue" SourceModule="Text To Transformation 12" SourcePin="Transformation" />
+		<Pin Name="Transformation 13" Type="PinTransformationValue" SourceModule="Text To Transformation 13" SourcePin="Transformation" />
+		<Pin Name="Transformation 14" Type="PinTransformationValue" SourceModule="Text To Transformation 14" SourcePin="Transformation" />
+		<Pin Name="Transformation 15" Type="PinTransformationValue" SourceModule="Text To Transformation 15" SourcePin="Transformation" />
+		<Pin Name="Transformation 16" Type="PinTransformationValue" SourceModule="Text To Transformation 16" SourcePin="Transformation" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Text Concat 2" FromPin="Out" ToModule="Text File" ToPin="TextFile" />
+		<Connection FromModule="FileName" FromPin="Out" ToModule="Text Concat" ToPin="A" />
+		<Connection FromModule="Copy Text" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+		<Connection FromModule="OutputFolder" FromPin="Out" ToModule="Text Concat 2" ToPin="A" />
+		<Connection FromModule="Text Concat" FromPin="Out" ToModule="Text Concat 2" ToPin="B" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 1" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 2" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 3" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 4" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 5" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 6" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 7" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 8" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 9" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 10" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 11" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 12" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 13" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 14" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 15" ToPin="Text" />
+		<Connection FromModule="Text File" FromPin="Out" ToModule="Text Slice 16" ToPin="Text" />
+		<Connection FromModule="Text Slice 1" FromPin="Out" ToModule="Text To Transformation" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 1" FromPin="Out" ToModule="Text To Transformation" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 2" FromPin="Out" ToModule="Text To Transformation 2" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 2" FromPin="Out" ToModule="Text To Transformation 2" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 3" FromPin="Out" ToModule="Text To Transformation 3" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 3" FromPin="Out" ToModule="Text To Transformation 3" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 4" FromPin="Out" ToModule="Text To Transformation 4" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 4" FromPin="Out" ToModule="Text To Transformation 4" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 5" FromPin="Out" ToModule="Text To Transformation 5" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 5" FromPin="Out" ToModule="Text To Transformation 5" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 6" FromPin="Out" ToModule="Text To Transformation 6" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 6" FromPin="Out" ToModule="Text To Transformation 6" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 7" FromPin="Out" ToModule="Text To Transformation 7" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 7" FromPin="Out" ToModule="Text To Transformation 7" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 8" FromPin="Out" ToModule="Text To Transformation 8" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 8" FromPin="Out" ToModule="Text To Transformation 8" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 9" FromPin="Out" ToModule="Text To Transformation 9" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 9" FromPin="Out" ToModule="Text To Transformation 9" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 10" FromPin="Out" ToModule="Text To Transformation 10" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 10" FromPin="Out" ToModule="Text To Transformation 10" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 11" FromPin="Out" ToModule="Text To Transformation 11" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 11" FromPin="Out" ToModule="Text To Transformation 11" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 12" FromPin="Out" ToModule="Text To Transformation 12" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 12" FromPin="Out" ToModule="Text To Transformation 12" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 13" FromPin="Out" ToModule="Text To Transformation 13" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 13" FromPin="Out" ToModule="Text To Transformation 13" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 14" FromPin="Out" ToModule="Text To Transformation 14" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 14" FromPin="Out" ToModule="Text To Transformation 14" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 15" FromPin="Out" ToModule="Text To Transformation 15" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 15" FromPin="Out" ToModule="Text To Transformation 15" ToPin="Text (rotation)" />
+		<Connection FromModule="Text Slice 16" FromPin="Out" ToModule="Text To Transformation 16" ToPin="Text (position)" />
+		<Connection FromModule="Text Slice 16" FromPin="Out" ToModule="Text To Transformation 16" ToPin="Text (rotation)" />
+	</Connections>
+</AximmetryCompound>

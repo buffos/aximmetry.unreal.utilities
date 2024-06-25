@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="CAMERAS">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-08T00:02:36.9603837+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-08T00:03:55.1506848+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-08T00:13:17.9479799+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-08T00:40:33.4028427+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-08T00:49:45.2029292+02:00" />
+				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-12T18:13:44.1232936+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="OSC AUDIO LEVELS" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-498, 36" />
+			<item key="ViewCenter" type="PointF" value="-1601.276, 146.8656" />
+			<item key="ZoomFactor" type="Single" value="0.9035825" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_MIC" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1823, 28" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_mic" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_SCREEN" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1833, 110" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_screen" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_MUSIC" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1827, 202" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_music" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_LINE1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1823, 284" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_line1" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_LINE2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1823, 367" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_line2" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC LEVEL_LINE3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1816, 451" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/level_line3" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL MIC" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1336, 27" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Main Mic" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL SCREEN" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1341, 111" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Screens" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL MUSIC" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1322, 205" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Music" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0.3" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL LINE1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1325, 279" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Virtual 1" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL LINE2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1319, 364" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Virtual 2" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set LEVEL LINE3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1320, 446" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
+				<Pin Name="Pin" Type="PinStringValue" Value="Virtual 3" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-952, -457" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/custom_audio_level_mic" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level mic)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-534, -458" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="10" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-954, -354" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/audio_level_screen" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level screen)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-531, -361" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-953, -260" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/audio_level_music" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level music" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-524, -260" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC ADDRESSES" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2443, 182" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-997.1282, 138.6724" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/level_" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 2" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-997.1282, 138.6724" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="mic" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-997.1282, 138.6724" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="screen" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1110.854, 149.3341" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="music" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1110.854, 149.3341" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="line1" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1110.854, 149.3341" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="line2" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 7" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1110.854, 149.3341" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="line3" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 8" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_mic" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 9" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_screen" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 10" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_music" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 11" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_line_1" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 12" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_line_2" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 13" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-646.2814, -177.115" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="/audio_level_line_3" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyScalar">
+					<Properties Name="Copy Scalar" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-1702.906, 532.1465" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinScalarValue" Value="100" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="Prefix" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
+				<Pin Name="OSC1" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="In" />
+				<Pin Name="OSC2" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+				<Pin Name="OSC3" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="In" />
+				<Pin Name="OSC4" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="In" />
+				<Pin Name="OSC5" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="In" />
+				<Pin Name="OSC6" Type="PinStringValue" SourceModule="Copy Text 7" SourcePin="In" />
+				<Pin Name="VAR1" Type="PinStringValue" SourceModule="Copy Text 8" SourcePin="In" />
+				<Pin Name="VAR2" Type="PinStringValue" SourceModule="Copy Text 9" SourcePin="In" />
+				<Pin Name="VAR3" Type="PinStringValue" SourceModule="Copy Text 10" SourcePin="In" />
+				<Pin Name="VAR4" Type="PinStringValue" SourceModule="Copy Text 11" SourcePin="In" />
+				<Pin Name="VAR5" Type="PinStringValue" SourceModule="Copy Text 12" SourcePin="In" />
+				<Pin Name="VAR6" Type="PinStringValue" SourceModule="Copy Text 13" SourcePin="In" />
+				<Pin Name="Scaling" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Prefix" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
+				<Pin Name="OSC1" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="Out" />
+				<Pin Name="OSC2" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+				<Pin Name="OSC3" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="Out" />
+				<Pin Name="OSC4" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="Out" />
+				<Pin Name="OSC5" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="Out" />
+				<Pin Name="OSC6" Type="PinStringValue" SourceModule="Copy Text 7" SourcePin="Out" />
+				<Pin Name="VAR1" Type="PinStringValue" SourceModule="Copy Text 8" SourcePin="Out" />
+				<Pin Name="VAR2" Type="PinStringValue" SourceModule="Copy Text 9" SourcePin="Out" />
+				<Pin Name="VAR3" Type="PinStringValue" SourceModule="Copy Text 10" SourcePin="Out" />
+				<Pin Name="VAR4" Type="PinStringValue" SourceModule="Copy Text 11" SourcePin="Out" />
+				<Pin Name="VAR5" Type="PinStringValue" SourceModule="Copy Text 12" SourcePin="Out" />
+				<Pin Name="VAR6" Type="PinStringValue" SourceModule="Copy Text 13" SourcePin="Out" />
+				<Pin Name="Scaling" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections />
+			<Enhancer type="PinCollector" />
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2082, 31" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2085, 116" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2084, 182" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2082, 263" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2079, 347" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-2080, 430" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="" />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-942, -158" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/audio_level_mic" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level line1)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-524, -159" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-944, -55" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/audio_level_screen" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level line2)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-521, -62" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Create OSC Address 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-943, 39" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="/custom-variable" />
+				<Pin Name="Text2" Type="PinStringValue" Value="/audio_level_music" />
+				<Pin Name="Text3" Type="PinStringValue" Value="/value" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalarOut">
+			<Properties Name="Streamdeck (level line3)" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-514, 39" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
+				<Pin Name="Address" Type="PinStringValue" Value="/custom-variable/vs_banners_video/value" />
+				<Pin Name="AutoSend" Type="PinBoolValue" Value="True" />
+				<Pin Name="Argument" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1585, 27" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1589, 110" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1587, 203" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1580, 284" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1578, 366" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="DivideDouble">
+			<Properties Name="Divide Double 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1568, 452" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1410, -577" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1403, -489" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1393, -404" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1393, -311" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1392, -221" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="MultiplyDouble">
+			<Properties Name="Multiply Double" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1414, -674" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinDoubleValue" Value="1" />
+				<Pin Name="B" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1197, -673" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1192, -571" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1182, -478" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1183, -397" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1178, -295" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Copy Integer 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1168, -202" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Argument 1" Type="PinDoubleValue" SourceModule="Multiply Double" SourcePin="A" />
+		<Pin Name="Argument 2" Type="PinDoubleValue" SourceModule="Multiply Double 2" SourcePin="A" />
+		<Pin Name="Argument 3" Type="PinDoubleValue" SourceModule="Multiply Double 3" SourcePin="A" />
+		<Pin Name="Argument 4" Type="PinDoubleValue" SourceModule="Multiply Double 4" SourcePin="A" />
+		<Pin Name="Argument 5" Type="PinDoubleValue" SourceModule="Multiply Double 5" SourcePin="A" />
+		<Pin Name="Argument 6" Type="PinDoubleValue" SourceModule="Multiply Double 6" SourcePin="A" />
+	</ExposerInputPins>
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="Text Concat" FromPin="Out" ToModule="OSC LEVEL_MIC" ToPin="Address" />
+		<Connection FromModule="Text Concat 2" FromPin="Out" ToModule="OSC LEVEL_SCREEN" ToPin="Address" />
+		<Connection FromModule="Text Concat 3" FromPin="Out" ToModule="OSC LEVEL_MUSIC" ToPin="Address" />
+		<Connection FromModule="Text Concat 4" FromPin="Out" ToModule="OSC LEVEL_LINE1" ToPin="Address" />
+		<Connection FromModule="Text Concat 5" FromPin="Out" ToModule="OSC LEVEL_LINE2" ToPin="Address" />
+		<Connection FromModule="Text Concat 6" FromPin="Out" ToModule="OSC LEVEL_LINE3" ToPin="Address" />
+		<Connection FromModule="Divide Double" FromPin="Out" ToModule="Set LEVEL MIC" ToPin="Value" />
+		<Connection FromModule="Divide Double 2" FromPin="Out" ToModule="Set LEVEL SCREEN" ToPin="Value" />
+		<Connection FromModule="Divide Double 3" FromPin="Out" ToModule="Set LEVEL MUSIC" ToPin="Value" />
+		<Connection FromModule="Divide Double 4" FromPin="Out" ToModule="Set LEVEL LINE1" ToPin="Value" />
+		<Connection FromModule="Divide Double 5" FromPin="Out" ToModule="Set LEVEL LINE2" ToPin="Value" />
+		<Connection FromModule="Divide Double 6" FromPin="Out" ToModule="Set LEVEL LINE3" ToPin="Value" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR1" ToModule="Create OSC Address" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address" FromPin="Out" ToModule="Streamdeck (level mic)" ToPin="Address" />
+		<Connection FromModule="Copy Integer" FromPin="Out" ToModule="Streamdeck (level mic)" ToPin="Argument" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR2" ToModule="Create OSC Address 2" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address 2" FromPin="Out" ToModule="Streamdeck (level screen)" ToPin="Address" />
+		<Connection FromModule="Copy Integer 2" FromPin="Out" ToModule="Streamdeck (level screen)" ToPin="Argument" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR3" ToModule="Create OSC Address 3" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address 3" FromPin="Out" ToModule="Streamdeck (level music" ToPin="Address" />
+		<Connection FromModule="Copy Integer 3" FromPin="Out" ToModule="Streamdeck (level music" ToPin="Argument" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC1" ToModule="Text Concat" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat 2" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC2" ToModule="Text Concat 2" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat 3" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC3" ToModule="Text Concat 3" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat 4" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC4" ToModule="Text Concat 4" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat 5" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC5" ToModule="Text Concat 5" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Prefix" ToModule="Text Concat 6" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="OSC6" ToModule="Text Concat 6" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR4" ToModule="Create OSC Address 4" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address 4" FromPin="Out" ToModule="Streamdeck (level line1)" ToPin="Address" />
+		<Connection FromModule="Copy Integer 4" FromPin="Out" ToModule="Streamdeck (level line1)" ToPin="Argument" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR5" ToModule="Create OSC Address 5" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address 5" FromPin="Out" ToModule="Streamdeck (level line2)" ToPin="Address" />
+		<Connection FromModule="Copy Integer 5" FromPin="Out" ToModule="Streamdeck (level line2)" ToPin="Argument" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="VAR6" ToModule="Create OSC Address 6" ToPin="Text2" />
+		<Connection FromModule="Create OSC Address 6" FromPin="Out" ToModule="Streamdeck (level line3)" ToPin="Address" />
+		<Connection FromModule="Copy Integer 6" FromPin="Out" ToModule="Streamdeck (level line3)" ToPin="Argument" />
+		<Connection FromModule="OSC LEVEL_MIC" FromPin="Out" ToModule="Divide Double" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double" ToPin="B" />
+		<Connection FromModule="OSC LEVEL_SCREEN" FromPin="Out" ToModule="Divide Double 2" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double 2" ToPin="B" />
+		<Connection FromModule="OSC LEVEL_MUSIC" FromPin="Out" ToModule="Divide Double 3" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double 3" ToPin="B" />
+		<Connection FromModule="OSC LEVEL_LINE1" FromPin="Out" ToModule="Divide Double 4" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double 4" ToPin="B" />
+		<Connection FromModule="OSC LEVEL_LINE2" FromPin="Out" ToModule="Divide Double 5" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double 5" ToPin="B" />
+		<Connection FromModule="OSC LEVEL_LINE3" FromPin="Out" ToModule="Divide Double 6" ToPin="A" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Divide Double 6" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double 2" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double 3" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double 4" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double 5" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double 6" ToPin="B" />
+		<Connection FromModule="OSC ADDRESSES" FromPin="Scaling" ToModule="Multiply Double" ToPin="B" />
+		<Connection FromModule="Multiply Double" FromPin="Out" ToModule="Copy Integer" ToPin="In" />
+		<Connection FromModule="Multiply Double 2" FromPin="Out" ToModule="Copy Integer 2" ToPin="In" />
+		<Connection FromModule="Multiply Double 3" FromPin="Out" ToModule="Copy Integer 3" ToPin="In" />
+		<Connection FromModule="Multiply Double 4" FromPin="Out" ToModule="Copy Integer 4" ToPin="In" />
+		<Connection FromModule="Multiply Double 5" FromPin="Out" ToModule="Copy Integer 5" ToPin="In" />
+		<Connection FromModule="Multiply Double 6" FromPin="Out" ToModule="Copy Integer 6" ToPin="In" />
+	</Connections>
+</AximmetryCompound>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="3840, 2160" PixelAspect="1:1" FrameRate="0" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-03-29T13:36:12.7035582+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Vector Item (Safe)" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="312, -306" />
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Use Last entry or Default Value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;161, -28, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Normally Use vector value, else Last Entry or Default Value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;529, 130, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:If less than Max&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+			<item key="ViewCenter" type="PointF" value="119.1718, 340.0979" />
+			<item key="ZoomFactor" type="Single" value="0.7866278" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="VectorItem">
+			<Properties Name="Last Vector Item" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-214, 86" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Vector" Type="PinVectorValue" Value="" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="Index" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="index" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-488, 251" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="11" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="If">
+			<Properties Name="If" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="264, 81" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinVectorValue" Value="1" />
+				<Pin Name="Else" Type="PinVectorValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="VectorSize">
+			<Properties Name="Vector Size" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-440, 131" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Vector" Type="PinVectorValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="VectorItem">
+			<Properties Name="Indexed Item" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-224, 299" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Vector" Type="PinVectorValue" Value="" />
+				<Pin Name="ItemSize" Type="PinIntValue" Value="1" />
+				<Pin Name="Index" Type="PinIntValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="LessOrEqual">
+			<Properties Name="Less Or Equal" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-224, 193" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyLogical">
+			<Properties Name="Use Last Entry?" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-337, -65" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinBoolValue" Value="True" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Copy">
+			<Properties Name="Vector" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-607, 128" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinVectorValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Copy">
+			<Properties Name="Default Value" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-94, -46" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinVectorValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="If">
+			<Properties Name="If less than Max" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="665, 256" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinVectorValue" Value="1" />
+				<Pin Name="Else" Type="PinVectorValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Vector" Type="PinVectorValue" SourceModule="Vector" SourcePin="In" />
+		<Pin Name="Index" Type="PinIntValue" SourceModule="index" SourcePin="In" />
+		<Pin Name="Use Last Entry?" Type="PinBoolValue" SourceModule="Use Last Entry?" SourcePin="In" />
+		<Pin Name="Default Value" Type="PinVectorValue" SourceModule="Default Value" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinVectorValue" SourceModule="If less than Max" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Vector" FromPin="Out" ToModule="Last Vector Item" ToPin="Vector" />
+		<Connection FromModule="Vector Size" FromPin="Out" ToModule="Last Vector Item" ToPin="Index" />
+		<Connection FromModule="Use Last Entry?" FromPin="Out" ToModule="If" ToPin="If" />
+		<Connection FromModule="Last Vector Item" FromPin="Out" ToModule="If" ToPin="Then" />
+		<Connection FromModule="Default Value" FromPin="Out" ToModule="If" ToPin="Else" />
+		<Connection FromModule="Vector" FromPin="Out" ToModule="Vector Size" ToPin="Vector" />
+		<Connection FromModule="Vector" FromPin="Out" ToModule="Indexed Item" ToPin="Vector" />
+		<Connection FromModule="index" FromPin="Out" ToModule="Indexed Item" ToPin="Index" />
+		<Connection FromModule="index" FromPin="Out" ToModule="Less Or Equal" ToPin="A" />
+		<Connection FromModule="Vector Size" FromPin="Out" ToModule="Less Or Equal" ToPin="B" />
+		<Connection FromModule="Less Or Equal" FromPin="Out" ToModule="If less than Max" ToPin="If" />
+		<Connection FromModule="Indexed Item" FromPin="Out" ToModule="If less than Max" ToPin="Then" />
+		<Connection FromModule="If" FromPin="Out" ToModule="If less than Max" ToPin="Else" />
+	</Connections>
+	<Descriptions>
+		<Description Target="mod:If" Index="0" Title="Use Last entry or Default Value" Text="" />
+		<Description Target="mod:If less than Max" Index="0" Title="Normally Use vector value, else Last Entry or Default Value" Text="" />
+	</Descriptions>
+</AximmetryCompound>

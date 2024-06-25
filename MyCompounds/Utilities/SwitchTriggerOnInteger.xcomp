@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2021.4.2">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2021-07-03T19:19:54.3800137+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2022-03-15T19:19:28.0319841+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="Notes" type="String" value="" />
+			<item key="ViewCenter" type="PointF" value="-552.8765, 678.0217" />
+			<item key="ZoomFactor" type="Single" value="0.7866278" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-43, -344" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyInteger">
+			<Properties Name="Input Integer" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1086, 477" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinIntValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-269, -350" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="1" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-40, -245" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-270, -247" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="2" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-266, -132" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="3" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-36, -133" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-266, -20" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="4" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-29, -18" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-268, 94" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="5" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-28, 93" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-267, 195" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="6" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-27, 197" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-267, 312" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="7" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-23, 314" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-259, 444" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="8" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-19, 443" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-255, 576" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="9" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-12, 568" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-260, 702" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="10" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-4, 696" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-257, 830" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="11" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-4, 822" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-244, 946" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="12" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1, 952" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-234, 1075" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="13" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="9, 1071" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-232, 1194" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="14" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="9, 1197" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-235, 1315" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="15" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="5, 1317" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Equal">
+			<Properties Name="Equal 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-233, 1438" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="16" />
+			</PinValues>
+		</Module>
+		<Module Type="IfInteger">
+			<Properties Name="If Integer 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="7, 1437" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinIntValue" Value="1" />
+				<Pin Name="Else" Type="PinIntValue" Value="0" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="Compound">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="TriggerOnIntegerValueChanged" IsLocked="False">
+				<ExtraData>
+					<item key="Importer" type="String" value="LinkedCompound" />
+					<item key="ImporterVersion" type="Int32" value="3" />
+					<item key="ImportSourcePath" type="String" value="[MyCompounds]:Utilities\TriggerOnIntegerValueChanged.xcomp" />
+					<item key="ImportSourceHash" type="String" value="DD1CFFBE29138036D74F97F8F885BC62" />
+					<item key="Notes" type="String" value="" />
+					<item key="ViewCenter" type="PointF" value="0, 0" />
+					<item key="ZoomFactor" type="Single" value="1" />
+					<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+					<item key="Location" type="PointF" value="-949, 694" />
+				</ExtraData>
+			</Properties>
+			<Children>
+				<Module Type="CopyInteger">
+					<Properties Name="CURRENT_VALUE" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-496, -168" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="0" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyInteger">
+					<Properties Name="NEW_VALUE" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-495, -241" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinIntValue" Value="1" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="IfInteger">
+					<Properties Name="If Integer" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-69, -231" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="If" Type="PinBoolValue" Value="False" />
+						<Pin Name="Then" Type="PinIntValue" Value="1" />
+						<Pin Name="Else" Type="PinIntValue" Value="0" />
+						<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+					</PinValues>
+				</Module>
+				<Module Type="NotEqual">
+					<Properties Name="Not Equal" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-245, -230" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="A" Type="PinScalarValue" Value="0" />
+						<Pin Name="B" Type="PinScalarValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="SetIntegerPin">
+					<Properties Name="Set Integer Pin" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="166, -265" />
+							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="Module" Type="PinStringValue" Value="CURRENT_VALUE" />
+						<Pin Name="Pin" Type="PinStringValue" Value="In" />
+						<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+						<Pin Name="Value" Type="PinIntValue" Value="0" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyTrigger">
+					<Properties Name="Value Changed" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="173, -109" />
+						</ExtraData>
+					</Properties>
+					<PinValues />
+				</Module>
+			</Children>
+			<ExposerInputPins>
+				<Pin Name="In" Type="PinIntValue" IsLocked="True" SourceModule="NEW_VALUE" SourcePin="In" />
+			</ExposerInputPins>
+			<ExposerOutputPins>
+				<Pin Name="Out" Type="PinTriggerValue" IsLocked="True" SourceModule="Value Changed" SourcePin="Out" />
+			</ExposerOutputPins>
+			<Connections>
+				<Connection FromModule="Not Equal" FromPin="Out" ToModule="If Integer" ToPin="If" />
+				<Connection FromModule="NEW_VALUE" FromPin="Out" ToModule="Not Equal" ToPin="A" />
+				<Connection FromModule="CURRENT_VALUE" FromPin="Out" ToModule="Not Equal" ToPin="B" />
+				<Connection FromModule="If Integer" FromPin="Out" ToModule="Set Integer Pin" ToPin="Set" />
+				<Connection FromModule="NEW_VALUE" FromPin="Out" ToModule="Set Integer Pin" ToPin="Value" />
+				<Connection FromModule="If Integer" FromPin="Out" ToModule="Value Changed" ToPin="In" />
+			</Connections>
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 1" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="159, -342" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="165, -246" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="174, -134" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="181, -19" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="183, 93" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="187, 199" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="182, 313" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="183, 441" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="187, 563" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="198, 693" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="198, 821" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="206, 952" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="219, 1071" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="224, 1198" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="220, 1317" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="TriggerBoth">
+			<Properties Name="Trigger Both Action 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="223, 1438" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="In" Type="PinIntValue" SourceModule="Input Integer" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Action 1" Type="PinTriggerValue" SourceModule="Trigger Both Action 1" SourcePin="Out" />
+		<Pin Name="Action 2" Type="PinTriggerValue" SourceModule="Trigger Both Action 2" SourcePin="Out" />
+		<Pin Name="Action 3" Type="PinTriggerValue" SourceModule="Trigger Both Action 3" SourcePin="Out" />
+		<Pin Name="Action 4" Type="PinTriggerValue" SourceModule="Trigger Both Action 4" SourcePin="Out" />
+		<Pin Name="Action 5" Type="PinTriggerValue" SourceModule="Trigger Both Action 5" SourcePin="Out" />
+		<Pin Name="Action 6" Type="PinTriggerValue" SourceModule="Trigger Both Action 6" SourcePin="Out" />
+		<Pin Name="Action 7" Type="PinTriggerValue" SourceModule="Trigger Both Action 7" SourcePin="Out" />
+		<Pin Name="Action 8" Type="PinTriggerValue" SourceModule="Trigger Both Action 8" SourcePin="Out" />
+		<Pin Name="Action 9" Type="PinTriggerValue" SourceModule="Trigger Both Action 9" SourcePin="Out" />
+		<Pin Name="Action 10" Type="PinTriggerValue" SourceModule="Trigger Both Action 10" SourcePin="Out" />
+		<Pin Name="Action 11" Type="PinTriggerValue" SourceModule="Trigger Both Action 11" SourcePin="Out" />
+		<Pin Name="Action 12" Type="PinTriggerValue" SourceModule="Trigger Both Action 12" SourcePin="Out" />
+		<Pin Name="Action 13" Type="PinTriggerValue" SourceModule="Trigger Both Action 13" SourcePin="Out" />
+		<Pin Name="Action 14" Type="PinTriggerValue" SourceModule="Trigger Both Action 14" SourcePin="Out" />
+		<Pin Name="Action 15" Type="PinTriggerValue" SourceModule="Trigger Both Action 15" SourcePin="Out" />
+		<Pin Name="Action 16" Type="PinTriggerValue" SourceModule="Trigger Both Action 16" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Equal 1" FromPin="Out" ToModule="If Integer" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 1" ToPin="A" />
+		<Connection FromModule="Equal 2" FromPin="Out" ToModule="If Integer 2" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 2" ToPin="A" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 3" ToPin="A" />
+		<Connection FromModule="Equal 3" FromPin="Out" ToModule="If Integer 3" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 4" ToPin="A" />
+		<Connection FromModule="Equal 4" FromPin="Out" ToModule="If Integer 4" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 5" ToPin="A" />
+		<Connection FromModule="Equal 5" FromPin="Out" ToModule="If Integer 5" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 6" ToPin="A" />
+		<Connection FromModule="Equal 6" FromPin="Out" ToModule="If Integer 6" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 7" ToPin="A" />
+		<Connection FromModule="Equal 7" FromPin="Out" ToModule="If Integer 7" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 8" ToPin="A" />
+		<Connection FromModule="Equal 8" FromPin="Out" ToModule="If Integer 8" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 9" ToPin="A" />
+		<Connection FromModule="Equal 9" FromPin="Out" ToModule="If Integer 9" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 10" ToPin="A" />
+		<Connection FromModule="Equal 10" FromPin="Out" ToModule="If Integer 10" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 11" ToPin="A" />
+		<Connection FromModule="Equal 11" FromPin="Out" ToModule="If Integer 11" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 12" ToPin="A" />
+		<Connection FromModule="Equal 12" FromPin="Out" ToModule="If Integer 12" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 13" ToPin="A" />
+		<Connection FromModule="Equal 13" FromPin="Out" ToModule="If Integer 13" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 14" ToPin="A" />
+		<Connection FromModule="Equal 14" FromPin="Out" ToModule="If Integer 14" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 15" ToPin="A" />
+		<Connection FromModule="Equal 15" FromPin="Out" ToModule="If Integer 15" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="Equal 16" ToPin="A" />
+		<Connection FromModule="Equal 16" FromPin="Out" ToModule="If Integer 16" ToPin="If" />
+		<Connection FromModule="Input Integer" FromPin="Out" ToModule="TriggerOnIntegerValueChanged" ToPin="In" />
+		<Connection FromModule="If Integer" FromPin="Out" ToModule="Trigger Both Action 1" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 1" ToPin="B" />
+		<Connection FromModule="If Integer 2" FromPin="Out" ToModule="Trigger Both Action 2" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 2" ToPin="B" />
+		<Connection FromModule="If Integer 3" FromPin="Out" ToModule="Trigger Both Action 3" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 3" ToPin="B" />
+		<Connection FromModule="If Integer 4" FromPin="Out" ToModule="Trigger Both Action 4" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 4" ToPin="B" />
+		<Connection FromModule="If Integer 5" FromPin="Out" ToModule="Trigger Both Action 5" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 5" ToPin="B" />
+		<Connection FromModule="If Integer 6" FromPin="Out" ToModule="Trigger Both Action 6" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 6" ToPin="B" />
+		<Connection FromModule="If Integer 7" FromPin="Out" ToModule="Trigger Both Action 7" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 7" ToPin="B" />
+		<Connection FromModule="If Integer 8" FromPin="Out" ToModule="Trigger Both Action 8" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 8" ToPin="B" />
+		<Connection FromModule="If Integer 9" FromPin="Out" ToModule="Trigger Both Action 9" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 9" ToPin="B" />
+		<Connection FromModule="If Integer 10" FromPin="Out" ToModule="Trigger Both Action 10" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 10" ToPin="B" />
+		<Connection FromModule="If Integer 11" FromPin="Out" ToModule="Trigger Both Action 11" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 11" ToPin="B" />
+		<Connection FromModule="If Integer 12" FromPin="Out" ToModule="Trigger Both Action 12" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 12" ToPin="B" />
+		<Connection FromModule="If Integer 13" FromPin="Out" ToModule="Trigger Both Action 13" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 13" ToPin="B" />
+		<Connection FromModule="If Integer 14" FromPin="Out" ToModule="Trigger Both Action 14" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 14" ToPin="B" />
+		<Connection FromModule="If Integer 15" FromPin="Out" ToModule="Trigger Both Action 15" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 15" ToPin="B" />
+		<Connection FromModule="If Integer 16" FromPin="Out" ToModule="Trigger Both Action 16" ToPin="A" />
+		<Connection FromModule="TriggerOnIntegerValueChanged" FromPin="Out" ToModule="Trigger Both Action 16" ToPin="B" />
+	</Connections>
+</AximmetryCompound>

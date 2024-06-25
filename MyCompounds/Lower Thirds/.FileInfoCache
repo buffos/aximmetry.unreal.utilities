@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryFileInfoCache version="2023.2.2">
+	<File Path="" V="1,638314271211098628,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="Crawl_Credits_Vertical.xcomp" V="1,638126964585066859,0" Description="" Tags="" Properties="null" />
+	<File Path="Crawl_RSS.xcomp" V="1,637744809462475563,0" Description="" Tags="" Properties="null" />
+	<File Path="Crawl_RSS_Vertical_Subtext.xcomp" V="1,637744809462485567,0" Description="" Tags="" Properties="null" />
+	<File Path="Crawl_SQL_Vertical_Subtext.xcomp" V="1,637964237653641224,0" Description="" Tags="" Properties="null" />
+	<File Path="Crawl_TextFile.xcomp" V="1,637744809462505571,0" Description="" Tags="" Properties="null" />
+	<File Path="Crawl_TextFile_Vertical.xcomp" V="1,637744809462525577,0" Description="" Tags="" Properties="null" />
+	<File Path="LowerThird_Custom.xcomp" V="1,638138104090000000,0" Description="" Tags="" Properties="null" />
+	<File Path="LowerThird_TextAnim.xcomp" V="1,637744809462575591,0" Description="" Tags="" Properties="null" />
+	<File Path="Data" V="1,638094089131115869,0" Description="null" Tags="null" Properties="folder" />
+	<File Path="Data\Crawl_Example.txt" V="1,637744809462585591,0" Description="null" Tags="null" Properties="null" />
+	<File Path="Data\Crawl_Example_Long.txt" V="1,637744809462585591,0" Description="null" Tags="null" Properties="null" />
+</AximmetryFileInfoCache>

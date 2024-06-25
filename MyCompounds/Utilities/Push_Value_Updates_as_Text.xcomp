@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2023.1.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary">
+				<item key="2" type="Int32" value="3" />
+			</PreviewChannels>
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="Control Board">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T19:17:42.9220902+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T20:01:40.0165737+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T22:10:45.8091041+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T22:22:11.1822056+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T22:26:56.2701628+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T22:29:04.6640395+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-09T22:59:54.0037237+03:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Push Intensity Updates as Text 1" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-460, -517" />
+			<item key="ViewCenter" type="PointF" value="-548.5546, 5405.605" />
+			<item key="ZoomFactor" type="Single" value="0.618783355" />
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Text is Value or Empty (if we already updated)&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-423, 5192, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Trigger when value changed and After we update the value in memory&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-20, 5550, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;4&quot; Title=&quot;Force push of value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1490, 5161, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:If Text&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Trigger Any&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:4&quot; To=&quot;pin:$$$context$$$:in:Push Trigger&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="IfText">
+			<Properties Name="If Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-295, 5298" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinStringValue" Value="" />
+				<Pin Name="Else" Type="PinStringValue" Value="" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Text Concat Multi" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-633, 5083" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="," />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="" />
+				<Pin Name="Text2" Type="PinStringValue" Value="" />
+				<Pin Name="Text3" Type="PinStringValue" Value="" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyScalar">
+			<Properties Name="NEW SCALAR" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1337, 5277" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinScalarValue" Value="-2" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyScalar">
+			<Properties Name="CURRENT SCALAR" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1374, 5411" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinScalarValue" Value="0" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="NotEqual">
+			<Properties Name="Not Equal" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1150, 5342" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinScalarValue" Value="0" />
+				<Pin Name="B" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="ScalarToText">
+			<Properties Name="Value to Text" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-842, 5185" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Value" Type="PinDoubleValue" Value="0" />
+				<Pin Name="Format" Type="PinStringValue" Value="%g" />
+			</PinValues>
+		</Module>
+		<Module Type="Hold">
+			<Properties Name="Hold 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-352, 5550" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinVectorValue" Value="" />
+				<Pin Name="PassIf" Type="PinBoolValue" Value="False" />
+				<Pin Name="PassPeriodically" Type="PinBoolValue" Value="False" />
+				<Pin Name="Period" Type="PinScalarValue" Value="1" />
+				<Pin Name="Force" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="SetScalarPin">
+			<Properties Name="Set Scalar Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="15, 5666" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Module" Type="PinStringValue" Value="CURRENT SCALAR" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="Value" Type="PinScalarValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CopyTrigger">
+			<Properties Name="Push Trigger" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1149, 5517" />
+				</ExtraData>
+			</Properties>
+			<PinValues />
+		</Module>
+		<Module Type="Or">
+			<Properties Name="Or" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-932, 5411" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinBoolValue" Value="False" />
+				<Pin Name="B" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="Tag" Type="PinStringValue" SourceModule="Text Concat Multi" SourcePin="Text1" />
+		<Pin Name="Value" Type="PinScalarValue" SourceModule="NEW SCALAR" SourcePin="In" />
+		<Pin Name="Separator" Type="PinStringValue" SourceModule="Text Concat Multi" SourcePin="Separator" />
+		<Pin Name="Push Trigger" Type="PinTriggerValue" SourceModule="Push Trigger" SourcePin="In" />
+	</ExposerInputPins>
+	<ExposerOutputPins>
+		<Pin Name="Text" Type="PinStringValue" SourceModule="If Text" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Or" FromPin="Out" ToModule="If Text" ToPin="If" />
+		<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="If Text" ToPin="Then" />
+		<Connection FromModule="Value to Text" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+		<Connection FromModule="NEW SCALAR" FromPin="Out" ToModule="Not Equal" ToPin="A" />
+		<Connection FromModule="CURRENT SCALAR" FromPin="Out" ToModule="Not Equal" ToPin="B" />
+		<Connection FromModule="NEW SCALAR" FromPin="Out" ToModule="Value to Text" ToPin="Value" />
+		<Connection FromModule="NEW SCALAR" FromPin="Out" ToModule="Hold 2" ToPin="In" />
+		<Connection FromModule="Or" FromPin="Out" ToModule="Hold 2" ToPin="PassIf" />
+		<Connection FromModule="Hold 2" FromPin="Passed" ToModule="Set Scalar Pin" ToPin="Set" />
+		<Connection FromModule="Hold 2" FromPin="Out" ToModule="Set Scalar Pin" ToPin="Value" />
+		<Connection FromModule="Not Equal" FromPin="Out" ToModule="Or" ToPin="A" />
+		<Connection FromModule="Push Trigger" FromPin="Out" ToModule="Or" ToPin="B" />
+	</Connections>
+	<Descriptions>
+		<Description Target="mod:If Text" Index="0" Title="Text is Value or Empty (if we already updated)" Text="" />
+		<Description Target="pin:$$$this$$$:in:Push Trigger" Index="0" Title="Force push of value" Text="" />
+	</Descriptions>
+</AximmetryCompound>
