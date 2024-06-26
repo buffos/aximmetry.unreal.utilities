@@ -1,5 +1,9 @@
 # aximmetry.unreal.utilities
 
+## Installation
+
+For the compounds to work you have to put MyCompounds folder inside a folder you keep your compounds and add that to Aximmetry folders
+
 ### Overview of compounds
 
 ![Compounds](./images/01_compounds.png)
