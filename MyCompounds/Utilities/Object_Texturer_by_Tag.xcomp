@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AximmetryCompound version="2023.1.0">
+<AximmetryCompound version="2024.2.0">
 	<Parameters>
 		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
-		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" AllowWASD="False" />
 		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
 		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="MidiParams" InterpretSpecialCCs="False" />
 		<Parameter type="ArrChannelParams">
 			<PreviewChannels type="dictionary">
 				<item key="2" type="Int32" value="3" />
@@ -17,7 +18,7 @@
 			</BookmarkSet>
 		</Parameter>
 		<Parameter type="ArrVideoParams" FrameSize="3840, 2160" PixelAspect="1:1" FrameRate="30" />
-		<Parameter type="ArrHistoryParams">
+		<Parameter type="ArrHistoryParams" UniqueID="99C6176B-A51E-4145-99B8-70187844EAF2" Revision="1">
 			<Items type="list">
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T16:30:54.5763883+03:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-15T18:41:14.8853044+03:00" />
@@ -32,9 +33,10 @@
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T22:55:37.2854943+03:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T23:20:56.1987094+03:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-24T23:42:00.9630600+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-06-15T01:35:30.1589372+03:00" />
 			</Items>
 		</Parameter>
-		<Parameter type="InformationParams" Description="null" Tags="null">
+		<Parameter type="InformationParams" Description="null" Tags="null" ThumbnailDontCrop="False">
 			<Thumbnail Data="null" />
 		</Parameter>
 		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
@@ -49,9 +51,9 @@
 			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
 		</Parameter>
 	</Parameters>
-	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Object Texturer by Tag" IsLocked="False">
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Object Texturer by Tag" IsLocked="False">
 		<ExtraData>
-			<item key="Location" type="PointF" value="-368, 586" />
+			<item key="Location" type="PointF" value="-177, 682" />
 			<item key="ViewCenter" type="PointF" value="1151.297, 391.784" />
 			<item key="ZoomFactor" type="Single" value="0.618783355" />
 			<item key="Notes" type="String" value="" />
@@ -59,7 +61,7 @@
 	</Properties>
 	<Children>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="TEXTURE" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="TEXTURE" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="317, 204" />
 					<item key="Notes" type="String" value="" />
@@ -77,7 +79,7 @@
 					<PinValues />
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Tagged Item Texturer" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="228, 412" />
 							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
@@ -415,7 +417,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="SCALAR" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="SCALAR" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="320, 311" />
 					<item key="Notes" type="String" value="" />
@@ -433,7 +435,7 @@
 					<PinValues />
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer (Scalar)" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Tagged Item Texturer (Scalar)" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="125, 409" />
 							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
@@ -743,7 +745,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="COLOR" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="COLOR" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="325, 411" />
 					<item key="Notes" type="String" value="" />
@@ -761,7 +763,7 @@
 					<PinValues />
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Tagged Item Texturer (COLOR)" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Tagged Item Texturer (COLOR)" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="125, 409" />
 							<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
@@ -1037,7 +1039,7 @@
 					</Properties>
 					<PinValues>
 						<Pin Name="Color" Type="PinColorValue" Value="" />
-						<Pin Name="Space" Type="PinIntValue" Value="csRGB" />
+						<Pin Name="Space" Type="PinIntValue" Value="cshRGB" />
 						<Pin Name="Norm" Type="PinBoolValue" Value="True" />
 					</PinValues>
 				</Module>

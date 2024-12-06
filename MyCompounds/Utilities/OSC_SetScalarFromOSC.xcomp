@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2024.3.0">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" GapSnapFlow="50, 20" GapSnapCtrBoard="25, 25" ShowTestLevel="False" DisplayStatusCards="True" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="vcsAximmetry" AllowCameraRoll="False" AllowWASD="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="MidiParams" InterpretSpecialCCs="False" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="CAMERAS">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary">
+				<item key="8" type="ArrBookmarkInfo" CompoundPath="Root" ViewCenter="498.049, -309.069" ZoomFactor="0.4867522" />
+			</BookmarkSet>
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
+		<Parameter type="ArrHistoryParams" UniqueID="006BCE43-A10C-4C0D-8DF2-904F602D1DBB" Revision="4">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T02:21:50.2176030+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T02:49:26.5305757+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T03:30:28.4098521+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T14:59:00.3993615+02:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null" ThumbnailDontCrop="False">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="SetScalarFromOSC" IsLocked="False">
+		<ExtraData>
+			<item key="Location" type="PointF" value="-525, -253" />
+			<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
+			<item key="ViewCenter" type="PointF" value="-1152, -326.823" />
+			<item key="ZoomFactor" type="Single" value="1" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="CopyText">
+			<Properties Name="osc address" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1485, -352" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="In" Type="PinStringValue" Value="/video/small/position" />
+				<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+				<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="OSCScalar">
+			<Properties Name="OSC Scalar" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1266, -369" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Address" Type="PinStringValue" Value="/vs_left/video" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1697, -202" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="..\" />
+				<Pin Name="B" Type="PinStringValue" Value="SET_SCALE" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="SetDoublePin">
+			<Properties Name="Set Double Pin" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-845, -392" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
+				<Pin Name="Module" Type="PinStringValue" Value="..\SET_SCALE" />
+				<Pin Name="Pin" Type="PinStringValue" Value="In" />
+				<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+				<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+				<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+				<Pin Name="Force" Type="PinBoolValue" Value="False" />
+				<Pin Name="Value" Type="PinDoubleValue" Value="1" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins>
+		<Pin Name="OSC_ADDRESS" Type="PinStringValue" SourceModule="osc address" SourcePin="In" />
+		<Pin Name="PIN_NAME" Type="PinStringValue" SourceModule="Text Concat" SourcePin="B" />
+		<Pin Name="Pin" Type="PinStringValue" SourceModule="Set Double Pin" SourcePin="Pin" />
+	</ExposerInputPins>
+	<ExposerOutputPins />
+	<Connections>
+		<Connection FromModule="osc address" FromPin="Out" ToModule="OSC Scalar" ToPin="Address" />
+		<Connection FromModule="Text Concat" FromPin="Out" ToModule="Set Double Pin" ToPin="Module" />
+		<Connection FromModule="OSC Scalar" FromPin="Out" ToModule="Set Double Pin" ToPin="Value" />
+	</Connections>
+</AximmetryCompound>

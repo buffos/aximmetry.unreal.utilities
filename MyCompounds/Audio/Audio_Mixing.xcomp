@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AximmetryCompound version="2023.1.0">
+<AximmetryCompound version="2024.3.0">
 	<Parameters>
-		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
-		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" GapSnapFlow="50, 20" GapSnapCtrBoard="25, 25" ShowTestLevel="False" DisplayStatusCards="True" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="vcsAximmetry" AllowCameraRoll="False" AllowWASD="False" />
 		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
 		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="MidiParams" InterpretSpecialCCs="False" />
 		<Parameter type="ArrChannelParams">
 			<PreviewChannels type="dictionary" />
 		</Parameter>
@@ -15,7 +16,7 @@
 			</BookmarkSet>
 		</Parameter>
 		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
-		<Parameter type="ArrHistoryParams">
+		<Parameter type="ArrHistoryParams" UniqueID="47285DAF-F7B5-4ABA-857B-73B69B9B0A4D" Revision="3">
 			<Items type="list">
 				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-25T14:29:43.5455057+02:00" />
 				<item type="ArrHistoryItem" UserName="promedialab / Promedialab (promedialab.gr)" ModifiedTime="2023-03-26T17:46:09.0784557+03:00" />
@@ -23,9 +24,12 @@
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-04T19:28:14.9098513+03:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-08T15:41:49.3306375+03:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2023-04-08T15:44:42.6148035+03:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T00:48:44.8481931+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T00:49:46.0717078+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-06T14:57:17.5111164+02:00" />
 			</Items>
 		</Parameter>
-		<Parameter type="InformationParams" Description="null" Tags="null">
+		<Parameter type="InformationParams" Description="null" Tags="null" ThumbnailDontCrop="False">
 			<Thumbnail Data="null" />
 		</Parameter>
 		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
@@ -40,10 +44,10 @@
 			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
 		</Parameter>
 	</Parameters>
-	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio Mixing" IsLocked="False">
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio Mixing" IsLocked="False">
 		<ExtraData>
-			<item key="Location" type="PointF" value="1539, -442" />
-			<item key="ViewCenter" type="PointF" value="163.3637, 175.2276" />
+			<item key="Location" type="PointF" value="1483, -450" />
+			<item key="ViewCenter" type="PointF" value="135.9741, 217.2569" />
 			<item key="ZoomFactor" type="Single" value="0.618783355" />
 			<item key="Notes" type="String" value="" />
 		</ExtraData>
@@ -58,8 +62,10 @@
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
-				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Line 1 (Virtual Audio Cable)" />
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #2" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
+				<Pin Name="EnableLog" Type="PinBoolValue" Value="True" />
 			</PinValues>
 		</Module>
 		<Module Type="AudioInput">
@@ -71,8 +77,10 @@
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
-				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Line 2 (Virtual Audio Cable)" />
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #2" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
+				<Pin Name="EnableLog" Type="PinBoolValue" Value="True" />
 			</PinValues>
 		</Module>
 		<Module Type="AudioInput">
@@ -84,21 +92,25 @@
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
-				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Line 3 (Virtual Audio Cable)" />
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #3" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
+				<Pin Name="EnableLog" Type="PinBoolValue" Value="True" />
 			</PinValues>
 		</Module>
 		<Module Type="AudioInput">
 			<Properties Name="Main Audio Line" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="271, -139" />
-					<item key="DisplayMode" type="FlowNodeDisplayMode" value="ConnectedPins" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
 				</ExtraData>
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
-				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Line (ProFX)" />
+				<Pin Name="Device" Type="PinStringValue" Value="Mapped: #1" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
+				<Pin Name="EnableLog" Type="PinBoolValue" Value="True" />
 			</PinValues>
 		</Module>
 		<Module Type="AudioMixer">
@@ -252,9 +264,10 @@
 			</PinValues>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="AUDIO LEVELS" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="AUDIO LEVELS" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="-888, 244" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
 				</ExtraData>
 			</Properties>
 			<Children>
@@ -386,6 +399,58 @@
 						<Pin Name="In" Type="PinBoolValue" Value="True" />
 					</PinValues>
 				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 3" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-448.9441, 2471.855" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="WASAPI: Default Recording Device" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 4" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-448.9441, 2471.855" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="WASAPI: Default Recording Device" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 5" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="-448.9441, 2471.855" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="WASAPI: Default Recording Device" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
+				<Module Type="CopyText">
+					<Properties Name="Copy Text 6" IsLocked="False">
+						<ExtraData>
+							<item key="Location" type="PointF" value="415.5829, -326.83" />
+						</ExtraData>
+					</Properties>
+					<PinValues>
+						<Pin Name="In" Type="PinStringValue" Value="WASAPI: Default Recording Device" />
+						<Pin Name="Localizable" Type="PinBoolValue" Value="False" />
+						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
+						<Pin Name="Default" Type="PinStringValue" Value="" />
+					</PinValues>
+				</Module>
 			</Children>
 			<ExposerInputPins>
 				<Pin Name="Main Mic" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="In" />
@@ -399,6 +464,10 @@
 				<Pin Name="#_HeadPhones" Type="PinBoolValue" SourceModule="Copy Logical AC 3" SourcePin="In" />
 				<Pin Name="Monitoring Device" Type="PinStringValue" SourceModule="Copy Text" SourcePin="In" />
 				<Pin Name="Headphones Device" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="In" />
+				<Pin Name="Main Audio Line" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="In" />
+				<Pin Name="Line 1" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="In" />
+				<Pin Name="Line 2" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="In" />
+				<Pin Name="Line 3" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="In" />
 			</ExposerInputPins>
 			<ExposerOutputPins>
 				<Pin Name="Main Mic" Type="PinScalarValue" SourceModule="Copy Scalar" SourcePin="Out" />
@@ -412,6 +481,10 @@
 				<Pin Name="#_HeadPhones" Type="PinBoolValue" SourceModule="Copy Logical AC 3" SourcePin="Out" />
 				<Pin Name="Monitoring Device" Type="PinStringValue" SourceModule="Copy Text" SourcePin="Out" />
 				<Pin Name="Headphones Device" Type="PinStringValue" SourceModule="Copy Text 2" SourcePin="Out" />
+				<Pin Name="Main Audio Line" Type="PinStringValue" SourceModule="Copy Text 6" SourcePin="Out" />
+				<Pin Name="Line 1" Type="PinStringValue" SourceModule="Copy Text 3" SourcePin="Out" />
+				<Pin Name="Line 2" Type="PinStringValue" SourceModule="Copy Text 4" SourcePin="Out" />
+				<Pin Name="Line 3" Type="PinStringValue" SourceModule="Copy Text 5" SourcePin="Out" />
 			</ExposerOutputPins>
 			<Connections />
 			<Enhancer type="PinCollector" />
@@ -425,12 +498,14 @@
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
 			</PinValues>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio Main Mics" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio Main Mics" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="512, -142" />
 					<item key="Notes" type="String" value="" />
@@ -469,7 +544,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -537,7 +612,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -586,7 +661,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -668,7 +743,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -747,7 +822,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -838,7 +913,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -923,7 +998,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -1005,7 +1080,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -1201,7 +1276,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -1312,7 +1387,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -1511,7 +1586,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="MAIN MIC" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="MAIN MIC" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1368, 2399" />
 						</ExtraData>
@@ -1614,7 +1689,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio Screens" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio Screens" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="514, -56" />
 					<item key="Notes" type="String" value="" />
@@ -1653,7 +1728,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -1721,7 +1796,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -1770,7 +1845,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -1852,7 +1927,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -1931,7 +2006,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -2022,7 +2097,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -2107,7 +2182,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -2189,7 +2264,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -2385,7 +2460,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -2496,7 +2571,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -2695,7 +2770,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="SCREENS" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="SCREENS" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1367, 2394" />
 						</ExtraData>
@@ -2798,7 +2873,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio Music" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio Music" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="518, 38" />
 					<item key="Notes" type="String" value="" />
@@ -2837,7 +2912,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -2905,7 +2980,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -2954,7 +3029,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -3036,7 +3111,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -3115,7 +3190,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -3206,7 +3281,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -3291,7 +3366,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -3373,7 +3448,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -3569,7 +3644,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -3680,7 +3755,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -3879,7 +3954,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="MUSIC" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="MUSIC" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1327, 2398" />
 						</ExtraData>
@@ -3982,12 +4057,12 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio LINE 1" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio LINE 1" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="402.7236, 504.0152" />
 					<item key="Notes" type="String" value="" />
-					<item key="ViewCenter" type="PointF" value="-732.5758, 2532.208" />
-					<item key="ZoomFactor" type="Single" value="1.65637493" />
+					<item key="ViewCenter" type="PointF" value="-791.3087, 2497.625" />
+					<item key="ZoomFactor" type="Single" value="0.8062442" />
 					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
 				</ExtraData>
 			</Properties>
@@ -4021,7 +4096,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -4089,7 +4164,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -4138,7 +4213,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -4220,7 +4295,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -4299,7 +4374,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -4390,7 +4465,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -4475,7 +4550,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -4557,7 +4632,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -4753,7 +4828,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -4864,7 +4939,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -5063,7 +5138,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LINE 1" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="LINE 1" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1293, 2398" />
 						</ExtraData>
@@ -5166,7 +5241,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio LINE 2" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio LINE 2" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="404, 586" />
 					<item key="Notes" type="String" value="" />
@@ -5205,7 +5280,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -5273,7 +5348,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -5322,7 +5397,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -5404,7 +5479,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -5483,7 +5558,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -5574,7 +5649,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -5659,7 +5734,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -5741,7 +5816,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -5937,7 +6012,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -6048,7 +6123,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -6247,7 +6322,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LINE 2" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="LINE 2" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1282, 2399" />
 						</ExtraData>
@@ -6350,7 +6425,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Audio LINE 3" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Audio LINE 3" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="400, 680" />
 					<item key="Notes" type="String" value="" />
@@ -6389,7 +6464,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_LevelBar" IsLocked="False">
 						<ExtraData>
 							<item key="ImportSourceHash" type="String" value="8A84A2DEF29B9C053487C3A84EEECC4E" />
 							<item key="ImportSourcePath" type="String" value="[MyCompounds]:Audio\Audio_LevelBar.xcomp" />
@@ -6457,7 +6532,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="2" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw BAR(s)" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-284, 68" />
 									<item key="ViewCenter" type="PointF" value="-2490.806, -1906.825" />
@@ -6506,7 +6581,7 @@
 									<PinValues />
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate Y Offset" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2593, -1889" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Y + Gap&quot; Text=&quot;Y + Gap is the offset for every bar&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;55, -432, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;The final offset&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;623, -502, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Add Gap to Y&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:Multiply by bar index:out:Out&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -6588,7 +6663,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Get Normalized Value" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-3033, -2134" />
 											<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Get the Left and Right value seperately&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1853, -85, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Now we have a normalized [0,1] value&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-663, -48, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Check if Audio is Empty&quot; Text=&quot;We check the size of the value, although it should be at most 1, in case we have no audio and this value is 0 (empty)&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1193, 295, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If:out:Out&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:Vector Size&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;node:If&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Levels (Left, Right)&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -6667,7 +6742,7 @@
 									</Descriptions>
 								</Module>
 								<Module Type="Compound">
-									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
+									<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Level Bar" IsLocked="False">
 										<ExtraData>
 											<item key="Location" type="PointF" value="-2055, -1912" />
 											<item key="ViewCenter" type="PointF" value="-113.6867, 87.79055" />
@@ -6758,7 +6833,7 @@
 											</PinValues>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint Level Bar" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="242, -333" />
 													<item key="Notes" type="String" value="" />
@@ -6843,7 +6918,7 @@
 											</Connections>
 										</Module>
 										<Module Type="Compound">
-											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
+											<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Paint  Peak Box" IsLocked="False">
 												<ExtraData>
 													<item key="Location" type="PointF" value="252, -181" />
 													<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Calculate the box level size&quot; Text=&quot;We know the size of the bar, and we know the % of the bar that the level fills (since level is between 0 and 1) so we calculate the length of the actual bar, which is the start of the pick box&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;39, 72, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Move 4 pixels befor the peak of the level&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;494, 92, 0, 0&quot; TitleFontSize=&quot;14&quot; FontSize=&quot;12&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;node:Level X (mult)&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;node:Level X - 4&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -6925,7 +7000,7 @@
 													</PinValues>
 												</Module>
 												<Module Type="Compound">
-													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
+													<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Caclulate Peak Color" IsLocked="False">
 														<ExtraData>
 															<item key="Location" type="PointF" value="255, 553" />
 															<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Yellow if &amp;gt;= 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-216, 221, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Green if &amp;lt; 0.90&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-212, 271, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;3&quot; Title=&quot;Red if &amp;gt;=0.99&quot; Text=&quot;&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AB9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-61, 108, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:1&quot; To=&quot;pin:If Color 2:in:Then&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:2&quot; To=&quot;pin:If Color 2:in:Else&quot; /&gt;&#xD;&#xA;&#x9;&lt;link From=&quot;note:3&quot; To=&quot;pin:If Color:in:Then&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
@@ -7121,7 +7196,7 @@
 							</PinValues>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Calculate View Size" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-23, 357" />
 									<item key="ViewCenter" type="PointF" value="526.8496, 129.9627" />
@@ -7232,7 +7307,7 @@
 							</Descriptions>
 						</Module>
 						<Module Type="Compound">
-							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Draw Text" IsLocked="False">
+							<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Draw Text" IsLocked="False">
 								<ExtraData>
 									<item key="Location" type="PointF" value="-255, 238" />
 									<item key="ViewCenter" type="PointF" value="1095.714, 807.2015" />
@@ -7431,7 +7506,7 @@
 					</Descriptions>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="LINE 3" IsLocked="False">
+					<Properties Color="#E6B9B8" ColorEdited="True" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="LINE 3" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1321, 2400" />
 						</ExtraData>
@@ -7721,7 +7796,7 @@
 			</PinValues>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC AUDIO LEVELS" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="OSC AUDIO LEVELS" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="-498, 36" />
 					<item key="ViewCenter" type="PointF" value="-1601.276, 146.8656" />
@@ -7802,9 +7877,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Main Mic" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -7816,9 +7895,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Screens" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -7830,9 +7913,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Music" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -7844,9 +7931,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Virtual 1" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -7858,9 +7949,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Virtual 2" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -7872,9 +7967,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO LEVELS" />
 						<Pin Name="Pin" Type="PinStringValue" Value="Virtual 3" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinScalarValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -8005,7 +8104,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC ADDRESSES" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="OSC ADDRESSES" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-2443, 182" />
 						</ExtraData>
@@ -8710,7 +8809,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC Trigger (Music On)" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="OSC Trigger (Music On)" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="-321, -134" />
 					<item key="Notes" type="String" value="" />
@@ -8753,7 +8852,7 @@
 			</Connections>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC Trigger (Music OFF)" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="OSC Trigger (Music OFF)" IsLocked="False">
 				<ExtraData>
 					<item key="Location" type="PointF" value="-326, -51" />
 					<item key="Notes" type="String" value="" />
@@ -8804,12 +8903,14 @@
 			</Properties>
 			<PinValues>
 				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 				<Pin Name="Device" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
 				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+				<Pin Name="Delay" Type="PinDoubleValue" Value="0" />
 			</PinValues>
 		</Module>
 		<Module Type="Compound">
-			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="Audio_File_Selector" IsLocked="False">
+			<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="Audio_File_Selector" IsLocked="False">
 				<ExtraData>
 					<item key="Importer" type="String" value="LinkedCompound" />
 					<item key="ImporterVersion" type="Int32" value="3" />
@@ -8836,6 +8937,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -8846,7 +8951,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="AUDIO PANEL 1" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="AUDIO PANEL 1" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-892, 873" />
 						</ExtraData>
@@ -9151,6 +9256,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9174,6 +9283,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9197,6 +9310,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9220,6 +9337,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9243,6 +9364,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9266,6 +9391,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9289,6 +9418,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9312,6 +9445,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9335,6 +9472,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9358,6 +9499,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9381,6 +9526,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9404,6 +9553,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9427,6 +9580,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9450,6 +9607,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9473,6 +9634,10 @@
 						<Pin Name="AudioStreamIndex" Type="PinIntValue" Value="1" />
 						<Pin Name="UseAudioDevice" Type="PinBoolValue" Value="False" />
 						<Pin Name="AudioDevice" Type="PinStringValue" Value="DirectSound: Primary Sound Driver" />
+						<Pin Name="AllowAudioStretch" Type="PinBoolValue" Value="True" />
+						<Pin Name="ClearAudioOnDisconnect" Type="PinBoolValue" Value="True" />
+						<Pin Name="BufferMin" Type="PinIntValue" Value="0" />
+						<Pin Name="BufferMax" Type="PinIntValue" Value="2" />
 						<Pin Name="Cursor" Type="PinDoubleValue" Value="0" />
 						<Pin Name="PlayingState" Type="PinIntValue" Value="psPlaying" />
 						<Pin Name="Speed" Type="PinScalarValue" Value="1" />
@@ -9483,7 +9648,7 @@
 					</PinValues>
 				</Module>
 				<Module Type="Compound">
-					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="True" Name="OSC SET_AUDIO_FILES" IsLocked="False">
+					<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="True" Name="OSC SET_AUDIO_FILES" IsLocked="False">
 						<ExtraData>
 							<item key="Location" type="PointF" value="-1236, 996" />
 							<item key="DisplayMode" type="FlowNodeDisplayMode" value="PrimaryPins" />
@@ -9750,9 +9915,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 1" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9777,9 +9946,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 2" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9791,9 +9964,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 3" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9805,9 +9982,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 4" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9819,9 +10000,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 5" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9833,9 +10018,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 6" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9847,9 +10036,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 7" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9861,9 +10054,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 8" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9875,9 +10072,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 9" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9889,9 +10090,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 10" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9903,9 +10108,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 11" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9917,9 +10126,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 12" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9931,9 +10144,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 13" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9945,9 +10162,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 14" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9959,9 +10180,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 15" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9973,9 +10198,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="Audio File 16" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinStringValue" Value="" />
 							</PinValues>
 						</Module>
@@ -9987,9 +10216,13 @@
 								</ExtraData>
 							</Properties>
 							<PinValues>
+								<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 								<Pin Name="Module" Type="PinStringValue" Value="..\AUDIO PANEL 1" />
 								<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
 								<Pin Name="AutoSet" Type="PinBoolValue" Value="True" />
+								<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+								<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+								<Pin Name="Force" Type="PinBoolValue" Value="False" />
 								<Pin Name="Value" Type="PinIntValue" Value="0" />
 							</PinValues>
 						</Module>
@@ -10114,9 +10347,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="LastSelectedAudio" />
 						<Pin Name="Pin" Type="PinStringValue" Value="In" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinIntValue" Value="1" />
 					</PinValues>
 				</Module>
@@ -10166,9 +10403,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="AUDIO PANEL 1" />
 						<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinIntValue" Value="1" />
 					</PinValues>
 				</Module>
@@ -10187,9 +10428,13 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
+						<Pin Name="Engine" Type="PinIntValue" Value="engLocal" />
 						<Pin Name="Module" Type="PinStringValue" Value="AUDIO PANEL 1" />
 						<Pin Name="Pin" Type="PinStringValue" Value="#$Selected,OFF" />
 						<Pin Name="AutoSet" Type="PinBoolValue" Value="False" />
+						<Pin Name="DocChanged" Type="PinBoolValue" Value="False" />
+						<Pin Name="AllowUndo" Type="PinBoolValue" Value="True" />
+						<Pin Name="Force" Type="PinBoolValue" Value="False" />
 						<Pin Name="Value" Type="PinIntValue" Value="0" />
 					</PinValues>
 				</Module>
@@ -10285,6 +10530,10 @@
 		<Pin Name="Preview" Type="PinVideoValue" SourceModule="Placer Precise 6" SourcePin="Out" />
 	</ExposerOutputPins>
 	<Connections>
+		<Connection FromModule="AUDIO LEVELS" FromPin="Line 1" ToModule="Line 1" ToPin="Device" />
+		<Connection FromModule="AUDIO LEVELS" FromPin="Line 2" ToModule="Line 2" ToPin="Device" />
+		<Connection FromModule="AUDIO LEVELS" FromPin="Line 3" ToModule="Line 3" ToPin="Device" />
+		<Connection FromModule="AUDIO LEVELS" FromPin="Main Audio Line" ToModule="Main Audio Line" ToPin="Device" />
 		<Connection FromModule="Audio LINE 1" FromPin="Audio out" ToModule="External Audio Mixer" ToPin="Audio1" />
 		<Connection FromModule="Audio LINE 2" FromPin="Audio out" ToModule="External Audio Mixer" ToPin="Audio2" />
 		<Connection FromModule="Audio LINE 3" FromPin="Audio out" ToModule="External Audio Mixer" ToPin="Audio3" />
@@ -10297,9 +10546,9 @@
 		<Connection FromModule="External Audio Mixer" FromPin="Out" ToModule="No Main Mic Final Mix" ToPin="Audio2" />
 		<Connection FromModule="Studio Audio" FromPin="Out" ToModule="Final Mix (All inputs)" ToPin="Audio1" />
 		<Connection FromModule="External Audio Mixer" FromPin="Out" ToModule="Final Mix (All inputs)" ToPin="Audio2" />
+		<Connection FromModule="No Main Mic Final Mix" FromPin="Out" ToModule="Audio Out (MONITOR)" ToPin="Audio" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Monitoring Device" ToModule="Audio Out (MONITOR)" ToPin="Device" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="#_Speakers" ToModule="Audio Out (MONITOR)" ToPin="Open" />
-		<Connection FromModule="No Main Mic Final Mix" FromPin="Out" ToModule="Audio Out (MONITOR)" ToPin="Audio" />
 		<Connection FromModule="Main Audio Line" FromPin="Out" ToModule="Audio Main Mics" ToPin="Audio In" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Main Mic" ToModule="Audio Main Mics" ToPin="Audio Level" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Screens" ToModule="Audio Screens" ToPin="Audio Level" />
@@ -10335,9 +10584,9 @@
 		<Connection FromModule="AUDIO LEVELS" FromPin="Virtual 1" ToModule="OSC AUDIO LEVELS" ToPin="Argument 4" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Virtual 2" ToModule="OSC AUDIO LEVELS" ToPin="Argument 5" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Virtual 3" ToModule="OSC AUDIO LEVELS" ToPin="Argument 6" />
+		<Connection FromModule="No Main Mic Final Mix" FromPin="Out" ToModule="Audio Out (HEADPHONES)" ToPin="Audio" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="Headphones Device" ToModule="Audio Out (HEADPHONES)" ToPin="Device" />
 		<Connection FromModule="AUDIO LEVELS" FromPin="#_HeadPhones" ToModule="Audio Out (HEADPHONES)" ToPin="Open" />
-		<Connection FromModule="No Main Mic Final Mix" FromPin="Out" ToModule="Audio Out (HEADPHONES)" ToPin="Audio" />
 		<Connection FromModule="OSC Trigger (Music On)" FromPin="Out" ToModule="Audio_File_Selector" ToPin="PLAY" />
 		<Connection FromModule="OSC Trigger (Music OFF)" FromPin="Out" ToModule="Audio_File_Selector" ToPin="STOP" />
 	</Connections>
