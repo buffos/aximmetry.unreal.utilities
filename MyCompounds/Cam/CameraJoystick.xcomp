@@ -16,11 +16,12 @@
 			</BookmarkSet>
 		</Parameter>
 		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="30" />
-		<Parameter type="ArrHistoryParams" UniqueID="6AAE864B-4BB2-4708-B832-BD927EDC6364" Revision="3">
+		<Parameter type="ArrHistoryParams" UniqueID="6AAE864B-4BB2-4708-B832-BD927EDC6364" Revision="4">
 			<Items type="list">
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-08T19:32:15.1268358+02:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-08T19:38:10.0985183+02:00" />
 				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-08T19:50:00.1229610+02:00" />
+				<item type="ArrHistoryItem" UserName="buffo / Kostas Oraiopoulos (buffos)" ModifiedTime="2024-12-08T23:44:01.0462096+02:00" />
 			</Items>
 		</Parameter>
 		<Parameter type="InformationParams" Description="null" Tags="null" ThumbnailDontCrop="False">
@@ -41,8 +42,8 @@
 	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" AdditionalIconDirs="null" IsContentLocked="False" Name="Cam Joystick" IsLocked="False">
 		<ExtraData>
 			<item key="Location" type="PointF" value="56, -363" />
-			<item key="ViewCenter" type="PointF" value="372.4056, 8.3009" />
-			<item key="ZoomFactor" type="Single" value="0.560307264" />
+			<item key="ViewCenter" type="PointF" value="1516.678, -12.33226" />
+			<item key="ZoomFactor" type="Single" value="0.905498266" />
 			<item key="Notes" type="String" value="" />
 		</ExtraData>
 	</Properties>
@@ -190,7 +191,7 @@
 						</ExtraData>
 					</Properties>
 					<PinValues>
-						<Pin Name="In" Type="PinScalarValue" Value="5" />
+						<Pin Name="In" Type="PinScalarValue" Value="10" />
 						<Pin Name="UseDefault" Type="PinBoolValue" Value="False" />
 						<Pin Name="Default" Type="PinScalarValue" Value="0" />
 					</PinValues>
@@ -1418,6 +1419,19 @@
 				<Pin Name="Delay" Type="PinScalarValue" Value="10" />
 			</PinValues>
 		</Module>
+		<Module Type="IfDouble">
+			<Properties Name="If Double" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="2046, -100" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="If" Type="PinBoolValue" Value="False" />
+				<Pin Name="Then" Type="PinDoubleValue" Value="1" />
+				<Pin Name="Else" Type="PinDoubleValue" Value="1" />
+				<Pin Name="ForceBoth" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
 	</Children>
 	<ExposerInputPins>
 		<Pin Name="Before" Type="PinTransformationValue" SourceModule="Transformation Concat" SourcePin="Before" />
@@ -1456,6 +1470,8 @@
 		<Connection FromModule="Rotation Y" FromPin="Out" ToModule="Transformation Decompose" ToPin="Transformation" />
 		<Connection FromModule="RotateXY" FromPin="Out" ToModule="Rotation Y" ToPin="Angle" />
 		<Connection FromModule="Transformation Concat" FromPin="Out" ToModule="Smooth Transformation" ToPin="In" />
-		<Connection FromModule="Camera Joystic" FromPin="TRANSITION DURATION" ToModule="Smooth Transformation" ToPin="Delay" />
+		<Connection FromModule="If Double" FromPin="Out" ToModule="Smooth Transformation" ToPin="Delay" />
+		<Connection FromModule="Not" FromPin="Out" ToModule="If Double" ToPin="If" />
+		<Connection FromModule="Camera Joystic" FromPin="TRANSITION DURATION" ToModule="If Double" ToPin="Then" />
 	</Connections>
 </AximmetryCompound>
